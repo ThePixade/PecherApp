@@ -1,0 +1,13 @@
+<svg id="Dashboard_Product_Card_Icon_awake" data-name="Dashboard / Product Card / Icon / awake" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group" transform="translate(2 2)">
+    <path id="Rectangle" d="M0,0H3.556L0,3.556Z" transform="translate(13.289 2.711) rotate(90)" fill="#6e6e6e"/>
+    <path id="Rectangle-2" data-name="Rectangle" d="M0,0H3.556L0,3.556Z" transform="translate(2.711 13.289) rotate(-90)" fill="#6e6e6e"/>
+    <path id="Rectangle-3" data-name="Rectangle" d="M0,0H3.556L0,3.556Z" transform="translate(13.289 13.289) rotate(180)" fill="#6e6e6e"/>
+    <path id="Rectangle-4" data-name="Rectangle" d="M0,0H3.556L0,3.556Z" transform="translate(2.711 2.711)" fill="#6e6e6e"/>
+    <path id="Rectangle-5" data-name="Rectangle" d="M0,0H3.556L0,3.556Z" transform="translate(8 0.153) rotate(45)" fill="#6e6e6e"/>
+    <path id="Rectangle-6" data-name="Rectangle" d="M0,0H3.556L0,3.556Z" transform="translate(8 15.847) rotate(-135)" fill="#6e6e6e"/>
+    <path id="Rectangle-7" data-name="Rectangle" d="M0,0H3.556L0,3.556Z" transform="translate(15.847 8) rotate(135)" fill="#6e6e6e"/>
+    <path id="Rectangle-8" data-name="Rectangle" d="M0,0H3.556L0,3.556Z" transform="translate(0.153 8) rotate(-45)" fill="#6e6e6e"/>
+  </g>
+  <path id="Fill_32" data-name="Fill 32" d="M8,4A4,4,0,1,1,4,0,4,4,0,0,1,8,4" transform="translate(6 6)" fill="#6e6e6e"/>
+</svg>

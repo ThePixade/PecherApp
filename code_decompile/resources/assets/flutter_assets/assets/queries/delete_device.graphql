@@ -1,0 +1,8 @@
+mutation DeleteDevice($id: uuid!) {
+    delete_devices(where: {id: {_eq: $id}}) {
+        affected_rows
+    }
+    delete_product_settings(where: {device_id: {_eq: $id}}) {
+        affected_rows
+    }
+}

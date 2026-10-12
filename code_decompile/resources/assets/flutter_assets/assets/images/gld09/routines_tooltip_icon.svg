@@ -1,0 +1,61 @@
+<svg id="Status_Card_Toast_Cards_Icon_Routine_Helper" data-name="Status Card / Toast Cards / Icon / Routine Helper" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_471" data-name="Path 471" d="M32.941-32.941A7.059,7.059,0,0,1,40-25.882V-7.059A7.059,7.059,0,0,1,32.941,0H7.059A7.059,7.059,0,0,1,0-7.059V-25.882a7.059,7.059,0,0,1,7.059-7.059v4.706a4.706,4.706,0,0,0,4.706,4.706,4.706,4.706,0,0,0,4.706-4.706h0v-4.706h7.059v4.706a4.706,4.706,0,0,0,4.49,4.7l.215,0a4.706,4.706,0,0,0,4.706-4.706h0ZM28.387-18.809a1.765,1.765,0,0,0-2.49-.166h0l-8.17,7.147-3.538-3.537-.2-.171a1.765,1.765,0,0,0-2.3.171,1.765,1.765,0,0,0,0,2.5h0L16.4-8.164l.208.178a1.765,1.765,0,0,0,2.2-.1h0l9.412-8.235.184-.186A1.765,1.765,0,0,0,28.387-18.809Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_474" data-name="Path 474" d="M7.059-32.941H32.941A7.059,7.059,0,0,1,40-25.882V-7.059A7.059,7.059,0,0,1,32.941,0H7.059A7.059,7.059,0,0,1,0-7.059V-25.882A7.059,7.059,0,0,1,7.059-32.941Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_79" data-name="Rectangle 79" width="110" height="103" transform="translate(-35 -68)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_473" data-name="Path 473" d="M0,0H40V-33H0Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Path_476" data-name="Path 476" d="M25.9-20.975a1.765,1.765,0,0,1,2.49.166,1.765,1.765,0,0,1,.018,2.3l-.184.186-9.412,8.235a1.765,1.765,0,0,1-2.2.1l-.208-.178L11.693-14.87a1.765,1.765,0,0,1,0-2.5,1.765,1.765,0,0,1,2.3-.171l.2.171,3.538,3.537Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <path id="Path_479" data-name="Path 479" d="M12-40a2,2,0,0,1,2,2v10a2,2,0,0,1-2,2,2,2,0,0,1-2-2V-38A2,2,0,0,1,12-40Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <path id="Path_482" data-name="Path 482" d="M27-40a2,2,0,0,1,2,2v10.118a2,2,0,0,1-2,2,2,2,0,0,1-2-2V-38A2,2,0,0,1,27-40Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_140" data-name="Rectangle 140" width="48" height="48" fill="none"/>
+  <g id="image" transform="translate(4 44)">
+    <g id="Group_539" data-name="Group 539" clip-path="url(#clip-path)">
+      <path id="Path_470" data-name="Path 470" d="M-5-37.941H45V5H-5Z" fill="#fff"/>
+    </g>
+    <g id="Group_544" data-name="Group 544" clip-path="url(#clip-path-2)">
+      <g id="Group_543" data-name="Group 543" style="mix-blend-mode: normal;isolation: isolate">
+        <g id="Group_542" data-name="Group 542" clip-path="url(#clip-path-3)">
+          <g id="Group_541" data-name="Group 541" clip-path="url(#clip-path-4)">
+            <g id="Group_540" data-name="Group 540" transform="translate(0 -32.941)">
+              <path id="Path_472" data-name="Path 472" d="M7.059,0H32.941A7.059,7.059,0,0,1,40,7.059V25.882a7.059,7.059,0,0,1-7.059,7.059H7.059A7.059,7.059,0,0,1,0,25.882V7.059A7.059,7.059,0,0,1,7.059,0Z" fill="none" stroke="#00c0d3" stroke-width="7"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_545" data-name="Group 545" clip-path="url(#clip-path-5)">
+      <path id="Path_475" data-name="Path 475" d="M6.176-26.412H33.824V-4.647H6.176Z" fill="#fabaca"/>
+    </g>
+    <g id="Group_546" data-name="Group 546" transform="translate(10 -40)">
+      <path id="Path_477" data-name="Path 477" d="M2,0A2,2,0,0,1,4,2V12a2,2,0,0,1-4,0V2A2,2,0,0,1,2,0Z" fill="none" stroke="#fff" stroke-width="5"/>
+    </g>
+    <g id="Group_548" data-name="Group 548" clip-path="url(#clip-path-6)">
+      <g id="Group_547" data-name="Group 547" transform="translate(10 -40)">
+        <path id="Path_478" data-name="Path 478" d="M2,0A2,2,0,0,1,4,2V12a2,2,0,0,1-4,0V2A2,2,0,0,1,2,0Z" fill="none" stroke="#f93721" stroke-width="6"/>
+      </g>
+    </g>
+    <g id="Group_549" data-name="Group 549" transform="translate(25 -40)">
+      <path id="Path_480" data-name="Path 480" d="M2,0A2,2,0,0,1,4,2V12.118a2,2,0,0,1-4,0V2A2,2,0,0,1,2,0Z" fill="none" stroke="#fff" stroke-width="5"/>
+    </g>
+    <g id="Group_551" data-name="Group 551" clip-path="url(#clip-path-7)">
+      <g id="Group_550" data-name="Group 550" transform="translate(25 -40)">
+        <path id="Path_481" data-name="Path 481" d="M2,0A2,2,0,0,1,4,2V12.118a2,2,0,0,1-4,0V2A2,2,0,0,1,2,0Z" fill="none" stroke="#f93721" stroke-width="6"/>
+      </g>
+    </g>
+  </g>
+</svg>

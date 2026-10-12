@@ -1,0 +1,26 @@
+query ReadUserData {
+    users {
+        id
+        account {
+            id
+            children {
+                id
+                first_name
+            }
+            devices {
+                id
+                product_id
+                serial
+                name
+                firmware_version
+            }
+        }
+    }
+    product_settings {
+        id
+        user_id
+        device_id
+        product_id
+        name
+    }
+}

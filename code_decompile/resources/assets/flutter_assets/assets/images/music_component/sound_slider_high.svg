@@ -1,0 +1,6 @@
+<svg id="Controls_Widget_Slider_Icons_Volume_High" data-name="Controls/Widget/Slider/Icons/Volume High" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path id="Fill_9" data-name="Fill 9" d="M7.53.124l-3.909,3.2a.936.936,0,0,1-.594.214H1.174A1.2,1.2,0,0,0,0,4.766V6.946A1.2,1.2,0,0,0,1.174,8.171H3.028a.936.936,0,0,1,.594.214l3.909,3.2a.552.552,0,0,0,.894-.454V.579A.552.552,0,0,0,7.53.124" transform="translate(2 4)" fill="#a9a9a9"/>
+  <path id="Stroke_1" data-name="Stroke 1" d="M0,0A3.138,3.138,0,0,1,0,4.358" transform="translate(13 7.916)" fill="none" stroke="#a9a9a9" stroke-linecap="round" stroke-width="0.825"/>
+  <path id="Stroke_3" data-name="Stroke 3" d="M0,0A4.706,4.706,0,0,1,0,6.537" transform="translate(15 6.827)" fill="none" stroke="#a9a9a9" stroke-linecap="round" stroke-width="0.825"/>
+  <path id="Stroke_5" data-name="Stroke 5" d="M0,0A7.06,7.06,0,0,1,0,9.806" transform="translate(17 5.192)" fill="none" stroke="#a9a9a9" stroke-linecap="round" stroke-width="0.825"/>
+</svg>

@@ -1,0 +1,57 @@
+package io.reactivex.rxjava3.internal.operators.observable;
+
+import io.reactivex.rxjava3.core.ObservableSource;
+import io.reactivex.rxjava3.core.Observer;
+import io.reactivex.rxjava3.functions.Consumer;
+import io.reactivex.rxjava3.internal.observers.BasicFuseableObserver;
+
+/* loaded from: classes2.dex */
+public final class ObservableDoAfterNext<T> extends AbstractObservableWithUpstream<T, T> {
+    final Consumer<? super T> onAfterNext;
+
+    /* loaded from: classes2.dex */
+    static final class DoAfterObserver<T> extends BasicFuseableObserver<T, T> {
+        final Consumer<? super T> onAfterNext;
+
+        DoAfterObserver(Observer<? super T> observer, Consumer<? super T> consumer) {
+            super(observer);
+            this.onAfterNext = consumer;
+        }
+
+        @Override // io.reactivex.rxjava3.core.Observer
+        public void onNext(T t10) {
+            this.downstream.onNext(t10);
+            if (this.sourceMode == 0) {
+                try {
+                    this.onAfterNext.accept(t10);
+                } catch (Throwable th) {
+                    fail(th);
+                }
+            }
+        }
+
+        @Override // io.reactivex.rxjava3.internal.fuseable.SimpleQueue
+        public T poll() {
+            T poll = this.f13560qd.poll();
+            if (poll != null) {
+                this.onAfterNext.accept(poll);
+            }
+            return poll;
+        }
+
+        @Override // io.reactivex.rxjava3.internal.fuseable.QueueFuseable
+        public int requestFusion(int i10) {
+            return transitiveBoundaryFusion(i10);
+        }
+    }
+
+    public ObservableDoAfterNext(ObservableSource<T> observableSource, Consumer<? super T> consumer) {
+        super(observableSource);
+        this.onAfterNext = consumer;
+    }
+
+    @Override // io.reactivex.rxjava3.core.Observable
+    protected void subscribeActual(Observer<? super T> observer) {
+        this.source.subscribe(new DoAfterObserver(observer, this.onAfterNext));
+    }
+}

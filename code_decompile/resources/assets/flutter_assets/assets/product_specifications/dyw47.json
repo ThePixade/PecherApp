@@ -1,0 +1,636 @@
+{
+  "product_code": "dyw47",
+  "name": "Deluxe Soother",
+  "legacy_type": 11,
+  "encryption_methods": {
+    "uniqueKey": {
+      "minimumFirmwareVersion": 9,
+      "encryptionKeySize": 16,
+      "decryptionKeySize": 16
+    },
+    "sharedKey": {
+      "minimumFirmwareVersion": 0,
+      "encryptionKeySize": 16,
+      "decryptionKeySize": 16
+    }
+  },
+  "ble_protocol": "smart_connect",
+  "requires_pairing": true,
+  "service_uuid": "E2BCFFF0-39B2-A193-C63C-8EF1BB786D55",
+  "characteristics": {
+    "service": "E2BCFFF0-39B2-A193-C63C-8EF1BB786D55",
+    "state": "E2BCFFF1-39B2-A193-C63C-8EF1BB786D55",
+    "stateUpdate": "E2BCFFF2-39B2-A193-C63C-8EF1BB786D55",
+    "infrastructureUpdate": "E2BCFFF4-39B2-A193-C63C-8EF1BB786D55",
+    "infrastructureState": "E2BCFFF5-39B2-A193-C63C-8EF1BB786D55",
+    "auxState": "E2BCFFF8-39B2-A193-C63C-8EF1BB786D55",
+    "uniqueIdentifier": "E2BCFFF9-39B2-A193-C63C-8EF1BB786D55",
+    "ota": "E2BCFFF6-39B2-A193-C63C-8EF1BB786D55"
+  },
+  "ota": {
+    "channels": [
+      "fpsmartconnect_deluxetabletopsoother_dyw47"
+    ],
+    "mechanism": "smart",
+    "dev": {
+      "ble": {
+        "mechanism": "smart",
+        "channels": [
+          "fpsmartconnect_downgrade_deluxetabletopsoother_dyw47"
+        ]
+      }
+    }
+  },
+  "command_types": {
+    "advertisementUpdate": {
+      "byteLength": 1,
+      "updateCommandId": 5,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "connectionParamsUpdate": {
+      "byteLength": 128,
+      "updateCommandId": 11,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "firmwareUpdateStart": {
+      "byteLength": 8,
+      "updateCommandId": 6,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "firmwareUpdateCancel": {
+      "byteLength": 1,
+      "updateCommandId": 7,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "firmwareVerify": {
+      "byteLength": 1,
+      "updateCommandId": 8,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "firmwareReboot": {
+      "byteLength": 1,
+      "updateCommandId": 9,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "preset": {
+      "byteLength": 128,
+      "updateCommandId": 22
+    },
+    "scheduleStatePreset": {
+      "byteLength": 128,
+      "updateCommandId": 23
+    },
+    "rtcUpdate": {
+      "byteLength": 128,
+      "updateCommandId": 26
+    },
+    "projectorCustomSequence": {
+      "byteLength": 128,
+      "updateCommandId": 9
+    },
+    "sendUniqueIdentifierLSB": {
+      "byteLength": 16,
+      "updateCommandId": 16,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "sendUniqueIdentifierMSB": {
+      "byteLength": 16,
+      "updateCommandId": 17,
+      "characteristicType": "infrastructureUpdate"
+    }
+  },
+  "attributes": {
+    "connectionState": {
+      "byteIndex": 6,
+      "bitIndex": 5,
+      "lengthInBits": 2,
+      "isInAdvertisement": true,
+      "transmissionMode": 0,
+      "characteristicType": "state"
+    },
+    "firmwareUpgradeStatus": {
+      "byteIndex": 6,
+      "bitIndex": 7,
+      "lengthInBits": 1,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "transmissionMode": {
+      "byteIndex": 0,
+      "bitIndex": 0,
+      "lengthInBits": 2,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "playMode": {
+      "defaultValue": 0,
+      "byteIndex": 0,
+      "bitIndex": 2,
+      "lengthInBits": 1,
+      "transmissionMode": 0,
+      "updateCommandId": 1,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "soundMode": {
+      "defaultValue": 0,
+      "byteIndex": 0,
+      "bitIndex": 3,
+      "lengthInBits": 5,
+      "updateCommandId": 2,
+      "transmissionMode": 0,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "soundModeExpiring": {
+      "byteIndex": 7,
+      "bitIndex": 0,
+      "lengthInBits": 1,
+      "transmissionMode": 0,
+      "isInAdvertisement": false,
+      "characteristicType": "state"
+    },
+    "volumeLevel": {
+      "defaultValue": 3,
+      "byteIndex": 1,
+      "bitIndex": 0,
+      "lengthInBits": 4,
+      "updateCommandId": 3,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "ledExpiring": {
+      "byteIndex": 7,
+      "bitIndex": 1,
+      "lengthInBits": 1,
+      "transmissionMode": 0,
+      "updateCommandId": 4,
+      "characteristicType": "state"
+    },
+    "animalProjectionMode": {
+      "defaultValue": 0,
+      "byteIndex": 1,
+      "bitIndex": 4,
+      "lengthInBits": 2,
+      "transmissionMode": 0,
+      "updateCommandId": 4,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "animalProjectionBrightness": {
+      "defaultValue": 8,
+      "byteIndex": 1,
+      "bitIndex": 6,
+      "lengthInBits": 4,
+      "transmissionMode": 0,
+      "updateCommandId": 6,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "animalProjectionSpeed": {
+      "defaultValue": 1,
+      "byteIndex": 2,
+      "bitIndex": 2,
+      "lengthInBits": 2,
+      "transmissionMode": 0,
+      "updateCommandId": 7,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "starProjectionSequenceMode": {
+      "defaultValue": 0,
+      "byteIndex": 2,
+      "bitIndex": 4,
+      "lengthInBits": 3,
+      "transmissionMode": 0,
+      "updateCommandId": 8,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "starProjectionBrightness": {
+      "defaultValue": 6,
+      "byteIndex": 4,
+      "bitIndex": 0,
+      "lengthInBits": 3,
+      "transmissionMode": 0,
+      "updateCommandId": 10,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "starProjectionSpeed": {
+      "defaultValue": 1,
+      "byteIndex": 4,
+      "bitIndex": 3,
+      "lengthInBits": 2,
+      "transmissionMode": 0,
+      "updateCommandId": 11,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "starProjectionCustomSequenceColor0": {
+      "defaultValue": 0,
+      "byteIndex": 2,
+      "bitIndex": 7,
+      "lengthInBits": 3,
+      "transmissionMode": 0,
+      "updateCommandType": "customLed",
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "starProjectionCustomSequenceColor1": {
+      "defaultValue": 0,
+      "byteIndex": 3,
+      "bitIndex": 2,
+      "lengthInBits": 3,
+      "transmissionMode": 0,
+      "updateCommandType": "customLed",
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "starProjectionCustomSequenceColor2": {
+      "defaultValue": 0,
+      "byteIndex": 3,
+      "bitIndex": 5,
+      "lengthInBits": 3,
+      "updateCommandId": 5,
+      "transmissionMode": 0,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "nightlightMode": {
+      "defaultValue": 0,
+      "byteIndex": 4,
+      "bitIndex": 5,
+      "lengthInBits": 1,
+      "transmissionMode": 0,
+      "updateCommandId": 5,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "nightlightBrightness": {
+      "defaultValue": 3,
+      "byteIndex": 4,
+      "bitIndex": 6,
+      "lengthInBits": 3,
+      "transmissionMode": 0,
+      "updateCommandId": 12,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "sleepStagesMode": {
+      "defaultValue": 0,
+      "byteIndex": 5,
+      "bitIndex": 1,
+      "lengthInBits": 2,
+      "transmissionMode": 0,
+      "updateCommandId": 13,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "captivePlaylistSelection": {
+      "defaultValue": 31,
+      "byteIndex": 5,
+      "bitIndex": 3,
+      "lengthInBits": 5,
+      "transmissionMode": 0,
+      "updateCommandId": 20,
+      "isInAdvertisement": false,
+      "characteristicType": "state"
+    },
+    "soothePlaylistSelection": {
+      "defaultValue": 31,
+      "byteIndex": 6,
+      "bitIndex": 0,
+      "lengthInBits": 5,
+      "transmissionMode": 0,
+      "updateCommandId": 21,
+      "isInAdvertisement": false,
+      "characteristicType": "state"
+    },
+    "soundTimerSetting": {
+      "defaultValue": 15,
+      "byteIndex": 7,
+      "bitIndex": 2,
+      "lengthInBits": 4,
+      "transmissionMode": 0,
+      "updateCommandId": 17,
+      "isInAdvertisement": false,
+      "characteristicType": "state"
+    },
+    "lightTimer": {
+      "defaultValue": 15,
+      "byteIndex": 7,
+      "bitIndex": 6,
+      "lengthInBits": 4,
+      "transmissionMode": 0,
+      "updateCommandId": 18,
+      "isInAdvertisement": false,
+      "characteristicType": "state"
+    },
+    "previousAnimalProjectionMode": {
+      "defaultValue": 0,
+      "byteIndex": 8,
+      "bitIndex": 2,
+      "lengthInBits": 2,
+      "transmissionMode": 0,
+      "isInAdvertisement": false,
+      "characteristicType": "state"
+    },
+    "previousStarProjectionSequenceMode": {
+      "defaultValue": 0,
+      "byteIndex": 8,
+      "bitIndex": 4,
+      "lengthInBits": 3,
+      "transmissionMode": 0,
+      "isInAdvertisement": false,
+      "characteristicType": "state"
+    },
+    "captiveSleepStageTimer": {
+      "byteIndex": 0,
+      "bitIndex": 2,
+      "lengthInBits": 4,
+      "transmissionMode": 1,
+      "updateCommandId": 14,
+      "isInAdvertisement": false,
+      "characteristicType": "auxState"
+    },
+    "sootheSleepStageTimer": {
+      "byteIndex": 2,
+      "bitIndex": 5,
+      "lengthInBits": 4,
+      "transmissionMode": 1,
+      "updateCommandId": 15,
+      "isInAdvertisement": false,
+      "characteristicType": "auxState"
+    },
+    "sleepStageTimer": {
+      "byteIndex": 4,
+      "bitIndex": 4,
+      "lengthInBits": 4,
+      "transmissionMode": 1,
+      "updateCommandId": 16,
+      "isInAdvertisement": false,
+      "characteristicType": "auxState"
+    },
+    "error": {
+      "byteIndex": 0,
+      "lengthInBytes": 1,
+      "characteristicType": "infrastructureState"
+    },
+    "firmwareVersion": {
+      "byteIndex": 1,
+      "lengthInBytes": 2,
+      "characteristicType": "infrastructureState"
+    },
+    "firmwareBank": {
+      "byteIndex": 3,
+      "lengthInBytes": 1,
+      "characteristicType": "infrastructureState"
+    },
+    "firmwareApiLevel": {
+      "byteIndex": 5,
+      "lengthInBytes": 1,
+      "characteristicType": "infrastructureState"
+    },
+    "crc": {
+      "byteIndex": 6,
+      "lengthInBytes": 2,
+      "characteristicType": "infrastructureState"
+    }
+  },
+  "presets": {
+    "playMode": {
+      "commandBits": {
+        "byteIndex": 0,
+        "bitIndex": 0,
+        "length": 1
+      }
+    },
+    "soundMode": {
+      "commandBits": {
+        "byteIndex": 0,
+        "bitIndex": 1,
+        "length": 5
+      }
+    },
+    "volumeLevel": {
+      "commandBits": {
+        "byteIndex": 0,
+        "bitIndex": 6,
+        "length": 4
+      }
+    },
+    "animalProjectionMode": {
+      "commandBits": {
+        "byteIndex": 1,
+        "bitIndex": 2,
+        "length": 2
+      }
+    },
+    "animalProjectionBrightness": {
+      "commandBits": {
+        "byteIndex": 1,
+        "bitIndex": 4,
+        "length": 4
+      }
+    },
+    "animalProjectionSpeed": {
+      "commandBits": {
+        "byteIndex": 2,
+        "bitIndex": 0,
+        "length": 2
+      }
+    },
+    "starProjectionSequenceMode": {
+      "commandBits": {
+        "byteIndex": 2,
+        "bitIndex": 2,
+        "length": 3
+      }
+    },
+    "starProjectionCustomSequenceColor0": {
+      "commandBits": {
+        "byteIndex": 2,
+        "bitIndex": 5,
+        "length": 3
+      }
+    },
+    "starProjectionCustomSequenceColor1": {
+      "commandBits": {
+        "byteIndex": 3,
+        "bitIndex": 0,
+        "length": 3
+      }
+    },
+    "starProjectionCustomSequenceColor2": {
+      "commandBits": {
+        "byteIndex": 3,
+        "bitIndex": 3,
+        "length": 3
+      }
+    },
+    "starProjectionBrightness": {
+      "commandBits": {
+        "byteIndex": 3,
+        "bitIndex": 6,
+        "length": 3
+      }
+    },
+    "starProjectionSpeed": {
+      "commandBits": {
+        "byteIndex": 4,
+        "bitIndex": 1,
+        "length": 2
+      }
+    },
+    "nightlightMode": {
+      "commandBits": {
+        "byteIndex": 4,
+        "bitIndex": 3,
+        "length": 1
+      }
+    },
+    "nightlightBrightness": {
+      "commandBits": {
+        "byteIndex": 4,
+        "bitIndex": 4,
+        "length": 3
+      }
+    },
+    "sleepStagesMode": {
+      "commandBits": {
+        "byteIndex": 4,
+        "bitIndex": 7,
+        "length": 2
+      }
+    },
+    "captivePlaylistSelection": {
+      "commandBits": {
+        "byteIndex": 5,
+        "bitIndex": 1,
+        "length": 5
+      }
+    },
+    "soothePlaylistSelection": {
+      "commandBits": {
+        "byteIndex": 5,
+        "bitIndex": 6,
+        "length": 5
+      }
+    },
+    "soundTimerSetting": {
+      "commandBits": {
+        "byteIndex": 6,
+        "bitIndex": 3,
+        "length": 4
+      }
+    },
+    "lightTimer": {
+      "commandBits": {
+        "byteIndex": 6,
+        "bitIndex": 7,
+        "length": 4
+      }
+    },
+    "previousAnimalProjectionMode": {
+      "commandBits": {
+        "byteIndex": 7,
+        "bitIndex": 3,
+        "length": 2
+      }
+    },
+    "previousStarProjectionSequenceMode": {
+      "commandBits": {
+        "byteIndex": 7,
+        "bitIndex": 5,
+        "length": 3
+      }
+    }
+  },
+  "sleepStagesConfiguration": {
+    "captivateSleepStageTimer": {
+      "commandBits": {
+        "byteIndex": 0,
+        "bitIndex": 0,
+        "length": 4
+      }
+    },
+    "captivateAnimalProjectionBrightness": {
+      "commandBits": {
+        "byteIndex": 0,
+        "bitIndex": 4,
+        "length": 4
+      }
+    },
+    "captivateStarProjectionBrightness": {
+      "commandBits": {
+        "byteIndex": 1,
+        "bitIndex": 0,
+        "length": 3
+      }
+    },
+    "captivateNightlightBrightness": {
+      "commandBits": {
+        "byteIndex": 1,
+        "bitIndex": 3,
+        "length": 3
+      }
+    },
+    "captivePlaylistSelection": {
+      "commandBits": {
+        "byteIndex": 1,
+        "bitIndex": 6,
+        "length": 5
+      }
+    },
+    "sootheSleepStageTimer": {
+      "commandBits": {
+        "byteIndex": 2,
+        "bitIndex": 3,
+        "length": 4
+      }
+    },
+    "sootheStarProjectionBrightness": {
+      "commandBits": {
+        "byteIndex": 2,
+        "bitIndex": 7,
+        "length": 3
+      }
+    },
+    "sootheNightlightBrightness": {
+      "commandBits": {
+        "byteIndex": 3,
+        "bitIndex": 2,
+        "length": 3
+      }
+    },
+    "soothePlaylistSelection": {
+      "commandBits": {
+        "byteIndex": 3,
+        "bitIndex": 5,
+        "length": 5
+      }
+    },
+    "sleepStageTimer": {
+      "commandBits": {
+        "byteIndex": 4,
+        "bitIndex": 2,
+        "length": 4
+      }
+    },
+    "sleepNightlightBrightness": {
+      "commandBits": {
+        "byteIndex": 4,
+        "bitIndex": 6,
+        "length": 3
+      }
+    },
+    "sleepSoundMode": {
+      "commandBits": {
+        "byteIndex": 5,
+        "bitIndex": 1,
+        "length": 5
+      }
+    }
+  }
+}

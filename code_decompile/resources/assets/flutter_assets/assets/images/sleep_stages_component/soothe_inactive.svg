@@ -1,0 +1,9 @@
+<svg id="Controls_Widget_Icon_soothe_inactive" data-name="Controls/Widget/Icon/soothe_inactive" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="soothe_inactive">
+    <g id="Oval_7_Copy_4" data-name="Oval 7 Copy 4" fill="#fff" stroke="#ececec" stroke-width="1">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="22" fill="none"/>
+    </g>
+    <path id="Fill_31_Copy" data-name="Fill 31 Copy" d="M19.607,0a6.535,6.535,0,0,1,6.536,6.438,3.9,3.9,0,0,0-.034.4l-.055,1.6,1.514.526a4.328,4.328,0,0,1-1.425,8.424H4.357a4.346,4.346,0,0,1-.069-8.691c.1.015.209.027.315.034l1.655.109L6.8,7.274a4.348,4.348,0,0,1,4.089-2.928,4.474,4.474,0,0,1,.762.08L13.18,4.7l.759-1.348A6.538,6.538,0,0,1,19.607,0" transform="translate(6.75 13.148)" fill="#a9a9a9"/>
+  </g>
+</svg>

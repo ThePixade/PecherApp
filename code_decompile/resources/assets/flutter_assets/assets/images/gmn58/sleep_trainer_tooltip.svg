@@ -1,0 +1,17 @@
+<svg id="Status_Card_Toast_Cards_Icon_Light_bulb" data-name="Status Card / Toast Cards / Icon / Light bulb" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <rect id="Rectangle_68" data-name="Rectangle 68" width="48" height="48" fill="none"/>
+  <g id="image" transform="translate(-1 -1.591)">
+    <path id="Fill_1" data-name="Fill 1" d="M1255.771,391.121a1.508,1.508,0,0,0-1.537,1.472v9.35a1.538,1.538,0,0,0,3.074,0v-9.35a1.508,1.508,0,0,0-1.537-1.472" transform="translate(-1230.771 -365.789)" fill="#6ad1e3"/>
+    <path id="Path_428" data-name="Path 428" d="M1263.275,367.863q-.213-.224-.435-.439a15.066,15.066,0,0,0-10.606-4.3,14.854,14.854,0,0,0-15,14.675,14.4,14.4,0,0,0,4.392,10.377c.673.665,1.263,1.215,1.787,1.7,2.193,2.048,2.943,2.746,3.016,5.061h0v.011l-.015.006h.015v1.589a1.564,1.564,0,1,0,3.129,0v-1.607h0v-.085h-.006c-.131-3.045-1.273-4.577-3.122-6.38v0q-.406-.39-.853-.809c-.507-.473-1.078-1.01-1.737-1.654a11.406,11.406,0,0,1-3.474-8.213,11.87,11.87,0,0,1,23.735,0,11.4,11.4,0,0,1-3.474,8.213c-.632.619-1.184,1.136-1.737,1.654-2.349,2.195-3.82,3.7-3.972,7.184h0v.053h0v1.606a1.564,1.564,0,1,0,3.129,0v-1.556h0v-.2c.108-2.173.873-2.887,3.007-4.881.523-.486,1.112-1.035,1.791-1.7A14.447,14.447,0,0,0,1263.275,367.863Z" transform="translate(-1227.234 -360.122)" fill="#fabbcb"/>
+    <g id="Group_449" data-name="Group 449" transform="translate(17.809 35.604)">
+      <rect id="Rectangle_57" data-name="Rectangle 57" width="14.382" height="3.879" rx="1.94" transform="translate(0)" fill="#00c0d4"/>
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="14.382" height="3.879" rx="1.94" transform="translate(0 3.38)" fill="#00c0d4"/>
+      <rect id="Rectangle_59" data-name="Rectangle 59" width="14.382" height="3.879" rx="1.94" transform="translate(0 6.76)" fill="#00c0d4"/>
+      <rect id="Rectangle_60" data-name="Rectangle 60" width="8.269" height="3.879" rx="1.94" transform="translate(3.056 8.699)" fill="#00c0d4"/>
+    </g>
+    <rect id="Rectangle_61" data-name="Rectangle 61" width="8.322" height="1.921" rx="0.961" transform="translate(20.82 14.437)" fill="#f93822"/>
+    <rect id="Rectangle_62" data-name="Rectangle 62" width="8.322" height="1.921" rx="0.961" transform="translate(20.82 17.734)" fill="#f93822"/>
+    <rect id="Rectangle_63" data-name="Rectangle 63" width="11.003" height="1.921" rx="0.961" transform="translate(20.419 21.896) rotate(-45)" fill="#f93822"/>
+    <rect id="Rectangle_64" data-name="Rectangle 64" width="8.322" height="1.921" rx="0.961" transform="translate(20.82 21.05)" fill="#f93822"/>
+  </g>
+</svg>

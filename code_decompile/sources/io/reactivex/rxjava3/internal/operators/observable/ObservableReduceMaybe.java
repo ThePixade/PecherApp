@@ -1,0 +1,107 @@
+package io.reactivex.rxjava3.internal.operators.observable;
+
+import io.reactivex.rxjava3.core.Maybe;
+import io.reactivex.rxjava3.core.MaybeObserver;
+import io.reactivex.rxjava3.core.ObservableSource;
+import io.reactivex.rxjava3.core.Observer;
+import io.reactivex.rxjava3.disposables.Disposable;
+import io.reactivex.rxjava3.exceptions.Exceptions;
+import io.reactivex.rxjava3.functions.BiFunction;
+import io.reactivex.rxjava3.internal.disposables.DisposableHelper;
+import io.reactivex.rxjava3.plugins.RxJavaPlugins;
+import java.util.Objects;
+
+/* loaded from: classes2.dex */
+public final class ObservableReduceMaybe<T> extends Maybe<T> {
+    final BiFunction<T, T, T> reducer;
+    final ObservableSource<T> source;
+
+    /* loaded from: classes2.dex */
+    static final class ReduceObserver<T> implements Observer<T>, Disposable {
+        boolean done;
+        final MaybeObserver<? super T> downstream;
+        final BiFunction<T, T, T> reducer;
+        Disposable upstream;
+        T value;
+
+        ReduceObserver(MaybeObserver<? super T> maybeObserver, BiFunction<T, T, T> biFunction) {
+            this.downstream = maybeObserver;
+            this.reducer = biFunction;
+        }
+
+        @Override // io.reactivex.rxjava3.disposables.Disposable
+        public void dispose() {
+            this.upstream.dispose();
+        }
+
+        @Override // io.reactivex.rxjava3.disposables.Disposable
+        public boolean isDisposed() {
+            return this.upstream.isDisposed();
+        }
+
+        @Override // io.reactivex.rxjava3.core.Observer
+        public void onComplete() {
+            if (this.done) {
+                return;
+            }
+            this.done = true;
+            T t10 = this.value;
+            this.value = null;
+            if (t10 != null) {
+                this.downstream.onSuccess(t10);
+            } else {
+                this.downstream.onComplete();
+            }
+        }
+
+        @Override // io.reactivex.rxjava3.core.Observer
+        public void onError(Throwable th) {
+            if (this.done) {
+                RxJavaPlugins.onError(th);
+                return;
+            }
+            this.done = true;
+            this.value = null;
+            this.downstream.onError(th);
+        }
+
+        @Override // io.reactivex.rxjava3.core.Observer
+        public void onNext(T t10) {
+            if (this.done) {
+                return;
+            }
+            T t11 = this.value;
+            if (t11 == null) {
+                this.value = t10;
+                return;
+            }
+            try {
+                T apply = this.reducer.apply(t11, t10);
+                Objects.requireNonNull(apply, "The reducer returned a null value");
+                this.value = apply;
+            } catch (Throwable th) {
+                Exceptions.throwIfFatal(th);
+                this.upstream.dispose();
+                onError(th);
+            }
+        }
+
+        @Override // io.reactivex.rxjava3.core.Observer
+        public void onSubscribe(Disposable disposable) {
+            if (DisposableHelper.validate(this.upstream, disposable)) {
+                this.upstream = disposable;
+                this.downstream.onSubscribe(this);
+            }
+        }
+    }
+
+    public ObservableReduceMaybe(ObservableSource<T> observableSource, BiFunction<T, T, T> biFunction) {
+        this.source = observableSource;
+        this.reducer = biFunction;
+    }
+
+    @Override // io.reactivex.rxjava3.core.Maybe
+    protected void subscribeActual(MaybeObserver<? super T> maybeObserver) {
+        this.source.subscribe(new ReduceObserver(maybeObserver, this.reducer));
+    }
+}

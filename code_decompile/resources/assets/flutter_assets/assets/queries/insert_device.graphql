@@ -1,0 +1,10 @@
+mutation InsertDevice($account_id: uuid!, $child_id: uuid!, $product_id: uuid!, $name: String!, $serial: String!, $firmware_version: String!) {
+    insert_devices_one(object: {account_id: $account_id, child_id: $child_id, product_id: $product_id, name: $name, serial: $serial, firmware_version: $firmware_version}) {
+        account_id
+        child_id
+        firmware_version
+        serial
+        name
+        id
+    }
+}

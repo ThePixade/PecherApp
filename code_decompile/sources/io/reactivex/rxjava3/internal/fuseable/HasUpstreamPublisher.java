@@ -1,0 +1,8 @@
+package io.reactivex.rxjava3.internal.fuseable;
+
+import xe.b;
+
+/* loaded from: classes2.dex */
+public interface HasUpstreamPublisher<T> {
+    b<T> source();
+}

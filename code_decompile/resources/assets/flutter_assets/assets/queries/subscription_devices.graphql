@@ -1,0 +1,5 @@
+subscription DevicesSubscription($child_id: uuid!) {
+    devices(where: {child_id: {_eq: $child_id}}) {
+        name
+    }
+}

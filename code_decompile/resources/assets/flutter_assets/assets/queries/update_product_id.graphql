@@ -1,0 +1,5 @@
+mutation UpdateProductId($id: uuid!, $product_id: uuid!) {
+    update_devices(where: {id: {_eq: $id}}, _set: {product_id: $product_id}) {
+        affected_rows
+    }
+}

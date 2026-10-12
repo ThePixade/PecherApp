@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+    <g id="Controls_Widget_ColorPicker_colorwheelone_inactive" data-name="Controls Widget ColorPicker colorwheelone inactive">
+        <g id="color_wheel_one" data-name="color wheel one">
+            <g id="Oval_5" data-name="Oval 5">
+                <circle cx="26" cy="26" r="25" style="fill:#fff" />
+                <circle cx="26" cy="26" r="25.5" style="fill:none;stroke:#ececec;stroke-miterlimit:10" />
+            </g>
+            <circle id="Oval_5-2" data-name="Oval 5-2" cx="26" cy="11" r="7.5" style="fill:#ff5363" />
+            <circle id="Oval_5_Copy" data-name="Oval 5 Copy" cx="26" cy="41" r="7.5" style="fill:#ff5363" />
+            <circle id="Oval_5_Copy_2" data-name="Oval 5 Copy 2" cx="11.83" cy="34.33" r="7.5" style="fill:#ffb178" />
+            <circle id="Oval_5_Copy_3" data-name="Oval 5 Copy 3" cx="11.83" cy="18.5" r="7.5" style="fill:#fcf37c" />
+            <circle id="Oval_5_Copy_4" data-name="Oval 5 Copy 4" cx="40.17" cy="18.5" r="7.5" style="fill:#ffb178" />
+            <circle id="Oval_5_Copy_5" data-name="Oval 5 Copy 5" cx="40.17" cy="34.33" r="7.5" style="fill:#fcf37c" />
+        </g>
+    </g>
+</svg>

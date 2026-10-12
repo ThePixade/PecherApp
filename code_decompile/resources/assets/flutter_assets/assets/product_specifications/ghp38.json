@@ -1,0 +1,57 @@
+{
+  "product_code": "ghp38",
+  "name": "Whisper",
+  "apn": "1102107917",
+  "ble_protocol": "mpid",
+  "requires_pairing": true,
+  "manufacturer_id": "B603",
+  "service_uuid": "ADD60001-50DC-4344-98B2-F171D65CD5BD",
+  "characteristics": {
+    "tx": "ADD60002-50DC-4344-98B2-F171D65CD5BD",
+    "rx": "ADD60003-50DC-4344-98B2-F171D65CD5BD",
+    "factory": "ADD60004-50DC-4344-98B2-F171D65CD5BD",
+    "session": "ADD60005-50DC-4344-98B2-F171D65CD5BD"
+  },
+  "ota": {
+    "channels": [
+      "smartconnect-package-ghp38-production",
+      "smartconnect-package-ghp38-staging",
+      "smartconnect-package-ghp38-test"
+    ],
+    "mechanism": "mpid+sonix",
+    "supports_group": true,
+    "allow_subsequent_ota": true,
+    "dev": {
+      "ble": {
+        "mechanism": "mpid",
+        "channels": [
+          "magic-wand-nightly",
+          "magic-wand-companion",
+          "magic-wand-test",
+          "magic-wand-staging",
+          "magic-wand-release"
+        ]
+      },
+      "toy_ic": {
+        "mechanism": "sonix",
+        "channels": [
+          "ghp38-toy-ic-test"
+        ]
+      }
+    }
+  },
+  "attributes": {
+    "connectionState": {
+      "byteIndex": 5,
+      "bitIndex": 0,
+      "lengthInBits": 8,
+      "isInAdvertisement": true
+    }
+  },
+  "rssi": {
+    "androidMinStrongSignalRssi": -54,
+    "androidMinGoodSignalRssi": -70,
+    "iosMinStrongSignalRssi": -60,
+    "iosMinGoodSignalRssi": -75
+  }
+}

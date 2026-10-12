@@ -1,0 +1,12 @@
+<svg id="color_wheel_four" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Oval_5" data-name="Oval 5" fill="#fff" stroke="#ececec" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="25" cy="25" r="25" stroke="none"/>
+    <circle cx="25" cy="25" r="24.5" fill="none"/>
+  </g>
+  <circle id="Oval_5-2" data-name="Oval 5" cx="7.5" cy="7.5" r="7.5" transform="translate(17.5 2.5)" fill="#0085ff"/>
+  <circle id="Oval_5_Copy" data-name="Oval 5 Copy" cx="7.5" cy="7.5" r="7.5" transform="translate(17.5 32.5)" fill="#0085ff"/>
+  <circle id="Oval_5_Copy_2" data-name="Oval 5 Copy 2" cx="7.5" cy="7.5" r="7.5" transform="translate(3.333 25.833)" fill="#5245ff"/>
+  <circle id="Oval_5_Copy_3" data-name="Oval 5 Copy 3" cx="7.5" cy="7.5" r="7.5" transform="translate(3.333 10)" fill="#00fa91"/>
+  <circle id="Oval_5_Copy_4" data-name="Oval 5 Copy 4" cx="7.5" cy="7.5" r="7.5" transform="translate(31.667 10)" fill="#5245ff"/>
+  <circle id="Oval_5_Copy_5" data-name="Oval 5 Copy 5" cx="7.5" cy="7.5" r="7.5" transform="translate(31.667 25.833)" fill="#00fa91"/>
+</svg>

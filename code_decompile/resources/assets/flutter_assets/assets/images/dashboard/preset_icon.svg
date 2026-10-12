@@ -1,0 +1,6 @@
+<svg id="ProductCard_Icon_preset_icon" data-name="ProductCard/Icon/preset_icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="20" height="20" fill="#fff" opacity="0"/>
+    <path id="Combined_Shape" data-name="Combined Shape" d="M9.152,12H.622a.668.668,0,0,1,0-1.333h8.53a1.517,1.517,0,0,1,2.852,0h1.373a.668.668,0,0,1,0,1.333H12a1.517,1.517,0,0,1-2.852,0ZM2,7.167H.622a.669.669,0,0,1,0-1.334H2a1.557,1.557,0,0,1,1.426-1,1.557,1.557,0,0,1,1.426,1h8.529a.668.668,0,0,1,0,1.334H4.848a1.557,1.557,0,0,1-1.426,1A1.557,1.557,0,0,1,2,7.167ZM9.152,2.334H.622A.646.646,0,0,1,0,1.667.646.646,0,0,1,.622,1h8.53A1.517,1.517,0,0,1,12,1h1.373A.646.646,0,0,1,14,1.667a.646.646,0,0,1-.623.667H12a1.517,1.517,0,0,1-2.852,0Z" transform="translate(3 3.5)" fill="#6e6e6e"/>
+  </g>
+</svg>

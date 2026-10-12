@@ -1,0 +1,9 @@
+mutation UpdateAvatarIcon($child_id: uuid!, $avatar_icon: String!){
+    update_photos(where: { child_id: {_eq: $child_id}}, _set:{
+        mime_type: "image/png",
+        url: $avatar_icon,
+        usage: "avatar"
+    }){
+        affected_rows
+    }
+}

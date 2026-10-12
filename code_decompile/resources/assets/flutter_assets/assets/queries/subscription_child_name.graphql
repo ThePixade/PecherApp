@@ -1,0 +1,5 @@
+subscription ChildNameSubscription($child_id: uuid!) {
+    children(where: {id: {_eq: $child_id}}) {
+        first_name
+    }
+}

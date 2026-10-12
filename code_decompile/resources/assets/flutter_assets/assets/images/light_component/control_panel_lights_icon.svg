@@ -1,0 +1,14 @@
+<svg id="Controls_Widget_Header_Icon_Control_Panel_Lights" data-name="Controls / Widget / Header / Icon / Control Panel Lights" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <circle id="Oval_3" data-name="Oval 3" cx="12.5" cy="12.5" r="12.5" fill="#00c1d5"/>
+  <path id="Polygon_2" data-name="Polygon 2" d="M4.043,1.024a.5.5,0,0,1,.913,0l.454,1.019a.5.5,0,0,0,.581.281l1.064-.272a.5.5,0,0,1,.572.706L7.112,3.8a.5.5,0,0,0,.14.615l.907.712a.5.5,0,0,1-.2.882l-1.1.234a.5.5,0,0,0-.4.5l.022,1.146a.5.5,0,0,1-.824.39L4.824,7.57a.5.5,0,0,0-.649,0l-.833.709a.5.5,0,0,1-.824-.39l.022-1.146a.5.5,0,0,0-.4-.5l-1.1-.234a.5.5,0,0,1-.2-.882l.907-.712a.5.5,0,0,0,.14-.615L1.373,2.758a.5.5,0,0,1,.572-.706l1.064.272a.5.5,0,0,0,.581-.281Z" transform="translate(8 8)" fill="#fff"/>
+  <g id="Group_890" data-name="Group 890" transform="translate(1189.979 -3638.01)">
+    <path id="Fill_36" data-name="Fill 36" d="M.367,3.116A.367.367,0,0,1,0,2.749V.366a.367.367,0,0,1,.733,0V2.749a.367.367,0,0,1-.366.367" transform="translate(-1177.846 3642.01)" fill="#fff"/>
+    <path id="Fill_38" data-name="Fill 38" d="M.367,3.115A.367.367,0,0,1,0,2.748V.367a.367.367,0,1,1,.733,0V2.748a.366.366,0,0,1-.366.367" transform="translate(-1177.846 3655.891)" fill="#fff"/>
+    <path id="Fill_40" data-name="Fill 40" d="M1.63,2a.365.365,0,0,1-.259-.107L.107.626A.367.367,0,0,1,.625.107L1.888,1.371A.367.367,0,0,1,1.63,2" transform="translate(-1182.82 3645.167)" fill="#fff"/>
+    <path id="Fill_42" data-name="Fill 42" d="M1.631,2a.364.364,0,0,1-.259-.107L.108.626A.367.367,0,1,1,.626.107L1.891,1.372a.367.367,0,0,1,0,.519A.372.372,0,0,1,1.631,2" transform="translate(-1174.137 3653.852)" fill="#fff"/>
+    <path id="Fill_44" data-name="Fill 44" d="M2.75.734H.367A.367.367,0,1,1,.367,0H2.75a.367.367,0,0,1,0,.734" transform="translate(-1185.979 3650.141)" fill="#fff"/>
+    <path id="Fill_46" data-name="Fill 46" d="M2.75.734H.366A.367.367,0,0,1,.366,0H2.75a.367.367,0,0,1,0,.734" transform="translate(-1172.098 3650.141)" fill="#fff"/>
+    <path id="Fill_48" data-name="Fill 48" d="M.367,2a.366.366,0,0,1-.259-.625L1.369.107a.367.367,0,0,1,.519.519L.625,1.89A.369.369,0,0,1,.367,2" transform="translate(-1182.82 3653.852)" fill="#fff"/>
+    <path id="Fill_50" data-name="Fill 50" d="M.367,2a.367.367,0,0,1-.259-.626L1.373.107a.367.367,0,0,1,.519.519L.626,1.89A.367.367,0,0,1,.367,2" transform="translate(-1174.137 3645.167)" fill="#fff"/>
+  </g>
+</svg>

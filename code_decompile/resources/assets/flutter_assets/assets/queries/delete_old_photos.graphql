@@ -1,0 +1,5 @@
+mutation DeleteOldPhotos($child_id: uuid!, $id: uuid!) {
+    delete_photos(where: {child_id: {_eq: $child_id}, _and: {id: {_neq: $id}}}) {
+        affected_rows
+    }
+}

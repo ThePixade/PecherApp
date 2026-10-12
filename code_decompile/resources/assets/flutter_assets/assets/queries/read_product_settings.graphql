@@ -1,0 +1,11 @@
+query ReadProductSettings($device_id: uuid!) {
+    product_settings(where: {device_id: {_eq: $device_id}}) {
+        id
+        user_id
+        device_id
+        product_id
+        name
+        other_settings
+        updated_at
+    }
+}

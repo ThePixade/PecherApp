@@ -1,0 +1,5 @@
+mutation UpdateAppReview ($account_id: uuid!, $comments: String!, $rating: Int!, $like_app: Boolean!, $source_app: String!, $app_version: String!, $os_version: String!, $device_model: String!) {
+    update_app_reviews(where: {account_id: {_eq: $account_id}}, _set: {comments: $comments, rating: $rating, like_app: $like_app, source_app: $source_app, app_version: $app_version, os_version: $os_version, device_model: $device_model}) {
+        affected_rows
+    }
+}

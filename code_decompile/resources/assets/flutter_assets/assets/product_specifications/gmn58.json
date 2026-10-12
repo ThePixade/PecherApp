@@ -1,0 +1,47 @@
+{
+  "product_code": "gmn58",
+  "name": "Bunny",
+  "apn": "1102237336",
+  "ble_protocol": "mpid",
+  "requires_pairing": true,
+  "manufacturer_id": "B603",
+  "service_uuid": "4CEA0001-C678-4202-B5D3-712DBB5E5B14",
+  "characteristics": {
+    "tx": "4cea0002-c678-4202-b5d3-712dbb5e5b14",
+    "rx": "4cea0003-c678-4202-b5d3-712dbb5e5b14",
+    "factory": "4cea0004-c678-4202-b5d3-712dbb5e5b14",
+    "session": "4cea0005-c678-4202-b5d3-712dbb5e5b14"
+  },
+  "ota": {
+    "channels": [
+      "smartconnect-package-gmn58-production",
+      "smartconnect-package-gmn58-staging",
+      "smartconnect-package-gmn58-test"
+    ],
+    "mechanism": "mpid+nuvoton",
+    "supports_group": true,
+    "allow_subsequent_ota": true,
+    "dev": {
+      "ble": {
+        "mechanism": "mpid",
+        "channels": [
+          "magic-bullet-dev"
+        ]
+      },
+      "toy_ic": {
+        "mechanism": "nuvoton",
+        "channels": [
+          "gmn58-toy-ic-fep-dev"
+        ]
+      }
+    }
+  },
+  "attributes": {
+    "connectionState": {
+      "byteIndex": 5,
+      "bitIndex": 0,
+      "lengthInBits": 8,
+      "isInAdvertisement": true
+    }
+  }
+}

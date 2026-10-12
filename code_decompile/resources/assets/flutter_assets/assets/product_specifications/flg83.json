@@ -1,0 +1,359 @@
+{
+  "product_code": "flg83",
+  "name": "Cradle Swing",
+  "legacy_type": 18,
+  "encryption_methods": {
+    "uniqueKey": {
+      "minimumFirmwareVersion": 0,
+      "encryptionKeySize": 4,
+      "decryptionKeySize": 8
+    },
+    "sharedKey": {
+      "minimumFirmwareVersion": 0,
+      "encryptionKeySize": 4,
+      "decryptionKeySize": 8
+    }
+  },
+  "ble_protocol": "smart_connect",
+  "requires_pairing": true,
+  "service_uuid": "E2BCFFF0-39B2-A193-C63C-8EF1BB786D5A",
+  "characteristics": {
+    "service": "E2BCFFF0-39B2-A193-C63C-8EF1BB786D5A",
+    "state": "E2BCFFF1-39B2-A193-C63C-8EF1BB786D5A",
+    "stateUpdate": "E2BCFFF2-39B2-A193-C63C-8EF1BB786D5A",
+    "infrastructureUpdate": "E2BCFFF4-39B2-A193-C63C-8EF1BB786D5A",
+    "infrastructureState": "E2BCFFF5-39B2-A193-C63C-8EF1BB786D5A",
+    "uniqueIdentifier": "E2BCFFF9-39B2-A193-C63C-8EF1BB786D5A",
+    "ota": "E2BCFFF6-39B2-A193-C63C-8EF1BB786D5A"
+  },
+  "ota": {
+    "channels": [
+      "fpsmartconnect_swing_flg83"
+    ],
+    "mechanism": "smart",
+    "dev": {
+      "ble": {
+        "mechanism": "smart",
+        "channels": [
+          "fpsmartconnect_downgrade_swing_flg83"
+        ]
+      }
+    }
+  },
+  "command_types": {
+    "advertisementUpdate": {
+      "byteLength": 1,
+      "updateCommandId": 5,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "connectionParamsUpdate": {
+      "byteLength": 128,
+      "updateCommandId": 11,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "firmwareUpdateStart": {
+      "byteLength": 8,
+      "updateCommandId": 6,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "firmwareUpdateCancel": {
+      "byteLength": 1,
+      "updateCommandId": 7,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "firmwareVerify": {
+      "byteLength": 1,
+      "updateCommandId": 8,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "firmwareReboot": {
+      "byteLength": 1,
+      "updateCommandId": 9,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "preset": {
+      "byteLength": 128,
+      "updateCommandId": 10
+    },
+    "sendUniqueIdentifierLSB": {
+      "byteLength": 16,
+      "updateCommandId": 16,
+      "characteristicType": "infrastructureUpdate"
+    },
+    "sendUniqueIdentifierMSB": {
+      "byteLength": 16,
+      "updateCommandId": 17,
+      "characteristicType": "infrastructureUpdate"
+    }
+  },
+  "attributes": {
+    "connectionState": {
+      "byteIndex": 5,
+      "bitIndex": 0,
+      "lengthInBits": 2,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "firmwareUpgradeStatus": {
+      "byteIndex": 5,
+      "bitIndex": 6,
+      "lengthInBits": 1,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "transmissionMode": {
+      "byteIndex": 0,
+      "bitIndex": 0,
+      "lengthInBits": 2,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "softPower": {
+      "defaultValue": 1,
+      "byteIndex": 0,
+      "bitIndex": 2,
+      "lengthInBits": 1,
+      "updateCommandId": 13,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "playActive": {
+      "defaultValue": 0,
+      "byteIndex": 0,
+      "bitIndex": 3,
+      "lengthInBits": 1,
+      "transmissionMode": 0,
+      "updateCommandId": 0,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "swingExpiring": {
+      "byteIndex": 3,
+      "bitIndex": 5,
+      "lengthInBits": 1,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "mobileExpiring": {
+      "byteIndex": 3,
+      "bitIndex": 6,
+      "lengthInBits": 1,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "audioExpiring": {
+      "byteIndex": 3,
+      "bitIndex": 7,
+      "lengthInBits": 1,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "swingActive": {
+      "defaultValue": 0,
+      "byteIndex": 0,
+      "bitIndex": 4,
+      "lengthInBits": 1,
+      "transmissionMode": 0,
+      "updateCommandId": 1,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "swingSpeed": {
+      "defaultValue": 0,
+      "byteIndex": 0,
+      "bitIndex": 5,
+      "lengthInBits": 3,
+      "transmissionMode": 0,
+      "updateCommandId": 2,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "swingTimer": {
+      "defaultValue": 15,
+      "byteIndex": 1,
+      "bitIndex": 0,
+      "lengthInBits": 4,
+      "transmissionMode": 0,
+      "updateCommandId": 3,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "mobileActive": {
+      "defaultValue": 0,
+      "byteIndex": 1,
+      "bitIndex": 4,
+      "lengthInBits": 1,
+      "transmissionMode": 0,
+      "updateCommandId": 4,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "mobileTimer": {
+      "defaultValue": 15,
+      "byteIndex": 1,
+      "bitIndex": 5,
+      "lengthInBits": 4,
+      "transmissionMode": 0,
+      "updateCommandId": 5,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "audioActive": {
+      "defaultValue": 0,
+      "byteIndex": 2,
+      "bitIndex": 1,
+      "lengthInBits": 1,
+      "transmissionMode": 0,
+      "updateCommandId": 6,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "audioMode": {
+      "defaultValue": 1,
+      "byteIndex": 2,
+      "bitIndex": 2,
+      "lengthInBits": 3,
+      "transmissionMode": 0,
+      "updateCommandId": 7,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "volumeLevel": {
+      "defaultValue": 5,
+      "byteIndex": 2,
+      "bitIndex": 5,
+      "lengthInBits": 4,
+      "updateCommandId": 8,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "audioTimer": {
+      "defaultValue": 15,
+      "byteIndex": 3,
+      "bitIndex": 1,
+      "lengthInBits": 4,
+      "transmissionMode": 0,
+      "updateCommandId": 9,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "batteryVoltage": {
+      "byteIndex": 4,
+      "bitIndex": 0,
+      "lengthInBits": 8,
+      "isInAdvertisement": true,
+      "characteristicType": "state"
+    },
+    "error": {
+      "byteIndex": 0,
+      "lengthInBytes": 1,
+      "characteristicType": "infrastructureState"
+    },
+    "firmwareVersion": {
+      "byteIndex": 1,
+      "lengthInBytes": 2,
+      "characteristicType": "infrastructureState"
+    },
+    "firmwareBank": {
+      "byteIndex": 3,
+      "lengthInBytes": 1,
+      "characteristicType": "infrastructureState"
+    },
+    "firmwareApiLevel": {
+      "byteIndex": 5,
+      "lengthInBytes": 1,
+      "characteristicType": "infrastructureState"
+    },
+    "crc": {
+      "byteIndex": 6,
+      "lengthInBytes": 2,
+      "characteristicType": "infrastructureState"
+    }
+  },
+  "presets": {
+    "transmissionMode": {
+      "commandBits": {
+        "byteIndex": 0,
+        "bitIndex": 0,
+        "length": 2
+      }
+    },
+    "softPower": {
+      "commandBits": {
+        "byteIndex": 0,
+        "bitIndex": 2,
+        "length": 1
+      }
+    },
+    "playActive": {
+      "commandBits": {
+        "byteIndex": 0,
+        "bitIndex": 3,
+        "length": 1
+      }
+    },
+    "swingActive": {
+      "commandBits": {
+        "byteIndex": 0,
+        "bitIndex": 4,
+        "length": 1
+      }
+    },
+    "swingSpeed": {
+      "commandBits": {
+        "byteIndex": 0,
+        "bitIndex": 5,
+        "length": 3
+      }
+    },
+    "swingTimer": {
+      "commandBits": {
+        "byteIndex": 1,
+        "bitIndex": 0,
+        "length": 4
+      }
+    },
+    "mobileActive": {
+      "commandBits": {
+        "byteIndex": 1,
+        "bitIndex": 4,
+        "length": 1
+      }
+    },
+    "mobileTimer": {
+      "commandBits": {
+        "byteIndex": 1,
+        "bitIndex": 5,
+        "length": 4
+      }
+    },
+    "audioActive": {
+      "commandBits": {
+        "byteIndex": 2,
+        "bitIndex": 1,
+        "length": 1
+      }
+    },
+    "audioMode": {
+      "commandBits": {
+        "byteIndex": 2,
+        "bitIndex": 2,
+        "length": 3
+      }
+    },
+    "volumeLevel": {
+      "commandBits": {
+        "byteIndex": 2,
+        "bitIndex": 5,
+        "length": 4
+      }
+    },
+    "audioTimer": {
+      "commandBits": {
+        "byteIndex": 3,
+        "bitIndex": 1,
+        "length": 4
+      }
+    }
+  }
+}

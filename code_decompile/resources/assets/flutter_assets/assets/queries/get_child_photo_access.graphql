@@ -1,0 +1,9 @@
+mutation GetPhotoAccess($child_id: String!) {
+    get_photo_access(child_id: $child_id) {
+        id
+        url
+        upload_url
+        download_url
+        updated_at
+    }
+}

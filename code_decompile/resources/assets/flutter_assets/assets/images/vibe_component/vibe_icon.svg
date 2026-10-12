@@ -1,0 +1,21 @@
+<svg id="Controls_WidgetHeaderIcon_vibration_icon" data-name="Controls/WidgetHeaderIcon/vibration_icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="vibration_icon">
+    <g id="Group_2" data-name="Group 2">
+      <circle id="Oval_3" data-name="Oval 3" cx="12.5" cy="12.5" r="12.5" fill="#00c1d5"/>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(6.772 8.294) rotate(-3)">
+      <g id="Group_3" data-name="Group 3">
+        <path id="Stroke_1" data-name="Stroke 1" d="M5.033,0A3.241,3.241,0,0,1,2.758,1.8,3.24,3.24,0,0,1,0,.894" transform="translate(5.735 0.658) rotate(3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <path id="Stroke_3" data-name="Stroke 3" d="M0,1.849A3.241,3.241,0,0,1,2.275.044,3.24,3.24,0,0,1,5.033.955" transform="translate(0.712 0.333) rotate(3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g id="Group" transform="translate(0 3)">
+        <path id="Stroke_1-2" data-name="Stroke 1" d="M5.033,0A3.241,3.241,0,0,1,2.758,1.8,3.24,3.24,0,0,1,0,.894" transform="translate(5.578 0.654) rotate(3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <path id="Stroke_3-2" data-name="Stroke 3" d="M0,1.849A3.241,3.241,0,0,1,2.275.044,3.24,3.24,0,0,1,5.033.955" transform="translate(0.555 0.329) rotate(3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g id="Group_4" data-name="Group 4" transform="translate(0 6)">
+        <path id="Stroke_1-3" data-name="Stroke 1" d="M5.033,0A3.241,3.241,0,0,1,2.758,1.8,3.24,3.24,0,0,1,0,.894" transform="translate(5.42 0.649) rotate(3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        <path id="Stroke_3-3" data-name="Stroke 3" d="M0,1.849A3.241,3.241,0,0,1,2.275.044,3.24,3.24,0,0,1,5.033.955" transform="translate(0.398 0.325) rotate(3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

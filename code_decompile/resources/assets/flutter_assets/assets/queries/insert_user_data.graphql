@@ -1,0 +1,22 @@
+mutation CreateUserData($subject: String!, $first_name: String!, $provider: String!) {
+    insert_external_users_one(object: {provider: $provider, subject: $subject, user: {data: {account: {data: {children: {data: {first_name: $first_name}}}}}}}) {
+        id
+        user {
+            id
+            account {
+                id
+                children {
+                    id
+                    first_name
+                }
+                devices {
+                    id
+                    product_id
+                    name
+                    serial
+                    firmware_version
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+mutation InsertProductSettings($user_id: uuid!, $device_id: uuid!, $product_id: uuid!, $name: String!, $other_settings: jsonb!) {
+    insert_product_settings_one(object: {user_id: $user_id, device_id: $device_id, product_id: $product_id, name: $name, other_settings: $other_settings, push_notification_settings: {}}) {
+        id
+        user_id
+        device_id
+        product_id
+        name
+        other_settings
+        updated_at
+    }
+}

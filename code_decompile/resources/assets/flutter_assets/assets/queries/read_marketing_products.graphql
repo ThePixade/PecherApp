@@ -1,0 +1,7 @@
+query ReadMarketingProducts {
+    products {
+        id
+        name
+        product_code
+    }
+}

@@ -1,0 +1,5 @@
+mutation InsertAppReview ($account_id: uuid!, $comments: String!, $rating: Int!, $like_app: Boolean!, $source_app: String!, $app_version: String!, $os_version: String!, $device_model: String!) {
+    insert_app_reviews_one(object: {account_id: $account_id, comments: $comments, rating: $rating, like_app: $like_app, source_app: $source_app, app_version: $app_version, os_version: $os_version, device_model: $device_model}) {
+        id
+    }
+}

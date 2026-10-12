@@ -1,0 +1,16 @@
+<svg id="Controls_WidgetHeaderIcon_starprojection_icon" data-name="Controls/WidgetHeaderIcon/starprojection_icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="star_projection_icon">
+    <circle id="Oval_3" data-name="Oval 3" cx="12.5" cy="12.5" r="12.5" fill="#00c1d5"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(8 8)">
+      <g id="Group" transform="translate(0.048)">
+        <path id="Rectangle" d="M.5,0H5.167a.5.5,0,0,1,.5.5V9.2a.8.8,0,0,1-.8.8H.8A.8.8,0,0,1,0,9.2V.5A.5.5,0,0,1,.5,0Z" transform="translate(1.619)" fill="#fff"/>
+        <path id="Rectangle-2" data-name="Rectangle" d="M1.188,0H6.855l.716.843a.5.5,0,0,1-.381.824H.853A.5.5,0,0,1,.472.843Z" transform="translate(0.431 8.333)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(8 8) rotate(-90)">
+      <path id="Rectangle_3" data-name="Rectangle 3" d="M0,.75A.844.844,0,0,1,.75,0H4.625A.422.422,0,0,1,5,.375H5A.422.422,0,0,1,4.625.75H.375A.422.422,0,0,1,0,.375Z" transform="translate(1 4)" fill="#fff"/>
+      <path id="Rectangle_3-2" data-name="Rectangle 3" d="M0,.75A.844.844,0,0,1,.75,0H3.625A.422.422,0,0,1,4,.375H4A.422.422,0,0,1,3.625.75H.375A.422.422,0,0,1,0,.375Z" transform="translate(1.455 6.05) rotate(30)" fill="#fff"/>
+      <path id="Rectangle_3-3" data-name="Rectangle 3" d="M0,.75A.844.844,0,0,1,.75,0H3.625A.422.422,0,0,1,4,.375H4A.422.422,0,0,1,3.625.75H.375A.422.422,0,0,1,0,.375Z" transform="translate(1.08 2.05) rotate(-30)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

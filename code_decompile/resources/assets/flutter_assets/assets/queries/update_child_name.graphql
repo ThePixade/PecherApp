@@ -1,0 +1,5 @@
+mutation UpdateChildName($child_id: uuid!, $first_name: String!) {
+    update_children(where: {id: {_eq: $child_id}}, _set: {first_name: $first_name}) {
+        affected_rows
+    }
+}

@@ -1,0 +1,6 @@
+<svg id="Controls_Widget_Header_Icon_Music" data-name="Controls / Widget / Header / Icon / Music" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <circle id="Oval_3" data-name="Oval 3" cx="12.5" cy="12.5" r="12.5" fill="#00c1d5"/>
+  <g id="icon" transform="translate(5 6)">
+    <path id="Fill_1" data-name="Fill 1" d="M4.179.5A.489.489,0,0,1,4.758.005l7.663,1.012A.69.69,0,0,1,13,1.678v8.758a2.791,2.791,0,1,1-2.786-3.029,2.758,2.758,0,0,1,1.393.375V4.752a.684.684,0,0,0-.579-.657L6.15,3.45a.5.5,0,0,0-.578.511V9.272A2.791,2.791,0,1,1,2.786,6.243a2.769,2.769,0,0,1,1.393.373Z" transform="translate(0 0)" fill="#fff"/>
+  </g>
+</svg>

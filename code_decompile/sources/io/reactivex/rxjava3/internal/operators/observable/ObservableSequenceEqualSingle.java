@@ -1,0 +1,216 @@
+package io.reactivex.rxjava3.internal.operators.observable;
+
+import io.reactivex.rxjava3.core.Observable;
+import io.reactivex.rxjava3.core.ObservableSource;
+import io.reactivex.rxjava3.core.Observer;
+import io.reactivex.rxjava3.core.Single;
+import io.reactivex.rxjava3.core.SingleObserver;
+import io.reactivex.rxjava3.disposables.Disposable;
+import io.reactivex.rxjava3.exceptions.Exceptions;
+import io.reactivex.rxjava3.functions.BiPredicate;
+import io.reactivex.rxjava3.internal.disposables.ArrayCompositeDisposable;
+import io.reactivex.rxjava3.internal.fuseable.FuseToObservable;
+import io.reactivex.rxjava3.internal.queue.SpscLinkedArrayQueue;
+import io.reactivex.rxjava3.plugins.RxJavaPlugins;
+import java.util.concurrent.atomic.AtomicInteger;
+
+/* loaded from: classes2.dex */
+public final class ObservableSequenceEqualSingle<T> extends Single<Boolean> implements FuseToObservable<Boolean> {
+    final int bufferSize;
+    final BiPredicate<? super T, ? super T> comparer;
+    final ObservableSource<? extends T> first;
+    final ObservableSource<? extends T> second;
+
+    /* loaded from: classes2.dex */
+    static final class EqualCoordinator<T> extends AtomicInteger implements Disposable {
+        private static final long serialVersionUID = -6178010334400373240L;
+        volatile boolean cancelled;
+        final BiPredicate<? super T, ? super T> comparer;
+        final SingleObserver<? super Boolean> downstream;
+        final ObservableSource<? extends T> first;
+        final EqualObserver<T>[] observers;
+        final ArrayCompositeDisposable resources;
+        final ObservableSource<? extends T> second;
+
+        /* renamed from: v1, reason: collision with root package name */
+        T f13607v1;
+
+        /* renamed from: v2, reason: collision with root package name */
+        T f13608v2;
+
+        EqualCoordinator(SingleObserver<? super Boolean> singleObserver, int i10, ObservableSource<? extends T> observableSource, ObservableSource<? extends T> observableSource2, BiPredicate<? super T, ? super T> biPredicate) {
+            this.downstream = singleObserver;
+            this.first = observableSource;
+            this.second = observableSource2;
+            this.comparer = biPredicate;
+            this.observers = r3;
+            EqualObserver<T>[] equalObserverArr = {new EqualObserver<>(this, 0, i10), new EqualObserver<>(this, 1, i10)};
+            this.resources = new ArrayCompositeDisposable(2);
+        }
+
+        void cancel(SpscLinkedArrayQueue<T> spscLinkedArrayQueue, SpscLinkedArrayQueue<T> spscLinkedArrayQueue2) {
+            this.cancelled = true;
+            spscLinkedArrayQueue.clear();
+            spscLinkedArrayQueue2.clear();
+        }
+
+        @Override // io.reactivex.rxjava3.disposables.Disposable
+        public void dispose() {
+            if (this.cancelled) {
+                return;
+            }
+            this.cancelled = true;
+            this.resources.dispose();
+            if (getAndIncrement() == 0) {
+                EqualObserver<T>[] equalObserverArr = this.observers;
+                equalObserverArr[0].queue.clear();
+                equalObserverArr[1].queue.clear();
+            }
+        }
+
+        void drain() {
+            Throwable th;
+            Throwable th2;
+            if (getAndIncrement() != 0) {
+                return;
+            }
+            EqualObserver<T>[] equalObserverArr = this.observers;
+            EqualObserver<T> equalObserver = equalObserverArr[0];
+            SpscLinkedArrayQueue<T> spscLinkedArrayQueue = equalObserver.queue;
+            EqualObserver<T> equalObserver2 = equalObserverArr[1];
+            SpscLinkedArrayQueue<T> spscLinkedArrayQueue2 = equalObserver2.queue;
+            int i10 = 1;
+            while (!this.cancelled) {
+                boolean z10 = equalObserver.done;
+                if (z10 && (th2 = equalObserver.error) != null) {
+                    cancel(spscLinkedArrayQueue, spscLinkedArrayQueue2);
+                    this.downstream.onError(th2);
+                    return;
+                }
+                boolean z11 = equalObserver2.done;
+                if (z11 && (th = equalObserver2.error) != null) {
+                    cancel(spscLinkedArrayQueue, spscLinkedArrayQueue2);
+                    this.downstream.onError(th);
+                    return;
+                }
+                if (this.f13607v1 == null) {
+                    this.f13607v1 = spscLinkedArrayQueue.poll();
+                }
+                boolean z12 = this.f13607v1 == null;
+                if (this.f13608v2 == null) {
+                    this.f13608v2 = spscLinkedArrayQueue2.poll();
+                }
+                T t10 = this.f13608v2;
+                boolean z13 = t10 == null;
+                if (z10 && z11 && z12 && z13) {
+                    this.downstream.onSuccess(Boolean.TRUE);
+                    return;
+                }
+                if (z10 && z11 && z12 != z13) {
+                    cancel(spscLinkedArrayQueue, spscLinkedArrayQueue2);
+                    this.downstream.onSuccess(Boolean.FALSE);
+                    return;
+                }
+                if (!z12 && !z13) {
+                    try {
+                        if (!this.comparer.test(this.f13607v1, t10)) {
+                            cancel(spscLinkedArrayQueue, spscLinkedArrayQueue2);
+                            this.downstream.onSuccess(Boolean.FALSE);
+                            return;
+                        } else {
+                            this.f13607v1 = null;
+                            this.f13608v2 = null;
+                        }
+                    } catch (Throwable th3) {
+                        Exceptions.throwIfFatal(th3);
+                        cancel(spscLinkedArrayQueue, spscLinkedArrayQueue2);
+                        this.downstream.onError(th3);
+                        return;
+                    }
+                }
+                if (z12 || z13) {
+                    i10 = addAndGet(-i10);
+                    if (i10 == 0) {
+                        return;
+                    }
+                }
+            }
+            spscLinkedArrayQueue.clear();
+            spscLinkedArrayQueue2.clear();
+        }
+
+        @Override // io.reactivex.rxjava3.disposables.Disposable
+        public boolean isDisposed() {
+            return this.cancelled;
+        }
+
+        boolean setDisposable(Disposable disposable, int i10) {
+            return this.resources.setResource(i10, disposable);
+        }
+
+        void subscribe() {
+            EqualObserver<T>[] equalObserverArr = this.observers;
+            this.first.subscribe(equalObserverArr[0]);
+            this.second.subscribe(equalObserverArr[1]);
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    /* loaded from: classes2.dex */
+    public static final class EqualObserver<T> implements Observer<T> {
+        volatile boolean done;
+        Throwable error;
+        final int index;
+        final EqualCoordinator<T> parent;
+        final SpscLinkedArrayQueue<T> queue;
+
+        EqualObserver(EqualCoordinator<T> equalCoordinator, int i10, int i11) {
+            this.parent = equalCoordinator;
+            this.index = i10;
+            this.queue = new SpscLinkedArrayQueue<>(i11);
+        }
+
+        @Override // io.reactivex.rxjava3.core.Observer
+        public void onComplete() {
+            this.done = true;
+            this.parent.drain();
+        }
+
+        @Override // io.reactivex.rxjava3.core.Observer
+        public void onError(Throwable th) {
+            this.error = th;
+            this.done = true;
+            this.parent.drain();
+        }
+
+        @Override // io.reactivex.rxjava3.core.Observer
+        public void onNext(T t10) {
+            this.queue.offer(t10);
+            this.parent.drain();
+        }
+
+        @Override // io.reactivex.rxjava3.core.Observer
+        public void onSubscribe(Disposable disposable) {
+            this.parent.setDisposable(disposable, this.index);
+        }
+    }
+
+    public ObservableSequenceEqualSingle(ObservableSource<? extends T> observableSource, ObservableSource<? extends T> observableSource2, BiPredicate<? super T, ? super T> biPredicate, int i10) {
+        this.first = observableSource;
+        this.second = observableSource2;
+        this.comparer = biPredicate;
+        this.bufferSize = i10;
+    }
+
+    @Override // io.reactivex.rxjava3.internal.fuseable.FuseToObservable
+    public Observable<Boolean> fuseToObservable() {
+        return RxJavaPlugins.onAssembly(new ObservableSequenceEqual(this.first, this.second, this.comparer, this.bufferSize));
+    }
+
+    @Override // io.reactivex.rxjava3.core.Single
+    public void subscribeActual(SingleObserver<? super Boolean> singleObserver) {
+        EqualCoordinator equalCoordinator = new EqualCoordinator(singleObserver, this.bufferSize, this.first, this.second, this.comparer);
+        singleObserver.onSubscribe(equalCoordinator);
+        equalCoordinator.subscribe();
+    }
+}

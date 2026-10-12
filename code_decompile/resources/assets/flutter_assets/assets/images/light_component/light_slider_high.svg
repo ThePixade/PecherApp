@@ -1,0 +1,19 @@
+<svg id="Controls_Widget_Slider_Icons_Light_High" data-name="Controls/Widget/Slider/Icons/Light High" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group" transform="translate(9 1)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="1" height="4" rx="0.5" transform="translate(0.5)" fill="#a9a9a9"/>
+    <rect id="Rectangle_8-2" data-name="Rectangle 8" width="1" height="4" rx="0.5" transform="translate(0.5 14)" fill="#a9a9a9"/>
+  </g>
+  <g id="Group-2" data-name="Group" transform="translate(19 9) rotate(90)">
+    <rect id="Rectangle_8-3" data-name="Rectangle 8" width="1" height="4" rx="0.5" transform="translate(0.5)" fill="#a9a9a9"/>
+    <rect id="Rectangle_8-4" data-name="Rectangle 8" width="1" height="4" rx="0.5" transform="translate(0.5 14)" fill="#a9a9a9"/>
+  </g>
+  <g id="Group-3" data-name="Group" transform="translate(15.657 2.929) rotate(45)">
+    <rect id="Rectangle_8-5" data-name="Rectangle 8" width="1" height="4" rx="0.5" transform="translate(0.5)" fill="#a9a9a9"/>
+    <rect id="Rectangle_8-6" data-name="Rectangle 8" width="1" height="4" rx="0.5" transform="translate(0.5 14)" fill="#a9a9a9"/>
+  </g>
+  <g id="Group-4" data-name="Group" transform="translate(17.071 15.657) rotate(135)">
+    <rect id="Rectangle_8-7" data-name="Rectangle 8" width="1" height="4" rx="0.5" transform="translate(0.5)" fill="#a9a9a9"/>
+    <rect id="Rectangle_8-8" data-name="Rectangle 8" width="1" height="4" rx="0.5" transform="translate(0.5 14)" fill="#a9a9a9"/>
+  </g>
+  <circle id="Oval" cx="3" cy="3" r="3" transform="translate(7 7)" fill="#a9a9a9" stroke="#a9a9a9" stroke-width="1"/>
+</svg>

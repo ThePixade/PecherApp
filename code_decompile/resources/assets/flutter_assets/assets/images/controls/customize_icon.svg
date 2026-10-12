@@ -1,0 +1,12 @@
+<svg id="Controls_Top_Customize" data-name="Controls / Top / Customize" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <rect id="Bunny_Home_Controls_Button_background" data-name="Bunny / Home / Controls_Button background" width="40" height="40" fill="none"/>
+  <g id="Group_4" data-name="Group 4">
+    <circle id="Oval" cx="20" cy="20" r="20" fill="#fff"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(12 12)">
+      <circle id="Oval-2" data-name="Oval" cx="2" cy="2" r="2" transform="translate(11)" fill="#00c1d5"/>
+      <path id="Oval_2" data-name="Oval 2" d="M0,13.5V12H16v1.5Zm0-6V6H16V7.5Zm0-6V0H16V1.5Z" transform="translate(0 1)" fill="#00c1d5"/>
+      <circle id="Oval-3" data-name="Oval" cx="2" cy="2" r="2" transform="translate(2 12)" fill="#00c1d5"/>
+      <circle id="Oval-4" data-name="Oval" cx="2" cy="2" r="2" transform="translate(6 6)" fill="#00c1d5"/>
+    </g>
+  </g>
+</svg>

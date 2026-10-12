@@ -1,0 +1,26 @@
+package w1;
+
+import android.graphics.Bitmap;
+import android.graphics.ImageDecoder;
+import java.nio.ByteBuffer;
+
+/* loaded from: classes.dex */
+public final class i implements n1.j<ByteBuffer, Bitmap> {
+
+    /* renamed from: a, reason: collision with root package name */
+    private final e f20647a = new e();
+
+    @Override // n1.j
+    /* renamed from: c, reason: merged with bridge method [inline-methods] */
+    public p1.v<Bitmap> b(ByteBuffer byteBuffer, int i10, int i11, n1.h hVar) {
+        ImageDecoder.Source createSource;
+        createSource = ImageDecoder.createSource(byteBuffer);
+        return this.f20647a.b(createSource, i10, i11, hVar);
+    }
+
+    @Override // n1.j
+    /* renamed from: d, reason: merged with bridge method [inline-methods] */
+    public boolean a(ByteBuffer byteBuffer, n1.h hVar) {
+        return true;
+    }
+}

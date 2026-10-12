@@ -1,0 +1,43 @@
+package androidx.appcompat.widget;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.util.AttributeSet;
+import android.widget.SeekBar;
+
+/* loaded from: classes.dex */
+public class v extends SeekBar {
+
+    /* renamed from: a, reason: collision with root package name */
+    private final w f2507a;
+
+    public v(Context context, AttributeSet attributeSet) {
+        this(context, attributeSet, f.a.H);
+    }
+
+    public v(Context context, AttributeSet attributeSet, int i10) {
+        super(context, attributeSet, i10);
+        y0.a(this, getContext());
+        w wVar = new w(this);
+        this.f2507a = wVar;
+        wVar.c(attributeSet, i10);
+    }
+
+    @Override // android.widget.AbsSeekBar, android.widget.ProgressBar, android.view.View
+    protected void drawableStateChanged() {
+        super.drawableStateChanged();
+        this.f2507a.h();
+    }
+
+    @Override // android.widget.AbsSeekBar, android.widget.ProgressBar, android.view.View
+    public void jumpDrawablesToCurrentState() {
+        super.jumpDrawablesToCurrentState();
+        this.f2507a.i();
+    }
+
+    @Override // android.widget.AbsSeekBar, android.widget.ProgressBar, android.view.View
+    protected synchronized void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        this.f2507a.g(canvas);
+    }
+}

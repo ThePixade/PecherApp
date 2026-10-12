@@ -1,0 +1,15 @@
+query ReadAppReviews {
+    app_reviews {
+        id
+        like_app
+        os_version
+        rating
+        source_app
+        device_model
+        created_at
+        comments
+        app_version
+        account_id
+        updated_at
+    }
+}

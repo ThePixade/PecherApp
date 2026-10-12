@@ -1,0 +1,5 @@
+mutation DeleteUserData ($subject: String!) {
+    delete_external_users(where: {subject: {_eq: $subject}}) {
+        affected_rows
+    }
+}

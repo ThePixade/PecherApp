@@ -1,0 +1,7 @@
+subscription ChildPhotoSubscription($child_id: uuid!) {
+    children(where: {id: {_eq: $child_id}}) {
+        photos {
+            updated_at
+        }
+    }
+}

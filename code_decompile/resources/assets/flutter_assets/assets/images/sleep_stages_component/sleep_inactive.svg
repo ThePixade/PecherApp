@@ -1,0 +1,9 @@
+<svg id="Controls_Widget_Icon_sleep_inactive" data-name="Controls/Widget/Icon/sleep_inactive" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="sleep_inactive">
+    <g id="Oval_7_Copy_5" data-name="Oval 7 Copy 5" fill="#fff" stroke="#ececec" stroke-width="1">
+      <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+      <circle cx="22.5" cy="22.5" r="22" fill="none"/>
+    </g>
+    <path id="Fill_31_Copy_2" data-name="Fill 31 Copy 2" d="M19.477,19.609A14.152,14.152,0,0,1,6.339,6.506,14.029,14.029,0,0,1,7.164.734a.539.539,0,0,0-.8-.644A14.088,14.088,0,1,0,25.91,19.58a.539.539,0,0,0-.646-.794,14.121,14.121,0,0,1-5.787.823" transform="translate(9.5 9.5)" fill="#a9a9a9"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+mutation UpdateDevice($id: uuid!, $product_id: uuid!, $name: String!, $serial: String!, $firmware_version: String!) {
+    update_devices(where: {id: {_eq: $id}}, _set: {product_id: $product_id, name: $name, serial: $serial, firmware_version: $firmware_version}) {
+        affected_rows
+    }
+    update_product_settings(where: {device_id: {_eq: $id}}, _set: {name: $name}) {
+        affected_rows
+    }
+}

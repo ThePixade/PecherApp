@@ -1,0 +1,7 @@
+<svg id="Modal_Icon_warning" data-name="Modal / Icon / warning" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <rect id="Rectangle_184" data-name="Rectangle 184" width="48" height="48" fill="none" opacity="0.357"/>
+  <g id="Group_2" data-name="Group 2" transform="translate(-0.5 2.425)">
+    <path id="Rectangle" d="M20.723,6.044a4.455,4.455,0,0,1,7.555,0L44.74,32.385A4.455,4.455,0,0,1,40.963,39.2H8.037A4.455,4.455,0,0,1,4.26,32.385Z" fill="#00c1d5"/>
+    <path id="_" data-name="!" d="M0,16.889C0,15.5.9,14.7,2.441,14.7s2.452.8,2.452,2.19-.909,2.177-2.452,2.177S0,18.265,0,16.889ZM.526,11.6.144,0H4.738L4.354,11.6Z" transform="translate(22.05 14.7)" fill="#fff"/>
+  </g>
+</svg>

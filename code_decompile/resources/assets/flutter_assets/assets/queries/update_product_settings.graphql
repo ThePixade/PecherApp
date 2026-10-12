@@ -1,0 +1,5 @@
+mutation UpdateProductSettings($device_id: uuid!, $other_settings: jsonb!) {
+    update_product_settings(where: {device_id: {_eq: $device_id}}, _set: {other_settings: $other_settings}) {
+        affected_rows
+    }
+}

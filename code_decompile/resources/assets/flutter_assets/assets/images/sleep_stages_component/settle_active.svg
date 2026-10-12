@@ -1,0 +1,6 @@
+<svg id="Controls_Widget_Icon_settle_active" data-name="Controls/Widget/Icon/settle_active" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="settle_active">
+    <circle id="Oval_7_Copy_6" data-name="Oval 7 Copy 6" cx="22.5" cy="22.5" r="22.5" fill="#00c1d5"/>
+    <path id="Fill_11_Copy_2" data-name="Fill 11 Copy 2" d="M13.76.772l2.779,5.689a1.379,1.379,0,0,0,1.032.755l6.255.936A1.375,1.375,0,0,1,24.58,10.5l-4.544,4.4a1.376,1.376,0,0,0-.4,1.216l1.047,6.243a1.372,1.372,0,0,1-2,1.442L13.1,20.835a1.378,1.378,0,0,0-1.278-.006L6.216,23.754A1.374,1.374,0,0,1,4.229,22.3L5.317,16.06a1.381,1.381,0,0,0-.39-1.22L.412,10.4a1.375,1.375,0,0,1,.771-2.342l6.262-.886A1.374,1.374,0,0,0,8.48,6.429L11.3.761A1.372,1.372,0,0,1,13.76.772Z" transform="translate(10 9.5)" fill="#fff"/>
+  </g>
+</svg>
