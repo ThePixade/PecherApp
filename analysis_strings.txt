@@ -1,0 +1,1425 @@
+=== UUID/BLE ===
+[pp+0x10730] Field <DBusUUID.value>: late final (offset: 0x8)
+[pp+0x17cc0] String: "characteristic"
+[pp+0x17cd8] String: ".peripheral.characteristic.write"
+[pp+0x17ce8] String: "BleManagerBridge.peripheral.characteristic.write"
+[pp+0x1a750] String: "serviceUuids"
+[pp+0x1b110] Field <BlePeripheral._characteristicValueChannel@1836373742>: static late final (offset: 0x10cc)
+[pp+0x1b220] String: ".peripheral.characteristic.read"
+[pp+0x1b228] String: "BleManagerBridge.peripheral.characteristic.read"
+[pp+0x1b230] String: "Not valid characteristic "
+[pp+0x1b240] String: "BleManagerBridge.peripheral.characteristic.value"
+[pp+0x1b2d0] String: "service_uuids"
+[pp+0x1f828] String: "characteristicType"
+[pp+0x1f9e0] String: "characteristics"
+[pp+0x1f9e8] String: ".peripheral.characteristic.discoverable.set"
+[pp+0x1f9f0] String: "BleManagerBridge.peripheral.characteristic.discoverable.set"
+[pp+0x1fa88] String: ", serviceUuids: "
+[pp+0x1fb60] String: "service_uuid"
+[pp+0x20628] Field <Uuid._byteToHex@131507722>: static late final (offset: 0x820)
+[pp+0x20638] Field <Uuid._stateExpando@131507722>: static late final (offset: 0x824)
+[pp+0x206d8] AnonymousClosure: (0x742b54), in [package:uuid/uuid.dart] Uuid::_initV4 (0x7426bc)
+[pp+0x206f8] Field <UuidUtil._random@1260452677>: static late final (offset: 0xe48)
+[pp+0x38e80] Obj!Uuid@c57ad1 : {
+[pp+0x3af28] String: "ProcessInfrastructure characteristic"
+[pp+0x3b0a8] AnonymousClosure: (0xcd7370), in [package:mcpp_connected_products/src/ble/session/mpid/mpid_session.dart] MpidSession::processCharacteristicValue (0xcd6568)
+[pp+0xc430] String: "Invalid UUID in OK"
+[pp+0xc448] String: "Invalid UUID"
+=== ROUTINES ===
+    off_10: "ambientLightSensor"
+    off_10: "brahmsLullaby"
+    off_10: "cancelRoutinesWithoutCompletion"
+    off_10: "checkLight"
+    off_10: "controlPanelLight"
+    off_10: "controlPanelLights"
+    off_10: "daylight"
+    off_10: "floorLight"
+    off_10: "floorLights"
+    off_10: "fridayRoutine"
+    off_10: "hardLight"
+    off_10: "inBassinetLight"
+    off_10: "light"
+    off_10: "lightBrightness"
+    off_10: "lightColor"
+    off_10: "lightDuration"
+    off_10: "lightStatus"
+    off_10: "lighten"
+    off_10: "lights"
+    off_10: "lightsAndMusic"
+    off_10: "lightsAndSound"
+    off_10: "mondayRoutine"
+    off_10: "musicAndLights"
+    off_10: "musicAndSound"
+    off_10: "nighLight"
+    off_10: "nightLight"
+    off_10: "projectionAndLight"
+    off_10: "requestFridayRoutine"
+    off_10: "requestLightColor"
+    off_10: "requestMondayRoutine"
+    off_10: "requestRoutineModeStatus"
+    off_10: "requestRoutineModeVolume"
+    off_10: "requestRoutineMusicStatus"
+    off_10: "requestRoutineTaskStatus"
+    off_10: "requestSaturdayRoutine"
+    off_10: "requestSootherModeLightDuration"
+    off_10: "requestSundayRoutine"
+    off_10: "requestThursdayRoutine"
+    off_10: "requestTuesdayRoutine"
+    off_10: "requestWednesdayRoutine"
+    off_10: "routine"
+    off_10: "routineControlCommand"
+    off_10: "routineModeStatus"
+    off_10: "routineMusicStatus"
+    off_10: "routineTaskStatus"
+    off_10: "routineVolumeLevel"
+    off_10: "saturdayRoutine"
+    off_10: "schubertsLullaby"
+    off_10: "setFridayRoutine"
+    off_10: "setLightColor"
+    off_10: "setMondayRoutine"
+    off_10: "setRoutineModeStatus"
+    off_10: "setRoutineModeVolume"
+    off_10: "setRoutineMusicStatus"
+    off_10: "setSaturdayRoutine"
+    off_10: "setSootherModeLightDuration"
+    off_10: "setSundayRoutine"
+    off_10: "setThursdayRoutine"
+    off_10: "setTuesdayRoutine"
+    off_10: "setWednesdayRoutine"
+    off_10: "simulateLightInRoom"
+    off_10: "softLight"
+    off_10: "sound"
+    off_10: "soundEffect1"
+    off_10: "soundEffect2"
+    off_10: "startRoutineMode"
+    off_10: "sundayRoutine"
+    off_10: "thursdayRoutine"
+    off_10: "tuesdayRoutine"
+    off_10: "turnOffCloudBackLight"
+    off_10: "turnOffLight"
+    off_10: "wednesdayRoutine"
+  "LightSource": 0x9208,
+  "RelatedSoundFile": 0xa004,
+  "hard-light": Obj!BlendMode@c7dcc1,
+  "lightblue": Obj!Color@c6b4d1,
+  "lightcoral": Obj!Color@c6b4c1,
+  "lightcyan": Obj!Color@c6b4b1,
+  "lighten": Obj!BlendMode@c7dd21,
+  "lightgoldenrodyellow": Obj!Color@c6b4a1,
+  "lightgray": Obj!Color@c6b491,
+  "lightgreen": Obj!Color@c6b481,
+  "lightgrey": Obj!Color@c6b491,
+  "lightpink": Obj!Color@c6b471,
+  "lightsalmon": Obj!Color@c6b461,
+  "lightseagreen": Obj!Color@c6b451,
+  "lightskyblue": Obj!Color@c6b441,
+  "lightslategray": Obj!Color@c6b431,
+  "lightslategrey": Obj!Color@c6b431,
+  "lightsteelblue": Obj!Color@c6b421,
+  "lightyellow": Obj!Color@c6b411,
+  "soft-light": Obj!BlendMode@c7dca1,
+  "xap": "application/x-silverlight-app",
+  off_c: "AddRoutineTasksRoute"
+  off_c: "CustomizeRoutineRoute"
+  off_c: "LumaSleepTrainerRoutinesRoute"
+  off_c: "RoutinesWeeklyScheduleRoute"
+[pp+0x11f18] Field <AppTheme.lightTheme>: static late final (offset: 0x1208)
+[pp+0x12118] Obj!PageInfo<LumaSleepTrainerRoutinesRouteArgs>@c697e1 : {
+[pp+0x12128] Obj!PageInfo<CustomizeRoutineRouteArgs>@c697c1 : {
+[pp+0x12150] Obj!PageInfo<AddRoutineTasksRouteArgs>@c69771 : {
+[pp+0x12160] Obj!PageInfo<RoutinesWeeklyScheduleRouteArgs>@c69751 : {
+[pp+0x12318] String: "CustomizeRoutineRoute"
+[pp+0x123a8] String: "AddRoutineTasksRoute"
+[pp+0x12410] String: "LumaSleepTrainerRoutinesRoute"
+[pp+0x12420] String: "RoutinesWeeklyScheduleRoute"
+[pp+0x12640] TypeArguments: <RoutinesWeeklyScheduleRouteArgs>
+[pp+0x12648] TypeArguments: <LumaSleepTrainerRoutinesRouteArgs>
+[pp+0x12658] TypeArguments: <AddRoutineTasksRouteArgs>
+[pp+0x12698] TypeArguments: <CustomizeRoutineRouteArgs>
+[pp+0x12938] String: "highlightColor"
+[pp+0x129c0] String: "primaryColorLight"
+[pp+0x13918] Field <::._isSoundMode@2271291839>: static late final (offset: 0x11dc)
+[pp+0x16dc0] List<LightBrightness>(10) [Obj!LightBrightness@c6f601, Obj!LightBrightness@c6f5e1, Obj!LightBrightness@c6f5c1, Obj!LightBrightness@c6f5a1, Obj!LightBrightness@c6f581, Obj!LightBrightness@c6f561, Obj!LightBrightness@c6f541, Obj!LightBrightness@c6f521, Obj!LightBrightness@c6f501, Obj!LightBrightness@c6f4e1]
+[pp+0x16dc8] List<FloorLightStatus>(3) [Obj!FloorLightStatus@c6f4c1, Obj!FloorLightStatus@c6f4a1, Obj!FloorLightStatus@c6f481]
+[pp+0x16e38] AnonymousClosure: (0x65cf84), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseLightStatus (0x65cfd0)
+[pp+0x16e48] AnonymousClosure: (0x65ce58), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseLightBrightness (0x65cea4)
+[pp+0x16e58] AnonymousClosure: (0x65cd2c), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseLightColor (0x65cd78)
+[pp+0x16f68] AnonymousClosure: (0x65ae98), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseSundayRoutine (0x65aee4)
+[pp+0x16f78] AnonymousClosure: (0x65adac), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseMondayRoutine (0x65adf8)
+[pp+0x16f88] AnonymousClosure: (0x65acc0), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseTuesdayRoutine (0x65ad0c)
+[pp+0x16f98] AnonymousClosure: (0x65abd4), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseWednesdayRoutine (0x65ac20)
+[pp+0x16fa8] AnonymousClosure: (0x65aae8), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseThursdayRoutine (0x65ab34)
+[pp+0x16fb8] AnonymousClosure: (0x65a9fc), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseFridayRoutine (0x65aa48)
+[pp+0x16fc8] AnonymousClosure: (0x65a5e0), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseSaturdayRoutine (0x65a62c)
+[pp+0x16fe8] AnonymousClosure: (0x65a2e8), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseRoutineMusicStatus (0x65a334)
+[pp+0x16ff8] AnonymousClosure: (0x659b5c), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseRoutineTaskStatus (0x659ba8)
+[pp+0x17008] AnonymousClosure: (0x659a30), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseLightDuration (0x659a7c)
+[pp+0x17018] AnonymousClosure: (0x659904), in [package:smart_connect_products/src/products/luma/fw_processor.dart] LumaFWProcessor::_parseRoutineVolumeLevel (0x659950)
+[pp+0x17058] List<LightDuration>(6) [Obj!LightDuration@c71021, Obj!LightDuration@c71001, Obj!LightDuration@c70fe1, Obj!LightDuration@c70fc1, Obj!LightDuration@c70fa1, Obj!LightDuration@c71041]
+[pp+0x17148] List<LightColor>(11) [Obj!LightColor@c712c1, Obj!LightColor@c71401, Obj!LightColor@c713e1, Obj!LightColor@c713c1, Obj!LightColor@c713a1, Obj!LightColor@c71381, Obj!LightColor@c71361, Obj!LightColor@c71341, Obj!LightColor@c71321, Obj!LightColor@c71301, Obj!LightColor@c712e1]
+[pp+0x17b88] Obj!LightId@c75f61 : {
+[pp+0x17b90] String: "inBassinetLight"
+[pp+0x17b98] Obj!LightId@c75f41 : {
+[pp+0x17ba0] String: "floorLight"
+[pp+0x17ba8] Obj!LightId@c75f21 : {
+[pp+0x17bb0] String: "controlPanelLight"
+[pp+0x19e00] Obj!LightColor@c712c1 : {
+[pp+0x19e08] String: "light"
+[pp+0x19e18] String: "lightTimer"
+[pp+0x19e20] String: "routine"
+[pp+0x19e38] TypeArguments: <Routine>
+[pp+0x19e40] TypeArguments: <WeekDay, Routine>
+[pp+0x19e50] Obj!LightDuration@c71021 : {
+[pp+0x19e58] Obj!LightDuration@c71001 : {
+[pp+0x19e60] Obj!LightDuration@c70fe1 : {
+[pp+0x19e68] Obj!LightDuration@c70fc1 : {
+[pp+0x19e70] Obj!LightDuration@c70fa1 : {
+[pp+0x19e78] TypeArguments: <TimerOption, LightDuration>
+[pp+0x1a0f0] Obj!LightId@c75fc1 : {
+[pp+0x1a100] Obj!LightId@c75fa1 : {
+[pp+0x1a110] Obj!LightId@c75f81 : {
+[pp+0x1a1a8] Field <LampSootherNotifications._lightsNotification@2433505026>: late (offset: 0xc)
+[pp+0x1a2a0] Obj!LampSootherSoundMode@c72a81 : {
+[pp+0x1a2a8] Obj!LampSootherSoundMode@c72a61 : {
+[pp+0x1a2b0] Obj!LampSootherSoundMode@c72a41 : {
+[pp+0x1a2b8] Obj!LampSootherSoundMode@c72a21 : {
+[pp+0x1a2c0] Obj!LampSootherSoundMode@c72a01 : {
+[pp+0x1a2c8] TypeArguments: <LampSootherSoundMode>
+[pp+0x1a2d0] Obj!LampSootherSoundMode@c729e1 : {
+[pp+0x1a2d8] Obj!LampSootherSoundMode@c729c1 : {
+[pp+0x1a2e0] Obj!LampSootherSoundMode@c729a1 : {
+[pp+0x1a2e8] Obj!LampSootherSoundMode@c72981 : {
+[pp+0x1a2f0] Obj!LampSootherSoundMode@c72961 : {
+[pp+0x1a2f8] Obj!LampSootherSoundMode@c72941 : {
+[pp+0x1a300] Obj!LampSootherSoundMode@c72921 : {
+[pp+0x1a308] Obj!LampSootherSoundMode@c72901 : {
+[pp+0x1a310] Obj!LampSootherSoundMode@c728e1 : {
+[pp+0x1a318] Obj!LampSootherSoundMode@c728c1 : {
+[pp+0x1a320] Obj!LampSootherSoundMode@c728a1 : {
+[pp+0x1a380] TypeArguments: <LampSootherSoundMode, SongId>
+[pp+0x1a3a8] Field <LampSootherMusic._soundPlaylist@2432405375>: late (offset: 0x14)
+[pp+0x1a3d0] List(7) [0, 0x5, 0x5, 0x4, "activeSounds", 0x4, Null]
+[pp+0x1a3f0] List<LampSootherSoundMode>(17) [Obj!LampSootherSoundMode@c72881, Obj!LampSootherSoundMode@c72941, Obj!LampSootherSoundMode@c72921, Obj!LampSootherSoundMode@c72901, Obj!LampSootherSoundMode@c728e1, Obj!LampSootherSoundMode@c728c1, Obj!LampSootherSoundMode@c728a1, Obj!LampSootherSoundMode@c72a81, Obj!LampSootherSoundMode@c72a61, Obj!LampSootherSoundMode@c72a41, Obj!LampSootherSoundMode@c72a21, Obj!LampSootherSoundMode@c72a01, Obj!LampSootherSoundMode@c729e1, Obj!LampSootherSoundMode@c729c1, Obj!LampSootherSoundMode@c729a1, Obj!LampSootherSoundMode@c72981, Obj!LampSootherSoundMode@c72961]
+[pp+0x1a3f8] String: "activeSounds"
+[pp+0x1a450] Obj!SeahorseSoundMode@c709a1 : {
+[pp+0x1a458] Obj!SeahorseSoundMode@c70981 : {
+[pp+0x1a468] Obj!SeahorseSoundMode@c70961 : {
+[pp+0x1a478] Obj!SeahorseSoundMode@c70941 : {
+[pp+0x1a488] Obj!SeahorseSoundMode@c70921 : {
+[pp+0x1a498] Obj!SeahorseSoundMode@c70901 : {
+[pp+0x1a4a8] Obj!SeahorseSoundMode@c708e1 : {
+[pp+0x1a4b0] Obj!SeahorseSoundMode@c708c1 : {
+[pp+0x1a4c0] Obj!SeahorseSoundMode@c708a1 : {
+[pp+0x1a4c8] Obj!SeahorseSoundMode@c70881 : {
+[pp+0x1a4d8] Obj!SeahorseSoundMode@c70861 : {
+[pp+0x1a4e8] Obj!SeahorseSoundMode@c70841 : {
+[pp+0x1a4f8] Obj!SeahorseSoundMode@c70821 : {
+[pp+0x1a508] Obj!SeahorseSoundMode@c70801 : {
+[pp+0x1a518] Obj!SeahorseSoundMode@c707e1 : {
+[pp+0x1a528] Obj!SeahorseSoundMode@c707c1 : {
+[pp+0x1a538] Obj!SeahorseSoundMode@c707a1 : {
+[pp+0x1a540] Obj!SeahorseSoundMode@c70781 : {
+[pp+0x1a548] Obj!SeahorseSoundMode@c70761 : {
+[pp+0x1a558] Obj!SeahorseSoundMode@c70741 : {
+[pp+0x1a560] Obj!SeahorseSoundMode@c70721 : {
+[pp+0x1a568] Obj!SeahorseSoundMode@c70701 : {
+[pp+0x1a578] TypeArguments: <SeahorseSoundMode, SongId>
+[pp+0x1a580] TypeArguments: <SeahorseSoundMode>
+[pp+0x1b3c0] AnonymousClosure: (0xa6c9ec), in [package:sc_app/pages/routines_weekly_schedule/page.dart] RoutinesWeeklySchedulePage::build (0xa6c8fc)
+[pp+0x1b3c8] TypeArguments: <RoutineComponent>
+[pp+0x1b418] AnonymousClosure: (0x96ae3c), in [package:sc_app/pages/routines_weekly_schedule/page.dart] RoutinesWeeklySchedulePage::_appBar (0x96ae88)
+[pp+0x1b498] AnonymousClosure: (0x96ae3c), in [package:sc_app/pages/routines_weekly_schedule/page.dart] RoutinesWeeklySchedulePage::_appBar (0x96ae88)
+[pp+0x1b658] AnonymousClosure: (0x96ae3c), in [package:sc_app/pages/routines_weekly_schedule/page.dart] RoutinesWeeklySchedulePage::_appBar (0x96ae88)
+[pp+0x1b6f0] TypeArguments: <LightComponent>
+[pp+0x1b748] String: "lights"
+[pp+0x1b7c0] Field <WhisperBloc.inBassinetLight>: late final (offset: 0x7c)
+[pp+0x1b7c8] Field <WhisperBloc.controlPanelLight>: late final (offset: 0x84)
+[pp+0x1b7d0] Field <WhisperBloc.floorLight>: late final (offset: 0x80)
+[pp+0x1b7d8] Field <BunnyBloc.light>: late final (offset: 0x68)
+[pp+0x1b7e8] Field <LumaBloc.light>: late final (offset: 0x64)
+[pp+0x1b800] Field <SeahorseBloc.light>: late final (offset: 0x58)
+[pp+0x1b8c0] Obj!LampSootherSoundMode@c72881 : {
+[pp+0x1b8d8] String: "light-brightness-%"
+[pp+0x1b960] String: "Undefined light component id"
+[pp+0x1ba18] List<SeahorseSoundMode>(22) [Obj!SeahorseSoundMode@c709a1, Obj!SeahorseSoundMode@c70981, Obj!SeahorseSoundMode@c70961, Obj!SeahorseSoundMode@c70941, Obj!SeahorseSoundMode@c70921, Obj!SeahorseSoundMode@c70901, Obj!SeahorseSoundMode@c708e1, Obj!SeahorseSoundMode@c708c1, Obj!SeahorseSoundMode@c708a1, Obj!SeahorseSoundMode@c70881, Obj!SeahorseSoundMode@c70861, Obj!SeahorseSoundMode@c70841, Obj!SeahorseSoundMode@c70821, Obj!SeahorseSoundMode@c70801, Obj!SeahorseSoundMode@c707e1, Obj!SeahorseSoundMode@c707c1, Obj!SeahorseSoundMode@c707a1, Obj!SeahorseSoundMode@c70781, Obj!SeahorseSoundMode@c70761, Obj!SeahorseSoundMode@c70741, Obj!SeahorseSoundMode@c70721, Obj!SeahorseSoundMode@c70701]
+[pp+0x1ba30] String: "light-brightness"
+[pp+0x1bb48] AnonymousClosure: (0x9643f4), in [package:sc_app/blocs/models/products/whisper/components/lights.dart] WhisperLights::statusOption (0x963e2c)
+[pp+0x1bb60] AnonymousClosure: (0x9643f4), in [package:sc_app/blocs/models/products/whisper/components/lights.dart] WhisperLights::statusOption (0x963e2c)
+[pp+0x1bc28] TypeArguments: <CustomizeRoutinePage>
+[pp+0x1bc48] TypeArguments: <LumaSleepTrainerRoutinesPage>
+[pp+0x1bd50] TypeArguments: <AddRoutineTasksPage>
+[pp+0x1bd80] AnonymousClosure: (0x96ae3c), in [package:sc_app/pages/routines_weekly_schedule/page.dart] RoutinesWeeklySchedulePage::_appBar (0x96ae88)
+[pp+0x1d60] Obj!FocusHighlightMode@c7a1e1 : {
+[pp+0x1d80] Obj!FocusHighlightMode@c7a1c1 : {
+[pp+0x1d88] TypeArguments: <(dynamic this, FocusHighlightMode) => void?>
+[pp+0x1ead8] String: "LightBrightness."
+[pp+0x1eb08] String: "Light: { status: "
+[pp+0x1eb18] String: "AmbientLightSensor: { level: "
+[pp+0x1eb28] String: ", floorLightStatus: "
+[pp+0x1eb50] String: "Floor light: { status: "
+[pp+0x1ecb8] String: "FloorLightStatus."
+[pp+0x1ed08] String: "SeahorseSoundMode."
+[pp+0x1ed38] String: "LightDuration."
+[pp+0x1ed68] String: "LightColor."
+[pp+0x1ed78] String: "LampSootherSoundMode."
+[pp+0x1f50] Obj!FocusHighlightStrategy@c7a1a1 : {
+[pp+0x1f58] TypeArguments: <(dynamic this, FocusHighlightMode) => void?, int>
+[pp+0x20b78] AnonymousClosure: (0x96ae3c), in [package:sc_app/pages/routines_weekly_schedule/page.dart] RoutinesWeeklySchedulePage::_appBar (0x96ae88)
+[pp+0x20e30] String: "addRoutine"
+[pp+0x21098] String: "cannotDuplicateRoutinePopoverMessage"
+[pp+0x21148] String: "choosePlaylistOrSound"
+[pp+0x21168] String: "chooseSongOrSound"
+[pp+0x21188] String: "chooseSoothingSound"
+[pp+0x21248] String: "controlPanelLights"
+[pp+0x21258] String: "controlPanelLightsAutoOff"
+[pp+0x21300] String: "dailyRoutine"
+[pp+0x21610] String: "disableRoutines"
+[pp+0x21698] String: "duplicateRoutine"
+[pp+0x216e8] String: "editRoutine"
+[pp+0x217a0] String: "exitRoutine"
+[pp+0x21968] String: "floorLights"
+[pp+0x21a80] String: "lightAndMusic"
+[pp+0x21a90] String: "lightAndSound"
+[pp+0x21aa0] String: "lightColors"
+[pp+0x21ba0] String: "lumaDisableRoutinesInfo"
+[pp+0x21bc0] String: "lumaExitRoutinePopoverMessage"
+[pp+0x21bf0] String: "lumaMaximumRoutinesMessage"
+[pp+0x21c10] String: "lumaOneRoutinePopoverMessage"
+[pp+0x21c50] String: "lumaRemoteRoutinePopoverMessage"
+[pp+0x21c70] String: "lumaRemoveRoutinePopoverMessage"
+[pp+0x21c80] String: "lumaRemoveRoutinePopoverTitle"
+[pp+0x21c90] String: "lumaRoutineAlreadyExistsMesage"
+[pp+0x21ca0] String: "lumaRoutineCompletedSuccessfully"
+[pp+0x21cb0] String: "lumaRoutineDisableBannerMessage"
+[pp+0x21cc0] String: "lumaRoutineExistsPopoverMessage"
+[pp+0x21cd0] String: "lumaRoutineExistsPopoverTitle"
+[pp+0x21ce0] String: "lumaRoutineMusicCustomization"
+[pp+0x21cf0] String: "lumaRoutineNameErrorMessage"
+[pp+0x21d00] String: "lumaRoutineNameTitle"
+[pp+0x21d10] String: "lumaRoutineRenameTasks"
+[pp+0x21d20] String: "lumaRoutineTooltipInfo"
+[pp+0x21d30] String: "lumaRoutinesCurrentlyDisabled"
+[pp+0x21d40] String: "lumaRoutinesTooltip1Message"
+[pp+0x21d50] String: "lumaRoutinesTooltip1Title"
+[pp+0x21d60] String: "lumaRoutinesTooltip2Message"
+[pp+0x21d70] String: "lumaRoutinesTooltip2Title"
+[pp+0x21d80] String: "lumaRoutinesTooltip3Message"
+[pp+0x21e00] String: "lumaStartRoutineTitle"
+[pp+0x21f20] String: "musicAndLights"
+[pp+0x21f30] String: "musicAndSoundTitle"
+[pp+0x21fb0] String: "nightLight"
+[pp+0x21fe0] String: "noRoutineScheduled"
+[pp+0x22078] String: "oneRoutineMessage"
+[pp+0x22310] String: "projectionAndLight"
+[pp+0x22468] String: "removeRoutine"
+[pp+0x22508] String: "routines"
+[pp+0x22590] String: "saveRoutine"
+[pp+0x226a0] String: "setupRoutines"
+[pp+0x226f8] String: "sleepTrainerResumeAfterRoutineBannerMessage"
+[pp+0x22740] String: "smartMessageMobileAndLightsTitle"
+[pp+0x22770] String: "smartMessageMusicAndSoundTitle"
+[pp+0x22790] String: "smartMessageNightLightExpiring"
+[pp+0x227a0] String: "smartMessageNightLightTitle"
+[pp+0x227b0] String: "smartMessageProjectionAndLightsTitle"
+[pp+0x228b8] String: "songBrahmsLullaby"
+[pp+0x22918] String: "songDaylight"
+[pp+0x22bd0] String: "songSchubertsLullaby"
+[pp+0x22d50] String: "soothingSound"
+[pp+0x22d60] String: "sound"
+[pp+0x22d70] String: "soundBrownNoise"
+[pp+0x22d80] String: "soundEffect1"
+[pp+0x22d90] String: "soundEffect2"
+[pp+0x22da0] String: "soundIndustrial"
+[pp+0x22db0] String: "soundNature"
+[pp+0x22dc0] String: "soundOcean"
+[pp+0x22dd0] String: "soundOceanWaves"
+[pp+0x22de0] String: "soundPinkNoise"
+[pp+0x22df0] String: "soundRain"
+[pp+0x22e00] String: "soundRaining"
+[pp+0x22e10] String: "soundUnderwaterForest"
+[pp+0x22e20] String: "soundWhiteNoise"
+[pp+0x22e30] String: "soundWind"
+[pp+0x22e40] String: "soundWomb"
+[pp+0x22e50] String: "sounds"
+[pp+0x22e90] String: "startRoutine"
+[pp+0x22ec0] String: "stopRoutine"
+[pp+0x233e8] String: "whisperLightInBassinetLight"
+[pp+0x23588] String: "whisperSoothingResponseSound"
+[pp+0x26390] String: "Aggiungi routine"
+[pp+0x264d0] String: "Hai raggiunto il numero massimo di routine che possono essere aggiunte. Per duplicare questa routine, devi rimuoverne un\'altra."
+[pp+0x26610] String: "Routine giornaliera"
+[pp+0x266a8] String: "Informazioni sul sistema di routine del sonno Lumalou™"
+[pp+0x26750] String: "Disattiva routine"
+[pp+0x26798] String: "Duplica routine"
+[pp+0x267c0] String: "Modifica routine"
+[pp+0x26828] String: "Uscire dalla routine\?"
+[pp+0x26a10] String: "Solo un attimo! Quando avremo ultimato questa routine, potrai fare tutte le modifiche che vuoi!"
+[pp+0x26a18] String: "Siamo nel bel mezzo di una routine. Non appena sarà terminata potranno essere applicate le modifiche. Grazie!"
+[pp+0x26a28] String: "Vuoi fare una pausa\? Nessun problema. Le tue routine non verranno cancellate, ma messe solamente in pausa finché non vorrai continuare."
+[pp+0x26a30] String: "Vuoi assegnare una routine a Lumalou (e al tuo bambino)\? Clicca sotto per iniziare a personalizzare una routine con i compiti e gli orari che preferisci!"
+[pp+0x26a38] String: "Proseguendo, verrà terminata la routine su Lumalou."
+[pp+0x26a40] String: "Sistema di routine del sonno Lumalou™"
+[pp+0x26a50] String: "Il numero massimo di routine che puoi aggiungere è 14. Per aggiungere una routine, devi rimuoverne almeno una."
+[pp+0x26a60] String: "Per il momento, Lumalou consente di avere solo una routine al giorno. Per sapere come usare Lumalou sia per le routine mattutine che per quelle notturne, consulta le domande frequenti."
+[pp+0x26a70] String: "Sì, inizia routine"
+[pp+0x26a78] String: "Lumalou è attualmente in modalità Notte. Se inizi la routine, Lumalou entrerà in modalità Routine. La modalità Notte tornerà attiva al termine della modalità Routine."
+[pp+0x26a80] String: "Ora che hai impostato una routine, puoi attivare quella assegnata alla giornata in corso premendo il pulsante routine sul retro del telecomando."
+[pp+0x26a98] String: "Rimuovere routine\?"
+[pp+0x26aa0] String: "Esiste già una routine con lo stesso nome"
+[pp+0x26aa8] String: "Routine completata con successo!"
+[pp+0x26ab0] String: "Le routine sono attualmente disattivate. Tocca per attivare."
+[pp+0x26ab8] String: "È già stata scelta una routine per questo giorno. Vuoi sostituirla con questa\?"
+[pp+0x26ac0] String: "Sostituire routine esistente\?"
+[pp+0x26ac8] String: "Opzioni musica routine"
+[pp+0x26ad0] String: "Nome routine necessario"
+[pp+0x26ad8] String: "NOME ROUTINE"
+[pp+0x26ae8] String: "Vuoi maggiori informazioni sull\'utilizzo di Lumalou come assistente di routine\?"
+[pp+0x26af0] String: "Le routine sono attualmente disattivate."
+[pp+0x26af8] String: "Lumalou ha 11 compiti tra cui scegliere per personalizzare una routine del sonno passo passo ideale per te e il tuo bambino!"
+[pp+0x26b00] String: "Crea una routine"
+[pp+0x26b08] String: "Seleziona i giorni e un\'ora d\'inizio. Una volta salvato, Lumalou avvierà automaticamente la routine nel giorno e nell\'ora programmati."
+[pp+0x26b10] String: "Pianificare la routine"
+[pp+0x26b18] String: "Lumalou illuminerà tutti i compiti della routine. Per iniziare, premi il telecomando e vedrai apparire il primo compito. Dopo averlo completato, premi il telecomando per ottenere ricompense divertenti e far avanzare la routine!"
+[pp+0x26b58] String: "Inizia routine alle"
+[pp+0x26ba8] String: "L\'assistente di sonno e l\'orario d\'inizio della routine si sovrappongono alle:"
+[pp+0x26bb0] String: "Modifica gli orari, oppure mantienili così come sono e la funzione di assistente di sonno riprenderà al termine della routine!"
+[pp+0x26c50] String: "Nessuna routine programmata"
+[pp+0x26c90] String: "Puoi aggiungere solo una routine per giorno."
+[pp+0x26e88] String: "Rimuovi routine"
+[pp+0x26ee0] String: "Routine"
+[pp+0x26f28] String: "Salva routine"
+[pp+0x26fd8] String: "Le impostazioni dell\'assistente di sonno saranno nuovamente disponibili dopo la routine."
+[pp+0x27370] String: "Inizia routine"
+[pp+0x27380] String: "Arresta routine"
+[pp+0x27798] String: "Fasi del sonno è uno strumento per aiutare a migliorare la routine del sonno di "
+[pp+0x27818] String: "L\'assistente di sonno andrà in pausa quando la tua routine inizierà alle "
+[pp+0x27820] String: ". Puoi modificare gli orari, oppure mantenerli così come sono e Lumalou tornerà in modalità notte al termine della routine!"
+[pp+0x27828] String: "Questo pisolino si sovrappone alla routine programmata per iniziare alle "
+[pp+0x27830] String: ". Modifica l\'orario d\'inizio della routine o la durata del pisolino per evitare la sovrapposizione. Buon pisolino!"
+[pp+0x27870] String: " è disattivata perché la tua routine "
+[pp+0x278b8] String: "Ajouter des routines"
+[pp+0x27a00] String: "Vous avez atteint le nombre maximal de routines pouvant être ajoutées. Pour dupliquer cette routine, veuillez en supprimer une autre."
+[pp+0x27b48] String: "Routine quotidienne"
+[pp+0x27be0] String: "À propos du système de routine au coucher avancé Lumalou™"
+[pp+0x27c88] String: "Désactiver les routines"
+[pp+0x27cd0] String: "Dupliquer la routine"
+[pp+0x27cf8] String: "Modifier la routine"
+[pp+0x27d68] String: "Quitter la routine \?"
+[pp+0x27f48] String: "Une petite seconde ! Vous pourrez effectuer des modifications dès que nous aurons terminé cette routine."
+[pp+0x27f50] String: "Nous sommes au beau milieu d\'une routine. Vous pourrez effectuer des modifications une fois qu\'elle sera terminée. Merci !"
+[pp+0x27f60] String: "Vous avez besoin de faire une pause \? Aucun problème. Cette action ne supprimera pas vos routines, elle les mettra simplement en pause jusqu\'à ce que vous soyez prêt."
+[pp+0x27f68] String: "Prêt à configurer une routine pour Lumalou (et votre enfant) \? Cliquez ci-dessous pour commencer à personnaliser une routine avec les tâches et les horaires qui vous conviennent au mieux !"
+[pp+0x27f70] String: "Si vous continuez, la routine s\'arrêtera sur Lumalou."
+[pp+0x27f78] String: "Système de routine au coucher avancé Lumalou™"
+[pp+0x27f88] String: "Vous pouvez ajouter 14 routines au maximum. Pour ajouter d\'autres routines, supprimez-en au moins une."
+[pp+0x27f98] String: "Actuellement, Lumalou n\'autorise qu\'une seule routine par jour. Pour savoir comment utiliser Lumalou pour les routines du matin et du soir, consultez la FAQ."
+[pp+0x27fa8] String: "Oui, commencer la routine"
+[pp+0x27fb0] String: "Lumalou est actuellement en mode Nuit. Si vous lancez une routine, Lumalou passera en mode Routine. Le mode Nuit reprendra lorsque le mode routine sera terminé."
+[pp+0x27fb8] String: "Maintenant qu\'une routine a été configurée, vous pouvez activer une routine assignée à la journée en cours en appuyant sur le bouton de routine au dos de la télécommande."
+[pp+0x27fd0] String: "Supprimer la routine \?"
+[pp+0x27fd8] String: "Une autre routine porte déjà ce nom"
+[pp+0x27fe0] String: "La routine est terminée !"
+[pp+0x27fe8] String: "Les routines sont actuellement désactivées. Appuyez pour les activer."
+[pp+0x27ff0] String: "Une routine a déjà été sélectionnée pour ce jour. Souhaitez-vous plutôt utiliser celle-ci \?"
+[pp+0x27ff8] String: "Remplacer la routine existante \?"
+[pp+0x28000] String: "Personnalisation de la musique de routine"
+[pp+0x28008] String: "Vous devez saisir un nom de routine."
+[pp+0x28010] String: "NOM DE LA ROUTINE"
+[pp+0x28020] String: "Vous souhaitez en savoir plus sur l\'utilisation de Lumalou comme Aide à la routine \?"
+[pp+0x28028] String: "Les routines sont actuellement désactivées."
+[pp+0x28030] String: "Choisissez parmi les 11 tâches proposées par Lumalou pour personnaliser, étape par étape, la routine du coucher qui conviendra le mieux à vous comme à votre enfant !"
+[pp+0x28038] String: "Créer une routine"
+[pp+0x28040] String: "Sélectionnez les jours et une heure de début. Une fois enregistrée, Lumalou lancera automatiquement la routine en respectant le jour et l\'horaire programmés."
+[pp+0x28048] String: "Programmer votre routine"
+[pp+0x28050] String: "Lumalou éclairera toutes les tâches de la routine. Pour commencer, appuyez sur la télécommande pour faire apparaître la première tâche. Une fois cette tâche terminée, appuyez sur la télécommande pour accorder des récompenses amusantes et pour progresser dans la routine !"
+[pp+0x28090] String: "Lancer la routine à"
+[pp+0x280e0] String: "Les horaires de l\'entraînement au sommeil et de la routine se chevauchent à :"
+[pp+0x280e8] String: "Modifiez ces horaires ou laissez-les inchangés et la fonctionnalité d\'Entraînement au sommeil reprendra une fois la routine terminée."
+[pp+0x28190] String: "Aucune routine programmée"
+[pp+0x281c0] String: "Vous pouvez ajouter une routine par jour."
+[pp+0x283c0] String: "Supprimer la routine"
+[pp+0x28418] String: "Routines"
+[pp+0x28460] String: "Enregistrer la routine"
+[pp+0x28518] String: "Les paramètres de l\'Entraînement au sommeil reprendront après la Routine."
+[pp+0x288b0] String: "Lancer la routine"
+[pp+0x288c8] String: "Arrêter la routine"
+[pp+0x28d80] String: "L\'Entraînement au sommeil se mettra en pause lorsque la routine se lancera à "
+[pp+0x28d88] String: ". Vous pouvez modifier l\'horaire ou le laisser inchangé et Lumalou reviendra au mode Nuit à la fin de la routine."
+[pp+0x28d90] String: "Cette sieste se déroulera en même temps que la routine prévue à "
+[pp+0x28d98] String: ". Modifiez l\'heure de début de votre routine ou la durée de la sieste pour éviter que les deux ne se chevauchent. Bonne sieste !"
+[pp+0x28dd0] String: " est désactivée parce que votre routine "
+[pp+0x2ad20] String: "Add Routine"
+[pp+0x2adf8] String: "The Controls area is where you can customize lights, music & sound options, and set timer preferences."
+[pp+0x2ae48] String: "You\'ve reached the max number of routines that can be added. To duplicate this routine, please remove an existing one."
+[pp+0x2aea0] String: "Choose a playlist or sound"
+[pp+0x2aeb0] String: "Choose a song or sound"
+[pp+0x2aec0] String: "CHOOSE A SOOTHING SOUND"
+[pp+0x2af20] String: "Control Panel Lights"
+[pp+0x2af78] String: "Daily Routine"
+[pp+0x2afd8] String: "About Lumalou™ Better Bedtime Routine System"
+[pp+0x2b080] String: "Disable Routines"
+[pp+0x2b0c0] String: "Duplicate Routine"
+[pp+0x2b0e8] String: "Edit Routine"
+[pp+0x2b120] String: "Exit Routine\?"
+[pp+0x2b1f0] String: "Floor Lights"
+[pp+0x2b268] String: "Light"
+[pp+0x2b270] String: "Light & Music"
+[pp+0x2b278] String: "Lights & Sound"
+[pp+0x2b280] String: "Light Colors"
+[pp+0x2b288] String: "Lights"
+[pp+0x2b2f0] String: "Just a sec! Once we wrap up this routine, you can edit away!"
+[pp+0x2b2f8] String: "We\'re in the middle of a routine, but as soon as it\'s finished those changes can be made. Thanks!"
+[pp+0x2b308] String: "Need to take a break\? No problem. This won\'t delete your routines, it\'ll just pause them until you\'re ready."
+[pp+0x2b310] String: "Ready to set Lumalou (and your kiddo) up with a routine\? Click below to start customizing a routine with tasks and times that work best for you!"
+[pp+0x2b318] String: "Doing so will end the routine on Lumalou."
+[pp+0x2b320] String: "Lumalou™ Better Bedtime Routine System"
+[pp+0x2b330] String: "14 is the maximum number of routines you can add. To add more routines, remove at least one routine."
+[pp+0x2b340] String: "At this time, Lumalou allows for only one routine per day. To see how you can use Lumalou for both morning and night routines, see the FAQs."
+[pp+0x2b350] String: "Yes, Start Routine"
+[pp+0x2b358] String: "Lumalou is currently in Nighttime Mode. If you start routine, Lumalou will enter Routine Mode. It will resume Nighttime Mode when Routine Mode finishes."
+[pp+0x2b360] String: "Now that a routine is set up, you can activate a routine assigned to the current day by pressing the routine button on the back of the remote."
+[pp+0x2b378] String: "Remove Routine\?"
+[pp+0x2b380] String: "A routine already exists with that name"
+[pp+0x2b388] String: "Routine completed successfully!"
+[pp+0x2b390] String: "Routines are currently disabled. Tap to enable."
+[pp+0x2b398] String: "There\'s already a routine chosen for this day. Do you want to use this one instead\?"
+[pp+0x2b3a0] String: "Replace Existing Routine\?"
+[pp+0x2b3a8] String: "Routine Music Options"
+[pp+0x2b3b0] String: "Routine name is required"
+[pp+0x2b3b8] String: "ROUTINE NAME"
+[pp+0x2b3c8] String: "Want to learn more about how to use Lumalou as a Routine Helper\?"
+[pp+0x2b3d0] String: "Routines are currently disabled."
+[pp+0x2b3d8] String: "Lumalou has 11 tasks you can choose from to customize a step-by-step bedtime routine that works best for you and your child!"
+[pp+0x2b3e0] String: "Create a Routine"
+[pp+0x2b3e8] String: "Select the days and choose a start time. Once saved, Lumalou will automatically begin the routine at the scheduled time and day."
+[pp+0x2b3f0] String: "Scheduling Your Routine"
+[pp+0x2b3f8] String: "Lumalou will illuminate all the tasks in the routine. To begin, press the remote and the first task appears. After completing the task, press the remote for fun rewards and to advance the routine!"
+[pp+0x2b438] String: "Start Routine At"
+[pp+0x2b490] String: "Your sleep trainer and routine start time overlap on:"
+[pp+0x2b498] String: "Edit your times or keep them as is and the Sleep Trainer feature will resume once the routine is complete!"
+[pp+0x2b4c8] String: "Music & Lights"
+[pp+0x2b4d0] String: "Music & Sound"
+[pp+0x2b4f8] String: "Night Light"
+[pp+0x2b508] String: "No Routine Scheduled"
+[pp+0x2b548] String: "One routine can be added per day."
+[pp+0x2b688] String: "Projection & Light"
+[pp+0x2b6a8] String: "You know that feeling when your child isn\'t quite ready to settle down\? In this stage, the soother\'s enchanting lights & gentle music help grab your little one\'s attention."
+[pp+0x2b6b8] String: "This preset configuration of soothing music, sounds and lights was specially designed to transition in a way that helps your child fall asleep."
+[pp+0x2b6c0] String: "Warm lights and softer, slower music help relax your child\'s senses so they can wind down further."
+[pp+0x2b6d0] String: "Soothing sounds play and lights go out to help keep the snoozing steady."
+[pp+0x2b728] String: "Remove Routine"
+[pp+0x2b7b0] String: "Save Routine"
+[pp+0x2b838] String: "Set up Routines"
+[pp+0x2b870] String: "Sleep Trainer settings will resume after the Routine."
+[pp+0x2b890] String: "Mobile & Lights Timer"
+[pp+0x2b8a8] String: "Music & Sound Timer"
+[pp+0x2b8c0] String: "Night Light Timer"
+[pp+0x2b8c8] String: "Projection & Lights Timer"
+[pp+0x2b928] String: "Brahms: Lullaby"
+[pp+0x2b948] String: "Daylight"
+[pp+0x2ba38] String: "Schubert\'s Lullaby"
+[pp+0x2bae0] String: "Soothing Sound"
+[pp+0x2bae8] String: "Sound"
+[pp+0x2baf8] String: "Sound Effect 1"
+[pp+0x2bb00] String: "Sound Effect 2"
+[pp+0x2bb48] String: "Sounds"
+[pp+0x2bb70] String: "Start Routine"
+[pp+0x2bb88] String: "Stop Routine"
+[pp+0x2bd00] String: "You know that feeling when your baby isn\'t quite ready to settle down. In this stage, the soother\'s enchanting lights & gentle music help grab your little one\'s attention."
+[pp+0x2bd10] String: "A soft night light and your choice of sound effects, like pink noise or nature sounds, help keep the snoozing steady."
+[pp+0x2bd70] String: "Welcome to your Luminate Bassinet™! When it comes to soothing baby to sleep, you have a few options to choose from. Plus, some neat lighting features to check out!"
+[pp+0x2bd80] String: "Choose your own soothing preferences, from sounds and music to calming vibes. Plus, save your favorites!"
+[pp+0x2bd88] String: "Find your way (& baby!) in the dark with the motion-activated floor light and in-bassinet light. Turn these on/off & select brightness."
+[pp+0x2bda0] String: "Floor & Bassinet Lights"
+[pp+0x2bdb0] String: "In Bassinet Light"
+[pp+0x2bdc0] String: "Soothes your baby with vibe and sound of your choice. If baby cries, the bassinet responds with increased vibe and volume to help soothe them."
+[pp+0x2bdd8] String: "Begins with the Ready, Settle, Sleep™ playlist designed to help baby fall asleep on their own. Bassinet responds to cries with sound and vibe, but response is delayed to allow for self-soothing."
+[pp+0x2bde8] String: "Ready for bedtime\?"
+[pp+0x2be20] String: "Soothing sounds play to help keep the snoozing steady."
+[pp+0x2be88] String: "Soothing sounds play to help keep the snoozing steady. (p.s. The Smart Sensing System is all ears in this stage)."
+[pp+0x2bf38] String: "Sound: "
+[pp+0x2bf48] String: "Dimmed lights and softer, slower music help relax "
+[pp+0x2bf60] String: "\'s bedtime routine. Our child development experts at the Fisher-Price® Play Lab helped us to create this approach to help get your little one down for the night."
+[pp+0x2bfa0] String: "Night light on your "
+[pp+0x2bfa8] String: "Music and sounds on your "
+[pp+0x2bfe0] String: "The Sleep Trainer will pause when your routine begins at "
+[pp+0x2bfe8] String: ". You can edit your times, or keep them as is and Lumalou will go back into Nighttime mode at the end of your routine!"
+[pp+0x2bff0] String: "This naptime will run into the routine that\'s scheduled to begin at "
+[pp+0x2bff8] String: ". Edit your routine\'s start time or the nap duration to avoid the overlap. Happy napping!"
+[pp+0x2c028] String: " is disabled because your routine "
+[pp+0x2c060] String: "Routine hinzufügen"
+[pp+0x2c148] String: "Unter „Steuerung“ können Sie die Licht-, Musik- und Soundoptionen anpassen sowie den Timer einstellen."
+[pp+0x2c1a0] String: "Sie haben die maximale Anzahl von Routinen erreicht, die hinzugefügt werden können. Zum Duplizieren dieser Routine entfernen Sie bitte eine vorhandene Routine."
+[pp+0x2c1f8] String: "Wiedergabeliste oder Sound wählen"
+[pp+0x2c208] String: "Wählen Sie ein Lied oder einen Sound"
+[pp+0x2c218] String: "ENTSPANNENDEN SOUND WÄHLEN"
+[pp+0x2c2e8] String: "Tägliche Routine"
+[pp+0x2c488] String: "Routinen deaktivieren"
+[pp+0x2c4d0] String: "Routine duplizieren"
+[pp+0x2c4f8] String: "Routine bearbeiten"
+[pp+0x2c568] String: "Routine verlassen\?"
+[pp+0x2c6c8] String: "Licht und Sound"
+[pp+0x2c738] String: "Nur eine Sekunde! Sobald wir diese Routine abgeschlossen haben, können Sie alles weiter bearbeiten!"
+[pp+0x2c740] String: "Wir befinden uns mitten in einer Routine, aber sobald diese abgeschlossen ist, können diese Änderungen vorgenommen werden. Danke!"
+[pp+0x2c750] String: "Brauchen Sie eine Pause\? Kein Problem. Dadurch werden Ihre Routinen nicht gelöscht, sondern nur angehalten, bis Sie wieder bereit sind."
+[pp+0x2c758] String: "Sind Sie bereit, Lumalou (und Ihr Kind) mit einer Routine zu versehen\? Klicken Sie unten, um mit der Individualisierung einer Routine mit eigenen Aufgaben und Zeiten zu beginnen, die für Sie am besten geeignet sind!"
+[pp+0x2c760] String: "Auf diese Weise wird die Routine für Lumalou beendet."
+[pp+0x2c778] String: "Sie können maximal 14 Routinen hinzufügen. Um weitere Routinen hinzuzufügen, müssen Sie mindestens eine Routine entfernen."
+[pp+0x2c788] String: "Gegenwärtig lässt Lumalou nur eine Routine pro Tag zu. Um zu sehen, wie Sie Lumalou sowohl für Morgen- als auch für Abendroutinen verwenden können, lesen Sie bitte die FAQs."
+[pp+0x2c798] String: "Ja, Routine starten"
+[pp+0x2c7a0] String: "Lumalou befindet sich derzeit im Nachtmodus. Wenn Sie eine Routine starten, wechselt Lumalou in den Routine-Modus. Es kehrt in den Nachtmodus zurück, wenn der Routine-Modus beendet ist."
+[pp+0x2c7a8] String: "Nachdem Sie nun eine Routine eingerichtet haben, können Sie eine dem aktuellen Tag zugeordnete Routine aktivieren, indem Sie den Routine-Schalter auf der Rückseite der Fernbedienung drücken."
+[pp+0x2c7c0] String: "Routine entfernen\?"
+[pp+0x2c7c8] String: "Es existiert bereits eine Routine mit diesem Namen."
+[pp+0x2c7d0] String: "Routine erfolgreich abgeschlossen!"
+[pp+0x2c7d8] String: "Routinen sind derzeit deaktiviert. Tippen Sie zum Aktivieren."
+[pp+0x2c7e0] String: "Es wurde bereits eine Routine für diesen Tag gewählt. Möchten Sie stattdessen diese Routine verwenden\?"
+[pp+0x2c7e8] String: "Bestehende Routine ersetzen\?"
+[pp+0x2c7f0] String: "Routine-Musik-Individualisierung"
+[pp+0x2c7f8] String: "Routinename erforderlich"
+[pp+0x2c800] String: "ROUTINENAME"
+[pp+0x2c810] String: "Möchten Sie mehr darüber erfahren, wie Sie Lumalou als Routine-Hilfsmittel einsetzen können\?"
+[pp+0x2c818] String: "Routinen sind derzeit deaktiviert."
+[pp+0x2c820] String: "Lumalou verfügt über 11 Aufgaben, aus denen Sie wählen können, um eine schrittweise Schlafenszeitroutine zusammenzustellen, die für Sie und Ihr Kind am besten funktioniert!"
+[pp+0x2c828] String: "Eine Routine erstellen"
+[pp+0x2c830] String: "Wählen Sie die Tage und wählen Sie eine Startzeit. Nach dem Speichern beginnt Lumalou die Routine automatisch zur geplanten Zeit und am geplanten Tag."
+[pp+0x2c838] String: "Planung Ihrer Routine"
+[pp+0x2c840] String: "Lumalou wird alle Aufgaben in der Routine mit Lichtsignalen darstellen. Um zu beginnen, drücken Sie die Fernbedienung und die erste Aufgabe erscheint. Nachdem die Aufgabe abgeschlossen ist, drücken Sie die Fernbedienung, um Belohnungen zu erhalten und die Routine fortzusetzen!"
+[pp+0x2c880] String: "Routine starten um"
+[pp+0x2c8c8] String: "Ihr Schlaftrainer und die routinemäßige Startzeit überschneiden sich hier:"
+[pp+0x2c8d0] String: "Bearbeiten Sie Ihre Zeiten oder behalten Sie sie so, wie sie sind, und die Funktion Schlaftrainer wird wieder aufgenommen, sobald die Routine beendet ist!"
+[pp+0x2c908] String: "Musik und Sound"
+[pp+0x2c968] String: "Keine Routine eingestellt"
+[pp+0x2c9a0] String: "Pro Tag kann eine Routine hinzugefügt werden."
+[pp+0x2cb88] String: "Routine entfernen"
+[pp+0x2cbe0] String: "Routinen"
+[pp+0x2cc28] String: "Routine speichern"
+[pp+0x2cce0] String: "Die Einstellungen des Schlaftrainers werden nach der Routine wieder aufgenommen."
+[pp+0x2cd20] String: "Musik- und Soundtimer"
+[pp+0x2cf88] String: "Entspannender Sound"
+[pp+0x2cf98] String: "Soundeffekt 1"
+[pp+0x2cfa0] String: "Soundeffekt 2"
+[pp+0x2d010] String: "Routine starten"
+[pp+0x2d028] String: "Routine stoppen"
+[pp+0x2d208] String: "Ein sanftes Nachtlicht und Soundeffekte wie rosa Rauschen oder Naturgeräusche tragen zu einem ruhigen Schlaf bei."
+[pp+0x2d2c0] String: "Es beruhigt Ihr Baby mit Vibration und einem Sound Ihrer Wahl. Wenn das Baby weint, reagiert das Beistellbett mit erhöhter Vibration und Lautstärke, um es zu beruhigen."
+[pp+0x2d320] String: "Entspannende Sounds gewährleisten einen dauerhaften Schlaf."
+[pp+0x2d490] String: "Musik und Sound auf Ihrem "
+[pp+0x2d4c8] String: "Der Schlaftrainer wird eine Pause machen, wenn Ihre Routine um "
+[pp+0x2d4d0] String: " Uhr beginnt. Sie können Ihre Zeiten bearbeiten oder so lassen, wie sie sind, und Lumalou wird am Ende Ihrer Routine in den Nachtmodus zurückkehren!"
+[pp+0x2d4d8] String: "Diese Mittagsschlafenszeit wird sich mit der Routine überschneiden, die um "
+[pp+0x2d4e0] String: " Uhr beginnen soll. Bearbeiten Sie die Startzeit Ihrer Routine oder die Dauer des Mittagsschlafs, um eine Überschneidung zu vermeiden. Fröhliches Mittagsschläfchen!"
+[pp+0x2d518] String: " ist deaktiviert, weil Ihre Routine "
+[pp+0x2e478] AnonymousClosure: (0x96ae3c), in [package:sc_app/pages/routines_weekly_schedule/page.dart] RoutinesWeeklySchedulePage::_appBar (0x96ae88)
+[pp+0x2eb78] AnonymousClosure: (0x96ae3c), in [package:sc_app/pages/routines_weekly_schedule/page.dart] RoutinesWeeklySchedulePage::_appBar (0x96ae88)
+[pp+0x2f870] String: "playSound"
+[pp+0x2f920] String: "enableLights"
+[pp+0x305b0] AnonymousClosure: (0x974ce0), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::build (0x974288)
+[pp+0x305b8] AnonymousClosure: (0x9743bc), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_onBackPressed (0x974404)
+[pp+0x305e0] AnonymousClosure: (0x974ba0), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_wasUpdated (0x97456c)
+[pp+0x305e8] AnonymousClosure: (0x974ba0), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_wasUpdated (0x97456c)
+[pp+0x305f0] Field <_CustomizeRoutinePageState@2606359842.routineComponent>: late (offset: 0x14)
+[pp+0x305f8] AnonymousClosure: (0x9794cc), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::build (0x974288)
+[pp+0x30608] AnonymousClosure: (0x97519c), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_removeView (0x974ff8)
+[pp+0x30610] AnonymousClosure: (0x975538), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_openRemoveRoutinePopover (0x9751fc)
+[pp+0x30618] AnonymousClosure: (0x86eef4), in [package:sc_app/blocs/models/products/luma/components/routine.dart] LumaRoutine::_savePreferences (0x86e5b0)
+[pp+0x30628] String: "routine_reward"
+[pp+0x30630] String: "disabled_routines"
+[pp+0x30640] AnonymousClosure: (0x86ee0c), in [package:sc_app/blocs/models/products/luma/components/routine.dart] LumaRoutine::_savePreferences (0x86e5b0)
+[pp+0x30648] String: "routine_music_volume"
+[pp+0x30650] String: "routines_settings"
+[pp+0x30680] AnonymousClosure: (0x63820c), in [package:sc_app/blocs/components/routine_component.dart] Routine::toJson (0x637060)
+[pp+0x30698] AnonymousClosure: (0x638104), in [package:sc_app/blocs/components/routine_component.dart] Routine::toJson (0x637060)
+[pp+0x30710] Obj!RoutineControlCommand@c70f21 : {
+[pp+0x30970] TypeArguments: <WeekDay, DayRoutine>
+[pp+0x30978] AnonymousClosure: (0x976ac0), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_saveRoutine (0x976b08)
+[pp+0x30988] AnonymousClosure: (0x97821c), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_saveRoutine (0x976b08)
+[pp+0x309a0] AnonymousClosure: (0x974ba0), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_wasUpdated (0x97456c)
+[pp+0x309d8] String: "routine_id"
+[pp+0x309e8] AnonymousClosure: (0x978178), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_validateNameTextField (0x977ed0)
+[pp+0x30a00] AnonymousClosure: (0x978558), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_scheduleTimeView (0x978478)
+[pp+0x30a08] AnonymousClosure: (0x978610), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_scheduleTimeView (0x978478)
+[pp+0x30a10] AnonymousClosure: (0x9787a4), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_daysView (0x97869c)
+[pp+0x30a18] AnonymousClosure: (0x97885c), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_daysView (0x97869c)
+[pp+0x30a20] AnonymousClosure: (0x978e88), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_tasksView (0x978948)
+[pp+0x30a28] AnonymousClosure: (0x978bd4), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_tasksView (0x978948)
+[pp+0x30a30] AnonymousClosure: (0x978abc), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_tasksView (0x978948)
+[pp+0x30a38] AnonymousClosure: (0x978a54), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_tasksView (0x978948)
+[pp+0x30a48] AnonymousClosure: (0x978b84), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_tasksView (0x978948)
+[pp+0x30a50] AnonymousClosure: (0x978c5c), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_tasksView (0x978948)
+[pp+0x30a60] AnonymousClosure: (0x979084), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_nameTextField (0x978ee0)
+[pp+0x30a68] AnonymousClosure: (0x87780c), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::_listen (0x877854)
+[pp+0x30aa0] AnonymousClosure: (0x8776bc), in [package:sc_app/pages/customize_routine/page.dart] _CustomizeRoutinePageState::initState (0x877138)
+[pp+0x30aa8] String: " does not have RoutineComponent"
+[pp+0x30d20] AnonymousClosure: (0x96b0d8), in [package:sc_app/pages/customize_luma_sleep_trainer_routines/page.dart] _LumaSleepTrainerRoutinesPageState::build (0x96afdc)
+[pp+0x30d28] TypeArguments: <RoutineComponent, SleepTrainerComponent>
+[pp+0x30d30] AnonymousClosure: (0x96ae3c), in [package:sc_app/pages/routines_weekly_schedule/page.dart] RoutinesWeeklySchedulePage::_appBar (0x96ae88)
+[pp+0x30d40] AnonymousClosure: (0x96ae3c), in [package:sc_app/pages/routines_weekly_schedule/page.dart] RoutinesWeeklySchedulePage::_appBar (0x96ae88)
+[pp+0x30d78] TypeArguments: <StatusLightComponent>
+[pp+0x30e10] String: "floor_and_bassinet_lights"
+[pp+0x30fb0] Field <_ControlPanelLumaPageState@2552033294._routineComponent@2552033294>: late (offset: 0x28)
+[pp+0x31010] AnonymousClosure: (0x8740bc), in [package:sc_app/pages/control_panel_luma/page.dart] _ControlPanelLumaPageState::_showRoutineCompletedDialog (0x874104)
+[pp+0x31d78] String: "LightSource"
+[pp+0x31e08] String: "RelatedSoundFile"
+[pp+0x33548] AnonymousClosure: (0x92fb3c), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::build (0x92fa00)
+[pp+0x33550] AnonymousClosure: (0x86f5f8), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::build (0x92fa00)
+[pp+0x33558] AnonymousClosure: (0x86f5b8), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::build (0x92fa00)
+[pp+0x33560] AnonymousClosure: (0x86dc08), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_setCustomTaskName (0x86dc30)
+[pp+0x33568] AnonymousClosure: (0x86dc08), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_setCustomTaskName (0x86dc30)
+[pp+0x33570] Field <_AddRoutineTasksPageState@2504046747.component>: late final (offset: 0x28)
+[pp+0x33578] AnonymousClosure: (0x86e068), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_showNameTakenPopover (0x86dde0)
+[pp+0x33580] AnonymousClosure: (0x86e0e0), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_showNameTakenPopover (0x86dde0)
+[pp+0x33588] AnonymousClosure: (0x86e4f0), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_isCustomTaskNameTaken (0x86e17c)
+[pp+0x33590] AnonymousClosure: (0x86e268), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_isCustomTaskNameTaken (0x86e17c)
+[pp+0x335a8] AnonymousClosure: (0x9307c8), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_body (0x92fcdc)
+[pp+0x335d0] AnonymousClosure: (0x93082c), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_body (0x92fcdc)
+[pp+0x335d8] AnonymousClosure: (0x8fcbb8), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_taskView (0x8fb520)
+[pp+0x335e0] String: "assets/images/routine_component/edit_task.svg"
+[pp+0x335f0] AnonymousClosure: (0x8fb4bc), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_taskView (0x8fb520)
+[pp+0x33600] AnonymousClosure: (0x8fcb50), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_taskView (0x8fb520)
+[pp+0x33608] AnonymousClosure: (0x8fca10), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_taskView (0x8fb520)
+[pp+0x33618] AnonymousClosure: (0x8fc8fc), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_taskView (0x8fb520)
+[pp+0x33658] AnonymousClosure: (0x8fb474), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_taskView (0x8fb520)
+[pp+0x33660] AnonymousClosure: (0x8fcc40), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_taskView (0x8fb520)
+[pp+0x33668] String: "assets/images/routine_component/tasks/CLOTHES.svg"
+[pp+0x33670] String: "assets/images/routine_component/tasks/WASH.svg"
+[pp+0x33678] String: "assets/images/routine_component/tasks/BRUSHING_TEETH.svg"
+[pp+0x33680] String: "assets/images/routine_component/tasks/TOILET.svg"
+[pp+0x33688] String: "assets/images/routine_component/tasks/BACKPACK.svg"
+[pp+0x33690] String: "assets/images/routine_component/tasks/FOOD.svg"
+[pp+0x33698] String: "assets/images/routine_component/tasks/BOOK.svg"
+[pp+0x336a0] String: "assets/images/routine_component/tasks/CLEANING.svg"
+[pp+0x336a8] String: "assets/images/routine_component/tasks/WILDCARD1_HEART.svg"
+[pp+0x336b0] String: "assets/images/routine_component/tasks/WILDCARD2_SWIRLY.svg"
+[pp+0x336b8] String: "assets/images/routine_component/tasks/WILDCARD3_STARBURST.svg"
+[pp+0x336c8] AnonymousClosure: (0x931074), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_appBar (0x93085c)
+[pp+0x336e0] AnonymousClosure: (0x86da08), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_listen (0x86da50)
+[pp+0x336f8] AnonymousClosure: (0x86f5b8), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::build (0x92fa00)
+[pp+0x33700] AnonymousClosure: (0x86dc08), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_setCustomTaskName (0x86dc30)
+[pp+0x33710] String: "Bloc does not have RoutineComponent"
+[pp+0x34290] String: "soundTimerSetting"
+[pp+0x342d0] String: "soundMode"
+[pp+0x34310] String: "previousSoundMode"
+[pp+0x34478] Obj!SeahorseSoundControl@c709c1 : {
+[pp+0x344a8] Type: SeahorseSoundMode
+[pp+0x34520] String: "light-led-color"
+[pp+0x34538] String: "light-speed"
+[pp+0x34558] String: "isLightOn"
+[pp+0x345e0] TypeArguments: <LightDuration?>
+[pp+0x34bf0] String: "nightlightMode"
+[pp+0x34bf8] String: "nightlightBrightness"
+[pp+0x34f40] String: "light-led-color-%"
+[pp+0x34f58] String: "light-speed-%"
+[pp+0x34fb0] String: "isNightLightOn"
+[pp+0x35280] String: "sound_mode"
+[pp+0x35288] String: "sound_volume"
+[pp+0x35290] String: "sound_timer"
+[pp+0x355d0] String: "LightId."
+[pp+0x36e48] TypeArguments: <Object, _HeroFlight>
+[pp+0x37558] Obj!HeroFlightDirection@c7a021 : {
+[pp+0x37598] Obj!HeroFlightDirection@c7a001 : {
+[pp+0x375e0] AnonymousClosure: (0xc56698), in [package:flutter/src/widgets/heroes.dart] HeroController::_defaultHeroFlightShuttleBuilder (0xc566fc)
+[pp+0x375e8] Field <_HeroFlightManifest@922011697.isValid>: late final (offset: 0x3c)
+[pp+0x375f0] AnonymousClosure: (0xc565cc), in [package:flutter/src/widgets/heroes.dart] HeroController::_handleFlightEnded (0xc56618)
+[pp+0x375f8] AnonymousClosure: (0xc5351c), in [package:flutter/src/widgets/heroes.dart] _HeroFlight::_handleAnimationUpdate (0xc53404)
+[pp+0x37630] AnonymousClosure: (0xc53d20), in [package:flutter/src/widgets/heroes.dart] _HeroFlight::_handleAnimationUpdate (0xc53404)
+[pp+0x37638] Field <_HeroFlight@922011697.manifest>: late (offset: 0x1c)
+[pp+0x37640] Field <_HeroFlight@922011697._proxyAnimation@922011697>: late (offset: 0x18)
+[pp+0x37650] AnonymousClosure: (0xc537e4), in [package:flutter/src/widgets/heroes.dart] _HeroFlight::onTick (0xc5382c)
+[pp+0x37680] Field <_HeroFlight@922011697._reverseTween@922011697>: static late final (offset: 0xcb8)
+[pp+0x37688] Field <_HeroFlight@922011697.heroRectTween>: late (offset: 0xc)
+[pp+0x37698] Field <_HeroFlightManifest@922011697.toHeroLocation>: late final (offset: 0x38)
+[pp+0x376a0] Field <_HeroFlightManifest@922011697.fromHeroLocation>: late final (offset: 0x34)
+[pp+0x376d0] AnonymousClosure: (0xc568a8), in [package:flutter/src/widgets/heroes.dart] HeroController::_defaultHeroFlightShuttleBuilder (0xc566fc)
+[pp+0x376f8] AnonymousClosure: (0xc555ec), in [package:flutter/src/widgets/heroes.dart] _HeroFlight::_buildOverlay (0xc55638)
+[pp+0x37700] AnonymousClosure: (0xc557c8), in [package:flutter/src/widgets/heroes.dart] _HeroFlight::_buildOverlay (0xc55638)
+[pp+0x37720] AnonymousClosure: (0xc5549c), in [package:flutter/src/widgets/heroes.dart] _HeroState::startFlight (0xc55354)
+[pp+0x38dc8] String: "SeahorseSoundControl."
+[pp+0x38dd0] String: "RoutineControlCommand."
+[pp+0x38f88] AnonymousClosure: (0xb65c78), in [package:sc_app/widgets/routines/routine_schedule_week.dart] RoutineScheduleWeek::buildComponent (0xb65ba4)
+[pp+0x38f90] TypeArguments: <RoutineScheduleDay>
+[pp+0x39008] String: "assets/images/light_component/light_slider_low.svg"
+[pp+0x39020] String: "assets/images/light_component/light_slider_high.svg"
+[pp+0x394b0] String: "assets/images/routine_component/warning_icon_small.svg"
+[pp+0x394b8] AnonymousClosure: (0xa5ff10), in [package:sc_app/pages/customize_routine/components/scheduled_time_view.dart] ScheduledTimeView::build (0xa5ec20)
+[pp+0x394c0] AnonymousClosure: (0xa5f9a8), in [package:sc_app/pages/customize_routine/components/scheduled_time_view.dart] ScheduledTimeView::build (0xa5ec20)
+[pp+0x394c8] AnonymousClosure: (0xa5fea0), in [package:sc_app/pages/customize_routine/components/scheduled_time_view.dart] ScheduledTimeView::_openPicker (0xa5f9f8)
+[pp+0x39500] AnonymousClosure: (0xa60368), in [package:sc_app/pages/customize_routine/components/scheduled_time_view.dart] ScheduledTimeView::_openOverlappingPopover (0xa5ff60)
+[pp+0x39518] AnonymousClosure: (0xa5e644), in [package:sc_app/pages/customize_routine/components/routine_days_view.dart] RoutineDaysView::build (0xa5da24)
+[pp+0x39528] AnonymousClosure: (0xa5eb74), in [package:sc_app/pages/customize_routine/components/routine_days_view.dart] RoutineDaysView::build (0xa5da24)
+[pp+0x39530] AnonymousClosure: (0xa5eaf8), in [package:sc_app/pages/customize_routine/components/routine_days_view.dart] RoutineDaysView::_openReplaceRoutinePopover (0xa5e7e8)
+[pp+0x397e0] TypeArguments: <InRoutineModeWatcher>
+[pp+0x397e8] TypeArguments: <RoutineInProgress>
+[pp+0x39808] AnonymousClosure: (0xb557cc), in [package:sc_app/widgets/buttons/exit_routine_button.dart] ExitRoutineButton::buildComponent (0xb555f4)
+[pp+0x39868] String: "assets/images/gld09/routines_tooltip_1.png"
+[pp+0x39870] String: "create_routine"
+[pp+0x39878] String: "assets/images/gld09/routines_tooltip_2.png"
+[pp+0x39880] String: "schedule_routine"
+[pp+0x39888] String: "assets/images/gld09/routines_tooltip_3.png"
+[pp+0x39890] String: "assets/images/gld09/routines_tooltip_icon.svg"
+[pp+0x39898] AnonymousClosure: (0xb4cd8c), in [package:sc_app/pages/control_panel_luma/components/luma_routines_tooltip_card.dart] LumaRoutinesTooltipCard::buildComponent (0xb4c6e8)
+[pp+0x398a8] String: "luma_routines_tooltip"
+[pp+0x39c20] String: "assets/images/routine_component/routine_icon_banner.svg"
+[pp+0x39fb8] Obj!SeahorseSoundControl@c70a21 : {
+[pp+0x3a010] AnonymousClosure: (0xa349ec), in [package:sc_app/blocs/models/products/seahorse/components/light.dart] SeahorseLight::retrievePreferences (0xa3c4cc)
+[pp+0x3a018] Obj!LightId@c75fe1 : {
+[pp+0x3a0a8] AnonymousClosure: (0xcd2d48), in [package:sc_app/blocs/models/products/seahorse/components/light.dart] SeahorseLight::customColors= (0xcd25c8)
+[pp+0x3a160] AnonymousClosure: (0xa34ecc), in [package:sc_app/blocs/models/products/luma/components/routine.dart] LumaRoutine::retrievePreferences (0xa404d0)
+[pp+0x3a1a8] AnonymousClosure: (0xa3498c), in [package:sc_app/blocs/models/products/luma/components/light.dart] LumaLight::retrievePreferences (0xa3c15c)
+[pp+0x3a238] AnonymousClosure: (0xa3492c), in [package:sc_app/blocs/models/products/lamp_soother/components/light.dart] LampSootherLight::retrievePreferences (0xa3bd70)
+[pp+0x3a2c0] AnonymousClosure: (0xcd2584), in [package:sc_app/blocs/models/products/lamp_soother/components/light.dart] LampSootherLight::customColors= (0xcd1de0)
+[pp+0x3a468] AnonymousClosure: (0xa348cc), in [package:sc_app/blocs/models/products/bunny/components/light.dart] BunnyLight::retrievePreferences (0xa3ba00)
+[pp+0x3d598] Obj!SystemSoundType@c7a761 : {
+[pp+0x3d5a0] String: "SystemSound.play"
+[pp+0x3d5a8] String: "SystemSoundType."
+[pp+0x3d5e0] String: "HeroFlight(for: "
+[pp+0x3d5f8] String: "HeroFlightDirection."
+[pp+0x3d600] String: "_HeroFlightManifest("
+[pp+0x40350] AnonymousClosure: (0xb53144), in [package:sc_app/pages/smart_sensing_system/components/smart_sensing_system_controls.dart] SoothingSoundSelector::_buildSmartSensingSoundSelector (0xb52e64)
+[pp+0x40358] AnonymousClosure: (0xb536b4), in [package:sc_app/pages/smart_sensing_system/components/smart_sensing_system_controls.dart] SoothingSoundSelector::_showSmartSensingSystemSoundPicker (0xb531a0)
+[pp+0x40360] AnonymousClosure: (0xb534b4), in [package:sc_app/pages/smart_sensing_system/components/smart_sensing_system_controls.dart] SoothingSoundSelector::_showSmartSensingSystemSoundPicker (0xb531a0)
+[pp+0x40b90] AnonymousClosure: (0xa70914), in [package:sc_app/widgets/dialogs/routine_canceled_dialog.dart] RoutineCanceledDialog::_handleCancelRoutine (0xa7095c)
+[pp+0x40d38] AnonymousClosure: (0x972a74), in [package:sc_app/pages/customize_routine/components/tasks_view.dart] _TasksViewState::_addTaskButton (0x971d54)
+[pp+0x40d48] AnonymousClosure: (0x972c7c), in [package:sc_app/pages/customize_routine/components/tasks_view.dart] _TasksViewState::_openAddTasksPage (0x972ad0)
+[pp+0x40d50] AnonymousClosure: (0x972fa4), in [package:sc_app/pages/customize_routine/components/tasks_view.dart] _TasksViewState::_openAddTasksPage (0x972ad0)
+[pp+0x40d58] AnonymousClosure: (0x97394c), in [package:sc_app/pages/customize_routine/components/tasks_view.dart] _TasksViewState::_reorderableList (0x9730f4)
+[pp+0x40d78] AnonymousClosure: (0x9739dc), in [package:sc_app/pages/customize_routine/components/tasks_view.dart] _TasksViewState::_reorderableList (0x9730f4)
+[pp+0x40d80] AnonymousClosure: (0x973b34), in [package:sc_app/pages/customize_routine/components/tasks_view.dart] _TasksViewState::_reorderableList (0x9730f4)
+[pp+0x40d88] AnonymousClosure: (0x9737b8), in [package:sc_app/pages/customize_routine/components/tasks_view.dart] _TasksViewState::_taskCell (0x97340c)
+[pp+0x40da0] AnonymousClosure: (0x9738a4), in [package:sc_app/pages/customize_routine/components/tasks_view.dart] _TasksViewState::_taskCell (0x97340c)
+[pp+0x40db8] AnonymousClosure: (0x974208), in [package:sc_app/pages/customize_routine/components/tasks_view.dart] _TasksViewState::_header (0x973e28)
+[pp+0x40e60] AnonymousClosure: (0xa5d720), in [package:sc_app/pages/customize_routine/components/one_routine_message.dart] OneRoutineMessage::build (0xa5d4a8)
+[pp+0x40ee0] String: "assets/images/light_component/floor_lights_icon.svg"
+[pp+0x40ee8] String: "assets/images/light_component/control_panel_lights_icon.svg"
+[pp+0x40ef0] AnonymousClosure: (0xb43efc), in [package:sc_app/widgets/cards/status_light_control_card.dart] StatusLightControlCard::_buildContent (0xb42bc4)
+[pp+0x40f10] AnonymousClosure: (0xb4320c), in [package:sc_app/widgets/cards/status_light_control_card.dart] StatusLightControlCard::_buildBrightness (0xb42e94)
+[pp+0x40f50] AnonymousClosure: (0xb43530), in [package:sc_app/widgets/cards/status_light_control_card.dart] StatusLightControlCard::_buildStatusSelector (0xb432b0)
+[pp+0x40f70] AnonymousClosure: (0xb438fc), in [package:sc_app/widgets/cards/status_light_control_card.dart] StatusLightControlCard::_buildStatusSelector (0xb432b0)
+[pp+0x41098] String: "assets/images/music_component/sound_slider_low.svg"
+[pp+0x410a0] String: "assets/images/music_component/sound_slider_high.svg"
+[pp+0x41118] AnonymousClosure: (0x9b43bc), in [package:sc_app/widgets/watcher/in_routine_mode_watcher.dart] _InRoutineModeWatcherState::build (0x9b4304)
+[pp+0x41188] AnonymousClosure: (0x9af568), in [package:sc_app/widgets/routines/routine_in_progress.dart] _RoutineInProgressState::_buildControlButtons (0x9af4b4)
+[pp+0x41190] AnonymousClosure: (0x9af5f0), in [package:sc_app/widgets/routines/routine_in_progress.dart] _RoutineInProgressState::_buildControlButtons (0x9af4b4)
+[pp+0x411a8] AnonymousClosure: (0x9af9d0), in [package:sc_app/widgets/routines/routine_in_progress.dart] _RoutineInProgressState::_buildVolumeSlider (0x9af640)
+[pp+0x411c8] AnonymousClosure: (0x9afd9c), in [package:sc_app/widgets/routines/routine_in_progress.dart] _RoutineInProgressState::_startBanner (0x9afbec)
+[pp+0x411e0] Obj!RoutineControlCommand@c70f61 : {
+[pp+0x411e8] Obj!RoutineControlCommand@c70f41 : {
+[pp+0x413b0] String: "assets/images/music_component/music_sound_icon.svg"
+[pp+0x413d0] AnonymousClosure: (0xb59e6c), in [package:sc_app/widgets/cards/music_control_card.dart] MusicControlCard::_soundSelected (0xb59cfc)
+[pp+0x41408] AnonymousClosure: (0xb429d4), in [package:sc_app/widgets/cards/light_control_card.dart] LightControlCard::_buildContent (0xb40948)
+[pp+0x41410] AnonymousClosure: (0xb40e0c), in [package:sc_app/widgets/cards/light_control_card.dart] LightControlCard::_buildSpeedSelector (0xb40c34)
+[pp+0x41430] AnonymousClosure: (0xb411d0), in [package:sc_app/widgets/cards/light_control_card.dart] LightControlCard::_buildSpeedSelector (0xb40c34)
+[pp+0x41450] AnonymousClosure: (0xb42114), in [package:sc_app/widgets/cards/light_control_card.dart] LightControlCard::_buildColorSelector (0xb41258)
+[pp+0x41458] AnonymousClosure: (0xb420d0), in [package:sc_app/widgets/cards/light_control_card.dart] LightControlCard::_buildColorSelector (0xb41258)
+[pp+0x41460] AnonymousClosure: (0xb41efc), in [package:sc_app/widgets/cards/light_control_card.dart] LightControlCard::_buildColorSelector (0xb41258)
+[pp+0x41468] AnonymousClosure: (0xb41e90), in [package:sc_app/widgets/cards/light_control_card.dart] LightControlCard::_buildColorSelector (0xb41258)
+[pp+0x41470] AnonymousClosure: (0xb42044), in [package:sc_app/widgets/cards/light_control_card.dart] LightControlCard::_buildColorSelector (0xb41258)
+[pp+0x41488] AnonymousClosure: (0xb425ac), in [package:sc_app/widgets/cards/light_control_card.dart] LightControlCard::_buildBrightness (0xb4213c)
+[pp+0x41a48] AnonymousClosure: (0xca55d4), in [package:sc_app/blocs/models/products/seahorse/components/light.dart] SeahorseLight::resetSettings (0xca5208)
+[pp+0x41a68] Obj!LightColor@c712e1 : {
+[pp+0x41a98] AnonymousClosure: (0xca5158), in [package:sc_app/blocs/models/products/lamp_soother/components/light.dart] LampSootherLight::resetSettings (0xca4d30)
+[pp+0x453c0] TypeArguments: <_HighlightType, InkHighlight?>
+[pp+0x469e8] String: "soundModeExpiring"
+[pp+0x46c10] String: "No routine for today"
+[pp+0x46c30] TypeArguments: <RoutineInProgressControls>
+[pp+0x46c38] String: "assets/images/routine_component/routine_icon.svg"
+[pp+0x46c40] AnonymousClosure: (0xb64c90), in [package:sc_app/widgets/routines/routine_header.dart] RoutineHeader::_buildContent (0xb64618)
+[pp+0x46c58] AnonymousClosure: (0xb65120), in [package:sc_app/widgets/routines/routine_header.dart] RoutineHeader::_showRoutineOverlappingDialog (0xb64da4)
+[pp+0x47858] AnonymousClosure: (0xa60368), in [package:sc_app/pages/customize_routine/components/scheduled_time_view.dart] ScheduledTimeView::_openOverlappingPopover (0xa5ff60)
+[pp+0x47860] AnonymousClosure: (0xb683e0), in [package:sc_app/widgets/routines/routines_body.dart] RoutinesBody::buildComponent (0xb65d1c)
+[pp+0x47868] AnonymousClosure: (0xb6691c), in [package:sc_app/widgets/routines/routines_body.dart] RoutinesBody::_taskMusicOptions (0xb666e0)
+[pp+0x47880] AnonymousClosure: (0xb66c60), in [package:sc_app/widgets/routines/routines_body.dart] RoutinesBody::_rewardMusicOptions (0xb66a24)
+[pp+0x47898] AnonymousClosure: (0xb67078), in [package:sc_app/widgets/routines/routines_body.dart] RoutinesBody::_disableButton (0xb66dc4)
+[pp+0x478a0] AnonymousClosure: (0xb673b8), in [package:sc_app/widgets/routines/routines_body.dart] RoutinesBody::_showDisableConfirmationDialog (0xb670d4)
+[pp+0x478c0] AnonymousClosure: (0xb678c8), in [package:sc_app/widgets/routines/routines_body.dart] RoutinesBody::_addRoutineView (0xb675fc)
+[pp+0x478c8] AnonymousClosure: (0xb67a2c), in [package:sc_app/widgets/routines/routines_body.dart] RoutinesBody::_openAddRoutinePage (0xb67924)
+[pp+0x478d8] AnonymousClosure: (0xb67af0), in [package:sc_app/widgets/routines/routines_body.dart] RoutinesBody::_openAddRoutinePage (0xb67924)
+[pp+0x478e0] String: "assets/images/gld09/remote_back_routine.png"
+[pp+0x47900] String: "assets/images/routine_component/routines_disabled_icon_white.svg"
+[pp+0x47910] AnonymousClosure: (0xb68390), in [package:sc_app/widgets/routines/routines_body.dart] RoutinesBody::_disableBanner (0xb68034)
+[pp+0x47930] String: "assets/images/smart_sensing_system_component/sound_icon.png"
+[pp+0x47c00] AnonymousClosure: (0xb693d8), in [package:sc_app/widgets/routines/routines_tab.dart] RoutinesTab::_setupButton (0xb6916c)
+[pp+0x47ca0] String: "AddRoutineTasksRouteArgs{key: "
+[pp+0x47cb8] String: "LumaSleepTrainerRoutinesRouteArgs{key: "
+[pp+0x47f60] Obj!SeahorseSoundControl@c70a01 : {
+[pp+0x47f78] Obj!SeahorseSoundControl@c709e1 : {
+[pp+0x47fd8] Field <SeahorseMusic._soundPlaylist@2450219212>: late (offset: 0x14)
+[pp+0x48058] AnonymousClosure: (0xcded8c), in [package:sc_app/blocs/models/products/seahorse/components/light.dart] SeahorseLight::customColors (0xcdec60)
+[pp+0x48068] AnonymousClosure: (0xcdee98), in [package:sc_app/blocs/models/products/seahorse/components/light.dart] SeahorseLight::_getColorItem (0xcdeddc)
+[pp+0x48070] AnonymousClosure: (0xcdee98), in [package:sc_app/blocs/models/products/seahorse/components/light.dart] SeahorseLight::_getColorItem (0xcdeddc)
+[pp+0x480d0] String: "assets/images/light_component/color_wheel_one.svg"
+[pp+0x480e0] String: "assets/images/light_component/color_wheel_two.svg"
+[pp+0x480f0] String: "assets/images/light_component/color_wheel_three.svg"
+[pp+0x48100] String: "assets/images/light_component/color_wheel_four.svg"
+[pp+0x48138] String: "assets/images/light_component/light_icon.svg"
+[pp+0x481d8] String: "assets/images/light_component/color_wheel_warm.svg"
+[pp+0x481e0] Obj!LightColor@c71321 : {
+[pp+0x481e8] String: "assets/images/light_component/color_wheel_cool_spectrum.svg"
+[pp+0x481f0] Obj!LightColor@c71301 : {
+[pp+0x481f8] Obj!LightColor@c71401 : {
+[pp+0x48208] Obj!LightColor@c713c1 : {
+[pp+0x48210] Obj!LightColor@c713e1 : {
+[pp+0x48218] Obj!LightColor@c713a1 : {
+[pp+0x48220] Obj!LightColor@c71381 : {
+[pp+0x48228] Obj!LightColor@c71361 : {
+[pp+0x48230] Obj!LightColor@c71341 : {
+[pp+0x48350] AnonymousClosure: (0xcdea18), in [package:sc_app/blocs/models/products/lamp_soother/components/light.dart] LampSootherLight::customColors (0xcde8ec)
+[pp+0x48408] String: "assets/images/light_component/star_projection_icon.svg"
+[pp+0x48410] String: "assets/images/light_component/animal_projection_icon.svg"
+[pp+0x484b0] String: "assets/images/light_component/color_wheel_red.svg"
+[pp+0x484c0] String: "assets/images/light_component/color_wheel_yellow.svg"
+[pp+0x484d0] String: "assets/images/light_component/color_wheel_orange.svg"
+[pp+0x48b0] String: "Brightness.light"
+[pp+0x4a498] AnonymousClosure: (0x8d7ac4), in [package:flutter/src/material/radio.dart] __RadioState&State&TickerProviderStateMixin&ToggleableStateMixin::_handleFocusHighlightChanged (0x8d79b4)
+[pp+0x4a4b8] AnonymousClosure: (0x8d796c), in [package:flutter/src/material/radio.dart] __RadioState&State&TickerProviderStateMixin&ToggleableStateMixin::_handleFocusHighlightChanged (0x8d79b4)
+[pp+0x4a7e8] Obj!_HighlightType@c7bfa1 : {
+[pp+0x4a7f8] Obj!_HighlightType@c7bf81 : {
+[pp+0x4a800] Obj!_HighlightType@c7bf61 : {
+[pp+0x4a818] AnonymousClosure: (0x854754), in [package:flutter/src/material/ink_well.dart] _InkResponseState::updateHighlight (0x8536d8)
+[pp+0x4a820] Field <InkHighlight._alphaController@625209331>: late (offset: 0x34)
+[pp+0x4a830] AnonymousClosure: (0x85431c), in [package:flutter/src/material/ink_highlight.dart] InkHighlight::_handleAlphaStatusChanged (0x854368)
+[pp+0x4a870] Obj!SystemSoundType@c7a741 : {
+[pp+0x4a9a8] AnonymousClosure: (0x85351c), in [package:flutter/src/material/ink_well.dart] _InkResponseState::handleFocusHighlightModeChange (0x853568)
+[pp+0x4a9c0] AnonymousClosure: (0x8535e8), in [package:flutter/src/material/ink_well.dart] _InkResponseState::handleFocusHighlightModeChange (0x853568)
+[pp+0x4bd50] AnonymousClosure: (0xb68b20), in [package:sc_app/widgets/routines/routines_card.dart] RoutinesCard::_header (0xb6870c)
+[pp+0x4bd58] AnonymousClosure: (0x9b0f84), in [package:sc_app/widgets/routines/routine_in_progress_controls.dart] _RoutineInProgressControlsState::build (0x9aff5c)
+[pp+0x4bd68] AnonymousClosure: (0x9b0e98), in [package:sc_app/widgets/routines/routine_in_progress_controls.dart] _RoutineInProgressControlsState::build (0x9aff5c)
+[pp+0x4bd78] AnonymousClosure: (0x9b0bd8), in [package:sc_app/widgets/routines/routine_in_progress_controls.dart] _RoutineInProgressControlsState::build (0x9aff5c)
+[pp+0x4bd88] AnonymousClosure: (0x9b0e04), in [package:sc_app/widgets/routines/routine_in_progress_controls.dart] _RoutineInProgressControlsState::_animate (0x9b0c54)
+[pp+0x4bd90] AnonymousClosure: (0x9b0d18), in [package:sc_app/widgets/routines/routine_in_progress_controls.dart] _RoutineInProgressControlsState::_animate (0x9b0c54)
+[pp+0x4bd98] AnonymousClosure: (0x9b0d7c), in [package:sc_app/widgets/routines/routine_in_progress_controls.dart] _RoutineInProgressControlsState::_animate (0x9b0c54)
+[pp+0x4bdb0] Obj!RoutineControlCommand@c70f81 : {
+[pp+0x4bdb8] AnonymousClosure: (0xb62aec), in [package:sc_app/widgets/routines/routine_editable_cell.dart] RoutineEditableCell::_dots (0xb62828)
+[pp+0x4bdc0] AnonymousClosure: (0xb63994), in [package:sc_app/widgets/routines/routine_editable_cell.dart] RoutineEditableCell::_openActionSheet (0xb62b48)
+[pp+0x4bdc8] AnonymousClosure: (0xb633a8), in [package:sc_app/widgets/routines/routine_editable_cell.dart] RoutineEditableCell::_openActionSheet (0xb62b48)
+[pp+0x4bdd0] AnonymousClosure: (0xb6304c), in [package:sc_app/widgets/routines/routine_editable_cell.dart] RoutineEditableCell::_openActionSheet (0xb62b48)
+[pp+0x4bde0] AnonymousClosure: (0xb63340), in [package:sc_app/widgets/routines/routine_editable_cell.dart] RoutineEditableCell::_openRemoveRoutinePopover (0xb630c4)
+[pp+0x4bde8] AnonymousClosure: (0xb6371c), in [package:sc_app/widgets/routines/routine_editable_cell.dart] RoutineEditableCell::_duplicateRoutine (0xb63414)
+[pp+0x4bdf8] List(7) [0, 0x3, 0x3, 0x2, "routine", 0x2, Null]
+[pp+0x4be18] AnonymousClosure: (0xb64500), in [package:sc_app/widgets/routines/routine_editable_cell.dart] RoutineEditableCell::_routineDetails (0xb63c10)
+[pp+0x4c738] String: "RoutinesWeeklyScheduleRouteArgs{key: "
+[pp+0x4c740] String: ", routineComponent: "
+[pp+0x4c748] String: "CustomizeRoutineRouteArgs{bloc: "
+[pp+0x4c750] String: ", routine: "
+[pp+0x4ee70] String: "_HighlightType."
+[pp+0x4fc88] AnonymousClosure: (0x9afebc), in [package:sc_app/blocs/models/products/luma/components/routine.dart] LumaRoutine::nextTask (0x9afde4)
+[pp+0x52a70] AnonymousClosure: (0x8fb474), in [package:sc_app/pages/add_routine_tasks/page.dart] _AddRoutineTasksPageState::_taskView (0x8fb520)
+[pp+0x52ab8] AnonymousClosure: (0x85c608), in [package:flutter/src/widgets/actions.dart] _FocusableActionDetectorState::_handleFocusHighlightModeChange (0x85c654)
+[pp+0x52ac0] AnonymousClosure: (0x85c534), in [package:flutter/src/widgets/actions.dart] _FocusableActionDetectorState::_updateHighlightMode (0x85c0d8)
+[pp+0x53118] AnonymousClosure: (0x8f0164), in [package:flutter/src/material/slider.dart] _SliderState::_handleFocusHighlightChanged (0x8f01b0)
+[pp+0x53140] AnonymousClosure: (0x8d796c), in [package:flutter/src/material/radio.dart] __RadioState&State&TickerProviderStateMixin&ToggleableStateMixin::_handleFocusHighlightChanged (0x8d79b4)
+[pp+0x53468] Field <InkHighlight._alpha@625209331>: late (offset: 0x30)
+[pp+0x53f30] AnonymousClosure: (0xb34368), in [package:sc_app/pages/dashboard/components/dashboard_routine_component.dart] DashboardRoutineComponent::buildComponent (0xb33c50)
+[pp+0x53f68] String: "assets/images/light_component/soother_projection_icon.svg"
+[pp+0x53f70] String: "assets/images/light_component/light_grey_icon.svg"
+[pp+0x53f80] String: "There is no localized light for "
+[pp+0x53f88] String: "assets/images/soother_component/sound_icon.svg"
+[pp+0x5b978] AnonymousClosure: (0x8d7810), in [package:flutter/src/material/checkbox.dart] __CheckboxState&State&TickerProviderStateMixin&ToggleableStateMixin::_handleFocusHighlightChanged (0x8d785c)
+[pp+0x5b998] AnonymousClosure: (0x8d796c), in [package:flutter/src/material/radio.dart] __RadioState&State&TickerProviderStateMixin&ToggleableStateMixin::_handleFocusHighlightChanged (0x8d79b4)
+[pp+0x7920] String: "requestSoundPermission"
+[pp+0x7948] String: "defaultPresentSound"
+[pp+0x9830] TypeArguments: <_Highlight?>
+[pp+0x9840] AnonymousClosure: (0x5e0a30), in [package:source_span/src/highlighter.dart] Highlighter::_writeSidebar (0x5dc14c)
+[pp+0x98b0] AnonymousClosure: (0x5dcf3c), in [package:source_span/src/highlighter.dart] Highlighter::_writeIndicator (0x5dc3b4)
+[pp+0x98b8] TypeArguments: <_Highlight>
+[pp+0x98c0] AnonymousClosure: (0x5dce70), in [package:source_span/src/highlighter.dart] Highlighter::_writeIndicator (0x5dc3b4)
+[pp+0x98c8] AnonymousClosure: (0x5dc93c), in [package:source_span/src/highlighter.dart] Highlighter::_writeIndicator (0x5dc3b4)
+[pp+0x9918] AnonymousClosure: (0x5dd4f4), in [package:source_span/src/highlighter.dart] Highlighter::_writeHighlightedText (0x5dd3dc)
+[pp+0x9938] AnonymousClosure: (0x5de074), in [package:source_span/src/highlighter.dart] Highlighter::_writeMultilineHighlights (0x5dd574)
+[pp+0x9940] AnonymousClosure: (0x5ddfa8), in [package:source_span/src/highlighter.dart] Highlighter::_writeMultilineHighlights (0x5dd574)
+[pp+0x9948] AnonymousClosure: (0x5ddf1c), in [package:source_span/src/highlighter.dart] Highlighter::_writeMultilineHighlights (0x5dd574)
+[pp+0x9950] AnonymousClosure: (0x5dd9e4), in [package:source_span/src/highlighter.dart] Highlighter::_writeMultilineHighlights (0x5dd574)
+[pp+0x9960] AnonymousClosure: (0x5dde6c), in [package:source_span/src/highlighter.dart] Highlighter::_writeMultilineHighlights (0x5dd574)
+[pp+0x9970] AnonymousClosure: (0x5dde00), in [package:source_span/src/highlighter.dart] Highlighter::_writeMultilineHighlights (0x5dd574)
+[pp+0x99b0] AnonymousClosure: (0x5e0968), in [package:source_span/src/highlighter.dart] Highlighter::_writeFileStart (0x5de308)
+[pp+0x9a30] AnonymousClosure: (0x5e1298), in [package:source_span/src/highlighter.dart] Highlighter::Highlighter._ (0x5e0cd0)
+[pp+0x9a60] AnonymousClosure: (0x5e1300), in [package:source_span/src/highlighter.dart] Highlighter::Highlighter._ (0x5e0cd0)
+[pp+0x9a90] AnonymousClosure: static (0x5e24c4), in [package:source_span/src/highlighter.dart] Highlighter::_collateLines (0x5e1340)
+[pp+0x9a98] TypeArguments: <_Highlight, Object>
+[pp+0x9ab8] AnonymousClosure: static (0x5e244c), in [package:source_span/src/highlighter.dart] Highlighter::_collateLines (0x5e1340)
+[pp+0x9ac0] AnonymousClosure: static (0x5e17e8), in [package:source_span/src/highlighter.dart] Highlighter::_collateLines (0x5e1340)
+[pp+0x9b00] AnonymousClosure: static (0x5e23ac), in [package:source_span/src/highlighter.dart] Highlighter::_collateLines (0x5e1340)
+[pp+0xad90] String: "FocusHighlightMode."
+[pp+0xada8] String: "FocusHighlightStrategy."
+=== CRYPTO ===
+    off_10: "AES_CBC_PKCS7Padding"
+    off_10: "inPairingMode"
+    off_10: "notInPairingMode"
+    off_10: "pairing"
+    off_10: "sendPairingComplete"
+    off_10: "sessionStarted"
+    off_10: "startingSession"
+  "Pairing": Obj!LogicalKeyboardKey@c5ff81,
+  "cryptonote": "application/vnd.rig.cryptonote",
+  "pgp": "application/pgp-encrypted",
+  off_c: "PairingRoute"
+[pp+0x120c8] Obj!PageInfo<PairingRouteArgs>@c69871 : {
+[pp+0x12338] String: "PairingRoute"
+[pp+0x12690] TypeArguments: <PairingRouteArgs>
+[pp+0x13738] String: "td_session_id"
+[pp+0x13740] String: "getSessionId"
+[pp+0x13b98] String: "pairingInfoPopoverMessage"
+[pp+0x16870] String: "endSessionEndpoint"
+[pp+0x174e8] String: "bleSession"
+[pp+0x17c68] Type: MpidSession?
+[pp+0x17d00] Field <MpidSession._log@1840183281>: static late final (offset: 0x10d8)
+[pp+0x17d08] String: "Encrypt packet for "
+[pp+0x17d18] String: "MpidBridge.encryptPacket"
+[pp+0x17d20] String: "encrypted"
+[pp+0x17d38] String: "MpidSession"
+[pp+0x182a0] Type: SmartSession?
+[pp+0x18828] AnonymousClosure: (0x592210), in [package:mcpp_connected_products/src/products/state/ble/session_started.dart] BleStateSessionStarted::_onTimeout (0x592258)
+[pp+0x18860] String: "SessionStarted Timeout"
+[pp+0x19b48] Type: SmartSession
+[pp+0x1a898] String: "preferEphemeralSession"
+[pp+0x1a8c0] String: "Your login session has expired. To continue updating account settings, or to edit products in your account, please sign in again."
+[pp+0x1a8c8] String: "sessionExpiredPopoverMessage"
+[pp+0x1a960] String: "isInPairingMode"
+[pp+0x1b1f8] Obj!SessionState@c76d61 : {
+[pp+0x1b200] Field <SmartSession._log@1847277535>: static late final (offset: 0x10e8)
+[pp+0x1b208] String: "Starting session, reading infrastructure state"
+[pp+0x1b238] String: "SmartSession"
+[pp+0x1b488] TypeArguments: <PairingPage>
+[pp+0x1ef40] Field <SmartCryptoManager.cryptoStrategy>: late (offset: 0x1c)
+[pp+0x1ef48] Obj!SessionState@c76da1 : {
+[pp+0x1ef78] String: "clearing session tokens"
+[pp+0x1f7c0] String: "aes128Key"
+[pp+0x1f7d0] String: "dataToEncrypt"
+[pp+0x1f7e0] String: ".encrypt"
+[pp+0x1f8b0] String: ") is in pairing mode"
+[pp+0x1fbd0] String: "requires_pairing"
+[pp+0x1fc38] String: "encryption_methods"
+[pp+0x20170] AnonymousClosure: (0x998528), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::build (0x9981ec)
+[pp+0x20178] AnonymousClosure: (0x99840c), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::build (0x9981ec)
+[pp+0x20180] AnonymousClosure: (0x9982d0), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::build (0x9981ec)
+[pp+0x20188] AnonymousClosure: (0x998354), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::build (0x9981ec)
+[pp+0x20190] AnonymousClosure: (0x73ab60), in [package:sc_app/pages/pairing/model.dart] PairingPageModel::onFocusGained (0x73a3c4)
+[pp+0x20198] Field <_PairingPageState@2685125694._model@2685125694>: late (offset: 0x14)
+[pp+0x201a0] Field <PairingPageModel._log@2683414288>: static late final (offset: 0x1438)
+[pp+0x201b0] Obj!PairingPageState@c741c1 : {
+[pp+0x201b8] Obj!PairingPageState@c741a1 : {
+[pp+0x201c0] Obj!PairingPageState@c74181 : {
+[pp+0x201c8] Obj!PairingPageState@c74161 : {
+[pp+0x201d0] Obj!PairingPageState@c74121 : {
+[pp+0x201d8] Obj!PairingPageState@c74101 : {
+[pp+0x201e0] Obj!PairingPageState@c740e1 : {
+[pp+0x201e8] Obj!PairingPageState@c740c1 : {
+[pp+0x201f0] Obj!PairingPageState@c74141 : {
+[pp+0x201f8] Obj!PairingPageState@c740a1 : {
+[pp+0x20208] AnonymousClosure: (0x73c568), in [package:sc_app/pages/pairing/model.dart] PairingPageModel::_onBlocChanged (0x73aba8)
+[pp+0x20210] AnonymousClosure: (0x73c188), in [package:sc_app/pages/pairing/model.dart] PairingPageModel::_onOtaStatusChanged (0x73c1d0)
+[pp+0x20238] Obj!PairingPageError@c74041 : {
+[pp+0x20240] Obj!PairingPageError@c73fc1 : {
+[pp+0x20280] Obj!PairingPageError@c74021 : {
+[pp+0x20288] Obj!PairingPageError@c74001 : {
+[pp+0x20290] Obj!PairingPageError@c73fe1 : {
+[pp+0x202a8] String: "startListeningForPairing"
+[pp+0x202b0] AnonymousClosure: (0x73b9f8), in [package:sc_app/pages/pairing/model.dart] PairingPageModel::_onPairingMode (0x73ba44)
+[pp+0x202c8] String: "PairingPageModel"
+[pp+0x202d8] AnonymousClosure: (0x738df4), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_scaffold (0x743454)
+[pp+0x202e0] TypeArguments: <PairingPageModel>
+[pp+0x202e8] AnonymousClosure: (0x738d74), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_scaffold (0x743454)
+[pp+0x202f0] AnonymousClosure: (0x73ccd8), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_trailingNavButton (0x739cb8)
+[pp+0x202f8] AnonymousClosure: (0x73a29c), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_trailingNavButton (0x739cb8)
+[pp+0x20330] Obj!PairingPageError@c74081 : {
+[pp+0x20338] AnonymousClosure: (0x742d6c), in [package:sc_app/pages/pairing/model.dart] PairingPageModel::_claimDevice (0x73cdc8)
+[pp+0x20368] AnonymousClosure: (0x742d20), in [package:sc_app/pages/pairing/model.dart] PairingPageModel::_claimDevice (0x73cdc8)
+[pp+0x203b8] Obj!PairingPageError@c74061 : {
+[pp+0x20520] AnonymousClosure: (0x74111c), in [package:mcpp_connected_products/src/ble/session/smartcrypto/smart_session.dart] SmartSession::setUniqueIdentifier (0x73fcb8)
+[pp+0x20528] AnonymousClosure: (0x740694), in [package:mcpp_connected_products/src/ble/session/smartcrypto/smart_session.dart] SmartSession::setUniqueIdentifier (0x73fcb8)
+[pp+0x20540] Obj!SessionState@c76d81 : {
+[pp+0x20548] String: "session started for "
+[pp+0x20758] String: "Pairing"
+[pp+0x20760] String: "pairing"
+[pp+0x20768] AnonymousClosure: (0x7431dc), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_leadingNavButton (0x7430b0)
+[pp+0x20770] Field <_PairingPageState@2685125694._log@2685125694>: static late final (offset: 0x1440)
+[pp+0x20780] Field <PairingPageWatchdog._log@2688284697>: static late final (offset: 0x1448)
+[pp+0x20790] AnonymousClosure: (0xa288e8), in [package:sc_app/pages/pairing/watchdog.dart] PairingPageWatchdog::_onBlocChanges (0xa28930)
+[pp+0x207b0] String: "PairingPageWatchdog"
+[pp+0x207b8] Field <PairingPageWatchdog._instance@2688284697>: static late final (offset: 0x144c)
+[pp+0x207d0] String: "PairingPage"
+[pp+0x207d8] AnonymousClosure: (0x890194), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_onOtaNeeded (0x8901dc)
+[pp+0x207e0] AnonymousClosure: (0x8900d0), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_onReadyToClaimPeripheral (0x890118)
+[pp+0x207e8] AnonymousClosure: (0x88ffb8), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_goToControlPage (0x890000)
+[pp+0x207f0] AnonymousClosure: (0x88f918), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_onError (0x88f96c)
+[pp+0x207f8] AnonymousClosure: (0x88f848), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_onActivityIndicator (0x88f894)
+[pp+0x20828] String: "powerCyclingBatteriesPairingErrorMessage"
+[pp+0x20838] String: "powerCyclingUnplugPairingErrorMessage"
+[pp+0x208b8] AnonymousClosure: (0x890810), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_showFirmwareUpdateDialog (0x8902a0)
+[pp+0x208c0] AnonymousClosure: (0x89078c), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_showFirmwareUpdateDialog (0x8902a0)
+[pp+0x208d8] AnonymousClosure: (0x8924e0), in [package:sc_app/pages/pairing/model.dart] PairingPageModel::startOta (0x890894)
+[pp+0x208e8] AnonymousClosure: (0x89248c), in [package:sc_app/pages/pairing/model.dart] PairingPageModel::startOta (0x890894)
+[pp+0x220d0] String: "pairingBody"
+[pp+0x220e0] String: "pairingBunnyBody1"
+[pp+0x220f0] String: "pairingBunnyBody2"
+[pp+0x22100] String: "pairingFailureFootNote"
+[pp+0x22110] String: "pairingFootNote"
+[pp+0x22120] String: "pairingHeading1"
+[pp+0x22130] String: "pairingHeading2"
+[pp+0x22148] String: "pairingIssueWithPairing"
+[pp+0x22158] String: "pairingLumaBody"
+[pp+0x22168] String: "pairingSeahorseBody1"
+[pp+0x22178] String: "pairingSeahorseBody2"
+[pp+0x222b8] String: "pressPairingButton"
+[pp+0x22618] String: "sessionExpiredBannerMessage"
+[pp+0x26f68] String: "La sessione è terminata. Tocca per ulteriori informazioni."
+[pp+0x26f70] String: "La sessione è terminata. Per continuare ad aggiornare le impostazioni dell\'account, o per modificare i prodotti nell\'account, accedi nuovamente."
+[pp+0x284a0] String: "Votre session de connexion a expiré. Touchez pour en savoir plus."
+[pp+0x284a8] String: "Votre session de connexion a expiré. Pour continuer à mettre à jour les paramètres de votre compte ou pour modifier les produits de votre compte, veuillez vous connecter à nouveau."
+[pp+0x2a00] TypeArguments: <int, MouseCursorSession>
+[pp+0x2b2b0] String: "Fisher-Price® Smart Connect™ needs Location and Bluetooth permission to enable discovery, pairing, and controlling of nearby compatible products. Location data is checked even when the app is closed or not in use, but the data is not stored."
+[pp+0x2b580] String: "Press the pairing button on the bunny. Pairing might take up to 30 seconds."
+[pp+0x2b5a8] String: "Issue with pairing\?"
+[pp+0x2b5b0] String: "After you\'ve plugged in your product, press the pairing button on Lumalou. Pairing might take up to 30 seconds."
+[pp+0x2b5c0] String: "Press the pairing button on the seahorse. Pairing might take up to 30 seconds."
+[pp+0x2b660] String: "Press Pairing Button"
+[pp+0x2b7f8] String: "Your login session has expired. Tap to learn more."
+[pp+0x2bfd8] String: " when pairing"
+[pp+0x2e2f8] String: "encryption"
+[pp+0x2e438] AnonymousClosure: (0x7431dc), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_leadingNavButton (0x7430b0)
+[pp+0x2fb88] String: "player.audioSessionId"
+[pp+0x32180] AnonymousClosure: (0x7431dc), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_leadingNavButton (0x7430b0)
+[pp+0x33718] AnonymousClosure: (0x7431dc), in [package:sc_app/pages/pairing/page.dart] _PairingPageState::_leadingNavButton (0x7430b0)
+[pp+0x33ad0] TypeArguments: <EndSessionResponse?>
+[pp+0x33ad8] String: "endSession"
+[pp+0x35940] String: "SessionState."
+[pp+0x36590] String: "encryptedSharedPreferences"
+[pp+0x38fe0] String: "Requesting to open pairing page for "
+[pp+0x38fe8] AnonymousClosure: static (0xa669cc), in [package:sc_app/utils/router.dart] ::openPairingScreen (0xa66890)
+[pp+0x38ff0] AnonymousClosure: static (0xa66a2c), in [package:sc_app/utils/router.dart] ::openPairingScreen (0xa66890)
+[pp+0x38ff8] String: "Opening pairing page for "
+[pp+0x390a0] String: "PairingPageError."
+[pp+0x390a8] String: "PairingPageState."
+[pp+0x390b0] TypeArguments: <PairingTutorial>
+[pp+0x390b8] String: "assets/images/gmn58/pairing_success.png"
+[pp+0x390c0] String: "assets/images/gld09/pairing_success.png"
+[pp+0x390c8] String: "assets/images/dyw47/pairing_success.png"
+[pp+0x390d0] String: "assets/images/fhc95/pairing_success.png"
+[pp+0x390d8] String: "assets/images/ghp38/pairing_success.png"
+[pp+0x390e8] String: "There is no pairing instructions for "
+[pp+0x39118] String: "/pairing_success.png"
+[pp+0x3ad98] String: "Error Crypto Manager not initialized"
+[pp+0x3ada0] String: "Error Crypto manager not ready"
+[pp+0x3ada8] AnonymousClosure: (0xcd7dc0), in [package:mcpp_connected_products/src/ble/session/smartcrypto/smart_session.dart] SmartSession::_processState (0xcd77ac)
+[pp+0x3adb8] String: "Crypto response is empty"
+[pp+0x3adc0] String: "Clear session because of too many failure attempts to read state"
+[pp+0x3ade0] String: "isPairing"
+[pp+0x3adf0] Obj!SmartCryptoVersion@c76d21 : {
+[pp+0x3adf8] Type: UniqueKeyCrypto
+[pp+0x3ae18] String: "AESUniqueKey was already initialized"
+[pp+0x3ae20] Field <SmartCryptoManager.version>: late (offset: 0x8)
+[pp+0x3ae58] AnonymousClosure: (0xcd8c24), in [package:mcpp_connected_products/src/ble/session/smartcrypto/smart_session.dart] SmartSession::_parseAttributesFromType (0xcd8500)
+[pp+0x3ae70] AnonymousClosure: (0xcd8b44), in [package:mcpp_connected_products/src/ble/session/smartcrypto/smart_session.dart] SmartSession::_parseAttributesFromType (0xcd8500)
+[pp+0x3aee8] AnonymousClosure: (0xcd8d70), in [package:mcpp_connected_products/src/products/product_model.dart] ProductModel::onSessionInvalid (0xcd8ce0)
+[pp+0x3aef0] String: "encryptedData"
+[pp+0x3af30] String: "infrastructure read and crypto ready, reading state "
+[pp+0x3af38] AnonymousClosure: (0xcd9a1c), in [package:mcpp_connected_products/src/ble/session/smartcrypto/smart_session.dart] SmartSession::_processInfrastructure (0xcd8e54)
+[pp+0x3af80] Obj!SmartCryptoVersion@c76d41 : {
+[pp+0x3af88] String: "Invalidating session because crypto is no longer valid"
+[pp+0x3af90] String: "encryptionKeySize"
+[pp+0x3afe0] String: "Using unique key session"
+[pp+0x3b030] String: "Using shared key session"
+[pp+0x3b038] String: "SmartCryptoBridge"
+[pp+0x3b058] AnonymousClosure: (0xcd5c34), in [package:mcpp_connected_products/src/ble/session/smartcrypto/smart_session.dart] SmartSession::onCryptoReady (0xcd5bb0)
+[pp+0x3b078] String: ".getPairingKey"
+[pp+0x3b0a8] AnonymousClosure: (0xcd7370), in [package:mcpp_connected_products/src/ble/session/mpid/mpid_session.dart] MpidSession::processCharacteristicValue (0xcd6568)
+[pp+0x3b0d8] String: "Start mpid session for "
+[pp+0x3b0e0] String: "MpidBridge.startSession"
+[pp+0x3b100] String: "session"
+[pp+0x3b118] AnonymousClosure: (0xcd72b0), in [package:mcpp_connected_products/src/ble/session/mpid/mpid_session.dart] MpidSession::startSession (0xcd6928)
+[pp+0x3b128] String: "Start mpid session timeout :("
+[pp+0x40160] AnonymousClosure: (0xa6f6ec), in [package:sc_app/widgets/banners/session_expired_banner.dart] SessionExpiredBanner::build (0xa6f580)
+[pp+0x403c8] AnonymousClosure: (0x997e1c), in [package:sc_app/pages/pairing/components/pairing_tutorial.dart] _PairingTutorialState::build (0x996494)
+[pp+0x403d0] AnonymousClosure: (0x997d60), in [package:sc_app/pages/pairing/components/pairing_tutorial.dart] _PairingTutorialState::build (0x996494)
+[pp+0x403d8] AnonymousClosure: (0x997de4), in [package:sc_app/pages/pairing/components/pairing_tutorial.dart] _PairingTutorialState::build (0x996494)
+[pp+0x403e8] TypeArguments: <PairingInstruction>
+[pp+0x403f0] String: "assets/images/gmn58/pairing_instructions_1.png"
+[pp+0x403f8] String: "assets/images/gmn58/pairing_instructions_2.png"
+[pp+0x40400] String: "assets/images/gld09/pairing_instructions.png"
+[pp+0x40408] String: "assets/images/dyw47/pairing_instructions.png"
+[pp+0x40410] String: "assets/images/fhc95/pairing_instructions_1.png"
+[pp+0x40418] String: "assets/images/fhc95/pairing_instructions_2.png"
+[pp+0x40420] String: "assets/images/ghp38/pairing_instructions.png"
+[pp+0x40428] String: "assets/images/flg83/pairing_instructions.png"
+[pp+0x418f8] String: "PairingRouteArgs{peripheralType: "
+[pp+0x41ff8] Field <UniqueKeyCrypto._log@1848164056>: static late final (offset: 0x10ec)
+[pp+0x42008] String: "UniqueKey: isCryptoReady "
+[pp+0x42010] String: "UniqueKeyCrypto"
+[pp+0x42018] String: "SmartCryptoVersion."
+[pp+0x42020] Field <SharedKeyCrypto._log@1844052465>: static late final (offset: 0x10e0)
+[pp+0x42030] String: ".getEncryptionKey"
+[pp+0x42048] String: "SharedKeyCrypto"
+[pp+0x46698] TypeArguments: <CryptoCheck>
+[pp+0x466a0] String: "cryptoCheck"
+[pp+0x466a8] Closure: () => CryptoCheck from Function 'create': static. (0x7032677743a8)
+[pp+0x4bce0] Field <CryptoCheck._i@2800133571>: static late final (offset: 0x15f4)
+[pp+0x4bce8] String: "CryptoCheck"
+[pp+0x4f918] String: "Session status: "
+[pp+0x6dd0] Field <_SecureFilterImpl@14069316.ENCRYPTED_SIZE>: static late final (offset: 0x61c)
+[pp+0x7de0] String: "encryption_key"
+[pp+0x7de8] String: "MATTEL_ENCRYPTION_STRING"
+=== AUTH ===
+    off_10: "AUTH_UNKNOWN"
+    off_10: "allowInteractiveAuthorization"
+    off_10: "login"
+    off_10: "unauthorized"
+  "XPAuthor": 0x9c9d,
+  "aab": "application/x-authorware-bin",
+  "aam": "application/x-authorware-map",
+  "aas": "application/x-authorware-seg",
+  "u32": "application/x-authorware-bin",
+  "vox": "application/x-authorware-bin",
+  "x32": "application/x-authorware-bin",
+  off_8: "crossingthestreams.io/flutter_appauth",
+[pp+0x109f0] String: "allowInteractiveAuthorization"
+[pp+0x13388] Field <Auth0Error.refreshingTokenException>: static late final (offset: 0x1470)
+[pp+0x13b48] AnonymousClosure: static (0x66a2a8), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x13b50] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x13b58] Obj!LoginAction@c73e01 : {
+[pp+0x13b90] String: "For security and privacy reasons, you must re-pair with products on sign in. Tap Pair to begin."
+[pp+0x14218] String: "proxy-authorization"
+[pp+0x14220] String: "authorization"
+[pp+0x14438] List<String>(4) ["authorization", "www-authenticate", "cookie", "cookie2"]
+[pp+0x14448] String: "www-authenticate"
+[pp+0x14450] String: "Authentication"
+[pp+0x14458] AnonymousClosure: (0x5fd43c), in [dart:_http] _HttpClientResponse::_authenticate (0x5fc9e0)
+[pp+0x14460] String: "proxy-authenticate"
+[pp+0x14470] Obj!_AuthenticationScheme@c6c9c1 : {
+[pp+0x14488] Obj!_AuthenticationScheme@c6c9b1 : {
+[pp+0x144a0] AnonymousClosure: (0x5fd398), in [dart:_http] _HttpClientResponse::_authenticate (0x5fc9e0)
+[pp+0x144b8] AnonymousClosure: (0x5fd4fc), in [dart:_http] _HttpClientResponse::_authenticate (0x5fc9e0)
+[pp+0x144c0] AnonymousClosure: (0x5fdc6c), in [dart:_http] _HttpClientResponse::_authenticate (0x5fc9e0)
+[pp+0x144d8] Obj!_AuthenticationScheme@c6c9a1 : {
+[pp+0x150f8] Field <BaseRequest._tokenRE@1352501537>: static late final (offset: 0xee8)
+[pp+0x15138] Field <::._httpOverridesToken@13463476>: static late final (offset: 0x590)
+[pp+0x15ca8] Field <::.nonToken>: static late final (offset: 0xf18)
+[pp+0x15d70] Field <::.token>: static late final (offset: 0xf08)
+[pp+0x15fc0] Obj!TokenKind@c78881 : {
+[pp+0x15fc8] Obj!TokenKind@c78861 : {
+[pp+0x15fd0] Obj!TokenKind@c78ae1 : {
+[pp+0x16008] Obj!TokenKind@c78ac1 : {
+[pp+0x16010] Obj!TokenKind@c78aa1 : {
+[pp+0x16018] Obj!TokenKind@c78a81 : {
+[pp+0x16058] Obj!TokenKind@c788a1 : {
+[pp+0x16068] Obj!TokenKind@c789a1 : {
+[pp+0x16078] Obj!TokenKind@c78981 : {
+[pp+0x16080] Obj!TokenKind@c78941 : {
+[pp+0x16088] Obj!TokenKind@c78921 : {
+[pp+0x16090] Obj!TokenKind@c78901 : {
+[pp+0x16098] Obj!TokenKind@c788e1 : {
+[pp+0x160a8] String: "Unexpected token found when parsing a value"
+[pp+0x16100] Obj!TokenKind@c788c1 : {
+[pp+0x16110] Obj!TokenKind@c78961 : {
+[pp+0x16130] Obj!TokenKind@c78a01 : {
+[pp+0x16160] Obj!TokenKind@c789e1 : {
+[pp+0x16168] Obj!TokenKind@c789c1 : {
+[pp+0x161c8] Obj!TokenKind@c78a21 : {
+[pp+0x16208] Obj!TokenKind@c78a41 : {
+[pp+0x163f8] Obj!TokenKind@c78a61 : {
+[pp+0x16448] AnonymousClosure: (0x622cfc), in [package:gql/src/language/lexer.dart] _Token::_getValue (0x6220f0)
+[pp+0x16458] AnonymousClosure: (0x6229e0), in [package:gql/src/language/lexer.dart] _Token::_getValue (0x6220f0)
+[pp+0x164a0] TypeArguments: <Token>
+[pp+0x164a8] Obj!TokenKind@c78b01 : {
+[pp+0x164f0] String: "X-Auth-Domain"
+[pp+0x164f8] String: "Authorization"
+[pp+0x16508] Field <DataBaseProvider.nullTokenException>: static late final (offset: 0x12f8)
+[pp+0x165e0] Field <AccountSettings._mattelLogin@2643278521>: late final (offset: 0x24)
+[pp+0x165e8] Field <MattelLogin._log@2716137298>: static late final (offset: 0x1464)
+[pp+0x165f0] String: "Get access token..."
+[pp+0x165f8] String: "Refreshing token..."
+[pp+0x16600] Field <MattelLogin._appAuth@2716137298>: static late final (offset: 0x1468)
+[pp+0x16608] String: "refresh_token"
+[pp+0x16610] AnonymousClosure: (0x6276c4), in [package:sc_app/providers/mattel_login.dart] MattelLogin::getAccessToken (0x625bc4)
+[pp+0x16618] String: "Refreshing token done"
+[pp+0x16620] String: "error on refresh token: "
+[pp+0x16638] String: "refresh token is invalid, need to re-login"
+[pp+0x16640] String: "saving accessToken"
+[pp+0x16650] String: "accessTokenKey"
+[pp+0x16658] String: "saving idToken"
+[pp+0x16660] String: "idTokenKey"
+[pp+0x16668] String: "saving refreshToken"
+[pp+0x16670] String: "refreshTokenKey"
+[pp+0x16678] String: "saving accessTokenExpirationDateTime: "
+[pp+0x16690] String: "accessTokenExpirationDateTimeKey"
+[pp+0x166b8] Field <FlutterSecureStoragePlatform._token@1083212526>: static late final (offset: 0xd98)
+[pp+0x166f8] TypeArguments: <TokenResponse?>
+[pp+0x16708] String: "token"
+[pp+0x16710] String: "accessToken"
+[pp+0x16728] String: "refreshToken"
+[pp+0x16740] String: "accessTokenExpirationTime"
+[pp+0x16768] String: "idToken"
+[pp+0x16780] String: "tokenType"
+[pp+0x167c8] String: "tokenAdditionalParameters"
+[pp+0x167f8] String: "authorizationCode"
+[pp+0x16860] String: "tokenEndpoint"
+[pp+0x16868] String: "authorizationEndpoint"
+[pp+0x16878] Field <FlutterAppAuthPlatform._instance@974273831>: static late (offset: 0xcdc)
+[pp+0x16880] Field <FlutterAppAuthPlatform._token@974273831>: static late final (offset: 0xce0)
+[pp+0x16888] String: "com.fisher-price.smart-connect://login-callback"
+[pp+0x16890] String: "MattelLogin"
+[pp+0x16898] String: "Access token is null or invalid :("
+[pp+0x179e8] String: "auth0"
+[pp+0x17a38] String: "Invalid token."
+[pp+0x18800] Field <PermissionHandlerPlatform._token@1961000480>: static late final (offset: 0x11bc)
+[pp+0x19120] String: ":authority"
+[pp+0x1a7a0] String: "login"
+[pp+0x1a7a8] String: "login exception: "
+[pp+0x1a7b0] TypeArguments: <AuthorizationTokenResponse?>
+[pp+0x1a7b8] String: "authorizeAndExchangeCode"
+[pp+0x1a840] String: "authorizationAdditionalParameters"
+[pp+0x1a888] String: "loginHint"
+[pp+0x1a8a8] String: "authorization_code"
+[pp+0x1a8c0] String: "Your login session has expired. To continue updating account settings, or to edit products in your account, please sign in again."
+[pp+0x1a8d8] String: "Sign In"
+[pp+0x1a8e0] String: "signIn"
+[pp+0x1a908] String: "Refreshing token :("
+[pp+0x1b520] String: "Deleting your Mattel Login account will delete all of your app and web accounts using your Mattel Login."
+[pp+0x1b530] String: "Delete Mattel Login Account"
+[pp+0x1bd98] Field <PlatformWebViewWidget._token@2958459506>: static late final (offset: 0x1740)
+[pp+0x1bf68] String: "token"
+[pp+0x1c030] Field <PlatformWebViewController._token@2956166800>: static late final (offset: 0x1738)
+[pp+0x1ee38] String: "LoginAction."
+[pp+0x1eeb0] String: "login error: "
+[pp+0x1eeb8] String: "org\\.openid\\.appauth\\.general.*3"
+[pp+0x1ef78] String: "clearing session tokens"
+[pp+0x1f100] Obj!LoginAction@c73e21 : {
+[pp+0x1f108] String: "Have an account\? Sign In"
+[pp+0x1f110] String: "welcomeSignIn"
+[pp+0x1f328] String: "Sign up with Mattel Login"
+[pp+0x1f330] String: "newAppSignUpWithMattelLogin"
+[pp+0x1f588] String: "_mattelLogin@2643278521"
+[pp+0x1f5c0] String: "oauth/token"
+[pp+0x1f5c8] String: "authorize"
+[pp+0x1f7c8] String: "changeCmdAuthKey"
+[pp+0x20bd0] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x20fc0] String: "bluetoothUnauthorizedBannerMessage"
+[pp+0x21360] String: "删除您的 Mattel Login 账号将删除您所有使用 Mattel Login 的应用程序与网络账号。"
+[pp+0x21368] String: "删除 Mattel Login 账号"
+[pp+0x21b00] String: "locationUnauthorizedBannerMessage"
+[pp+0x21fa0] String: "使用Mattel Login进行注册"
+[pp+0x250c0] String: "Usunięcie konta powiązanego z loginem Mattel spowoduje usunięcie wszystkich kont w aplikacjach i na stronach internetowych, na których używany jest ten login Mattel."
+[pp+0x250c8] String: "Usuń konto powiązane z loginem Mattel"
+[pp+0x25720] String: "Zaloguj się przy pomocy loginu Mattel"
+[pp+0x26648] String: "Eliminando il tuo account Login Mattel, cancellerai tutti i tuoi account app e web che utilizzano il Login Mattel."
+[pp+0x26650] String: "Elimina account Login Mattel"
+[pp+0x26c30] String: "Accedi con Login Mattel"
+[pp+0x27b80] String: "Supprimer votre compte Mattel Login entraînera la suppression de tous vos comptes web et d\'applications utilisant votre Mattel Login."
+[pp+0x27b88] String: "Supprimer mon compte Mattel Login"
+[pp+0x28168] String: "Se connecter avec Mattel Login"
+[pp+0x290e0] String: "Si eliminas tu cuenta de Mattel Login, también se eliminarán todas tus cuentas de las aplicaciones y web vinculadas a tu Mattel Login."
+[pp+0x290e8] String: "Eliminar cuenta de Mattel Login"
+[pp+0x296a8] String: "Regístrate con Mattel Login"
+[pp+0x2a480] String: "Si eliminas tu cuenta de Mattel Login, se eliminarán todas las cuentas de aplicación y web que usan tu Mattel Login."
+[pp+0x2b2c8] String: "For security reasons, you will need to pair with your products again when you sign in next time."
+[pp+0x2b7f8] String: "Your login session has expired. Tap to learn more."
+[pp+0x2c318] String: "Wenn Sie Ihr Konto von Mattel Login löschen, werden alle Ihre App- und Web-Konten gelöscht, die Ihr Mattel Login verwenden."
+[pp+0x2c320] String: "Konto von Mattel Login löschen"
+[pp+0x2f2d8] String: "Unable to refresh token , prompting user"
+[pp+0x2f348] String: "Unable to refresh token, prompting user"
+[pp+0x2f3d8] String: "Bluetooth is unauthorized, pending: "
+[pp+0x2f408] String: " seconds for user to authorize"
+[pp+0x2f418] String: "Exceeded the time to wait for BLE authorized, canceling flow"
+[pp+0x2f420] AnonymousClosure: (0x87c3b0), in [package:sc_app/widgets/dialogs/permissions_dialog.dart] PermissionsDialog::_waitForBleAuthorized (0x87c1d8)
+[pp+0x2f428] String: "BLE is authorized, continue with the flow"
+[pp+0x2f4e0] String: "Requesting to authorize bluetooth"
+[pp+0x2f508] String: "Requesting to authorize bluetooth [scan and connect]"
+[pp+0x2f538] String: "Requesting to authorize location"
+[pp+0x2f5e8] String: "getPendingAuthorization, state: "
+[pp+0x30280] Field <InAppReviewPlatform._token@1752466447>: static late final (offset: 0x100c)
+[pp+0x30998] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x316e0] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x31dd0] String: "XPAuthor"
+[pp+0x32f68] AnonymousClosure: (0x81dbfc), in [package:xml/src/xml_events/parser.dart] XmlEventParser::nameToken (0x81dc44)
+[pp+0x33af0] String: "idTokenHint"
+[pp+0x36390] String: "TokenKind."
+[pp+0x38a58] String: "Data uri must not have authority"
+[pp+0x38b28] TypeArguments: <Token<String>>
+[pp+0x38b40] TypeArguments: <Token<Y0>, Y0, Token<Y0>, Y0>
+[pp+0x38b48] Field <Token._newlineParser@1972343534>: static late final (offset: 0x11c8)
+[pp+0x38f40] AnonymousClosure: (0x6261cc), in [package:sc_app/providers/mattel_login.dart] MattelLogin::getAccessToken (0x625bc4)
+[pp+0x38fa8] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x39168] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x39cc0] AnonymousClosure: (0xa6eeb8), in [package:sc_app/widgets/banners/permissions_banner.dart] PermissionsBanner::_buildBluetoothUnauthorizedBanner (0xa6edac)
+[pp+0x39cd8] AnonymousClosure: (0xa6f1d4), in [package:sc_app/widgets/banners/permissions_banner.dart] PermissionsBanner::_buildLocationUnauthorizedBanner (0xa6f0d0)
+[pp+0x3a8b8] String: "signingKey"
+[pp+0x3ade8] String: "AuthKeyRequest not sent. Request is null"
+[pp+0x3f338] Field <FileSelectorPlatform._token@436193402>: static late final (offset: 0x8f0)
+[pp+0x40e38] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x40e68] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x41cd0] String: "Token["
+[pp+0x463c8] TypeArguments: <WifiAuthMode>
+[pp+0x463d0] String: "authMode"
+[pp+0x463d8] Obj!WifiAuthMode@c5a031 : {
+[pp+0x463e0] Closure: (int) => WifiAuthMode? from Function 'valueOf': static. (0x70326777860c)
+[pp+0x46418] Field <WifiAuthMode._byValue@2812123085>: static late final (offset: 0x16bc)
+[pp+0x46420] List<WifiAuthMode>(3) [Obj!WifiAuthMode@c5a031, Obj!WifiAuthMode@c5a011, Obj!WifiAuthMode@c59ff1]
+[pp+0x46628] TypeArguments: <FactoryToken>
+[pp+0x46630] String: "factoryToken"
+[pp+0x46638] Closure: () => FactoryToken from Function 'create': static. (0x703267774ed0)
+[pp+0x46c60] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x4bcd0] Field <FactoryToken._i@2801361928>: static late final (offset: 0x1600)
+[pp+0x4bcd8] String: "FactoryToken"
+[pp+0x4c0e0] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x4c4f0] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x4c4f8] AnonymousClosure: static (0x669c48), in [package:sc_app/widgets/dialogs/refresh_token_dialog.dart] RefreshTokenDialog::show (0x669734)
+[pp+0x5c10] Field <UrlLauncherPlatform._token@2921332722>: static late final (offset: 0x778)
+[pp+0x5c18] Field <PlatformInterface._instanceTokens@267304592>: static late final (offset: 0x768)
+[pp+0x5c28] String: "`const Object()` cannot be used as the token."
+[pp+0x5ca0] Field <SharedPreferencesStorePlatform._token@2783045225>: static late final (offset: 0x774)
+[pp+0x5ca8] Field <PathProviderPlatform._token@1951436587>: static late final (offset: 0x76c)
+[pp+0x5cb8] Field <SharePlatform._token@2780348855>: static late final (offset: 0x1490)
+[pp+0x5e30] Field <PackageInfoPlatform._token@1927110083>: static late final (offset: 0x118c)
+[pp+0x5e38] Field <ImagePickerPlatform._token@1734103871>: static late final (offset: 0x760)
+[pp+0x5e40] Field <FlutterKeyboardVisibilityPlatform._token@997391782>: static late final (offset: 0x784)
+[pp+0x5e50] Field <DeviceInfoPlatform._token@383502559>: static late final (offset: 0x8c0)
+[pp+0x5ed0] Field <ConnectivityPlatform._token@312483631>: static late final (offset: 0x8a8)
+[pp+0x6130] AnonymousClosure: (0xd048b0), in [package:dbus/src/dbus_auth_client.dart] DBusAuthClient::DBusAuthClient (0xd0476c)
+[pp+0x61e8] Field <WebViewPlatform._token@2962513057>: static late final (offset: 0x1744)
+[pp+0x61f0] Field <CameraPlatform._token@256219459>: static late final (offset: 0x888)
+[pp+0x6de8] Field <::._ioOverridesToken@14069316>: static late final (offset: 0x65c)
+[pp+0x7a40] Field <FlutterLocalNotificationsPlatform._token@1001271368>: static late final (offset: 0xd20)
+[pp+0x7f80] Field <FirebaseCrashlyticsPlatform._token@457020068>: static late final (offset: 0x920)
+[pp+0x7f90] Field <FirebaseAppPlatform._token@447397154>: static late final (offset: 0x8f4)
+[pp+0x7fc8] Field <FirebasePlatform._token@447397154>: static late final (offset: 0x8f8)
+[pp+0x8190] Field <FirebasePluginPlatform._token@447397154>: static late final (offset: 0x910)
+[pp+0x8ea0] String: "Cannot extract a non-Windows file path from a file URI with an authority"
+[pp+0x9528] Obj!TokenType@c6cfa1 : {
+[pp+0x9530] Obj!TokenType@c6cf81 : {
+[pp+0x9538] Obj!TokenType@c6cf61 : {
+[pp+0x9580] Obj!TokenType@c6cf41 : {
+[pp+0x9588] AnonymousClosure: (0x5ebc2c), in [package:yaml/src/scanner.dart] Scanner::_fetchMoreTokens (0x5e4c98)
+[pp+0x9598] Obj!TokenType@c6cf21 : {
+[pp+0x95a0] Obj!TokenType@c6cf01 : {
+[pp+0x95a8] Obj!TokenType@c6cee1 : {
+[pp+0x95b0] Obj!TokenType@c6cec1 : {
+[pp+0x95b8] Obj!TokenType@c6cea1 : {
+[pp+0x95d8] Obj!TokenType@c6ce81 : {
+[pp+0x95e0] Type: ScalarToken
+[pp+0x9608] Obj!TokenType@c6cde1 : {
+[pp+0x9610] Obj!TokenType@c6cdc1 : {
+[pp+0x9618] List(7) [0, 0x5, 0x5, 0x4, "tokenNumber", 0x4, Null]
+[pp+0x9668] String: "tokenNumber"
+[pp+0x96b8] Obj!TokenType@c6ce21 : {
+[pp+0x96c0] Obj!TokenType@c6ce01 : {
+[pp+0x9bd0] Obj!TokenType@c6ce41 : {
+[pp+0x9c00] Obj!TokenType@c6ce61 : {
+[pp+0x9c40] String: "Out of tokens."
+[pp+0x9c80] Obj!TokenType@c6cfe1 : {
+[pp+0x9c88] Obj!TokenType@c6cfc1 : {
+[pp+0x9d28] TypeArguments: <Token>
+[pp+0x9d30] TypeArguments: <Token?>
+[pp+0x9d70] String: "https://login-dev.mattel.com/"
+[pp+0x9d78] String: "https://login.mattel.com/"
+[pp+0x9e28] Obj!TokenType@c6d001 : {
+[pp+0x9e58] Obj!TokenType@c6d041 : {
+[pp+0x9e68] Obj!TokenType@c6d021 : {
+[pp+0x9e70] String: "TokenType."
+[pp+0xb810] String: "authDomain"
+[pp+0xbb78] String: "org.freedesktop.DBus.Error.AuthFailed"
+[pp+0xc450] String: "AUTH EXTERNAL "
+[pp+0xc458] String: "Authentication not supported on "
+[pp+0xc4d8] String: "OpenProcessToken"
+[pp+0xc4f0] String: "GetTokenInformation"
+[pp+0xc528] TypeArguments: <_TokenUser>
+[pp+0xc548] String: "Failed to call OpenProcessToken: "
+[pp+0xc550] String: "Failed to call GetTokenInformation: "
