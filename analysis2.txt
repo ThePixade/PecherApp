@@ -1,0 +1,44 @@
+=== FICHIERS LUMA ===
+=== GREP LUMA FWP ROCESSOR ===
+code_decompile/dart_decompiled/asm/mcpp_connected_products/src/products/models/mpid/mpid_model.dart
+code_decompile/dart_decompiled/asm/sc_app/pages/control_panel_deluxe_soother/components/home_controls.dart
+code_decompile/dart_decompiled/asm/sc_app/pages/add_routine_tasks/page.dart
+code_decompile/dart_decompiled/asm/sc_app/pages/customize_playlist/page.dart
+code_decompile/dart_decompiled/asm/sc_app/pages/customize_soothing/components/customize_soothing_controls.dart
+code_decompile/dart_decompiled/asm/sc_app/pages/control_panel_luma/page.dart
+code_decompile/dart_decompiled/asm/sc_app/pages/dashboard/components/dashboard_soother_component.dart
+code_decompile/dart_decompiled/asm/sc_app/pages/dashboard/components/dashboard_routine_component.dart
+code_decompile/dart_decompiled/asm/sc_app/pages/customize_routine/page.dart
+code_decompile/dart_decompiled/asm/sc_app/widgets/watcher/in_routine_mode_watcher.dart
+code_decompile/dart_decompiled/asm/sc_app/widgets/banners/luma_states_banner.dart
+code_decompile/dart_decompiled/asm/sc_app/widgets/routines/routine_in_progress.dart
+code_decompile/dart_decompiled/asm/sc_app/widgets/routines/routine_in_progress_list.dart
+code_decompile/dart_decompiled/asm/sc_app/widgets/cards/naptime_card.dart
+code_decompile/dart_decompiled/asm/sc_app/widgets/cards/time_machine_card.dart
+code_decompile/dart_decompiled/asm/sc_app/widgets/scaffolds/control_panel_scaffold.dart
+code_decompile/dart_decompiled/asm/sc_app/widgets/buttons/exit_routine_button.dart
+code_decompile/dart_decompiled/asm/sc_app/widgets/buttons/customize_soothing_button.dart
+code_decompile/dart_decompiled/asm/sc_app/widgets/buttons/soothing_action_button.dart
+code_decompile/dart_decompiled/asm/sc_app/blocs/models/products/luma/bloc.dart
+code_decompile/dart_decompiled/asm/sc_app/blocs/models/products/luma/components/music.dart
+code_decompile/dart_decompiled/asm/sc_app/blocs/models/products/luma/components/timer.dart
+code_decompile/dart_decompiled/asm/sc_app/blocs/models/products/luma/components/routine.dart
+code_decompile/dart_decompiled/asm/sc_app/blocs/models/products/luma/components/time_machine.dart
+code_decompile/dart_decompiled/asm/sc_app/blocs/models/products/luma/components/sleep_trainer.dart
+code_decompile/dart_decompiled/asm/sc_app/blocs/models/products/luma/components/clock.dart
+code_decompile/dart_decompiled/asm/sc_app/blocs/models/products/luma/components/light.dart
+code_decompile/dart_decompiled/asm/sc_app/blocs/models/products/luma/components/soother.dart
+code_decompile/dart_decompiled/asm/sc_app/blocs/models/products/luma/components/sleep_stages.dart
+code_decompile/dart_decompiled/asm/smart_connect_products/src/fw_processor_factory.dart
+code_decompile/dart_decompiled/asm/smart_connect_products/src/products/whisper/magic_wand_encoding.dart
+code_decompile/dart_decompiled/asm/smart_connect_products/src/products/bunny/fw_processor.dart
+code_decompile/dart_decompiled/asm/smart_connect_products/src/products/luma/fw_processor.dart
+=== GREP MPID ===
+code_decompile/dart_decompiled/asm/mcpp_connected_products/src/ble/session/session_manager.dart
+code_decompile/dart_decompiled/asm/mcpp_connected_products/src/ble/session/mpid/mpid_session.dart
+code_decompile/dart_decompiled/asm/mcpp_connected_products/src/products/models/mpid/mpid_model.dart
+=== UUID ===
+    //     0x63e6ac: add             x17, PP, #0x1a, lsl #12  ; [pp+0x1a750] "serviceUuids"
+    //     0x89d164: add             x17, PP, #0x1f, lsl #12  ; [pp+0x1fa88] ", serviceUuids: "
+    // 0x63e6ac: r17 = "serviceUuids"
+    // 0x89d164: r17 = ", serviceUuids: "
